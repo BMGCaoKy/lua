@@ -1,0 +1,40 @@
+
+
+language_start:video_lang
+
+
+
+gui.new_video.record_success=Kayıt tamamlandı ve kayıtlı video albüme koyulacak
+gui.new_video.record_memory=Telefon hafıza yok, kayıt bitti.
+gui.new_video.record_fail=Parametre desteklenmiyor, kayıt başarısız oldu
+
+gui.new_video.tab1=filtre
+gui.new_video.tab2=hava Durumu
+gui.new_video.tab3=ekran efektleri
+gui.new_video.handle.tab1=özel efektler
+gui.new_video.handle.tab2=kullanıcı arayüzünü gizle
+gui.new_video.handle.tab3=ayarları gizle
+gui.new_video.handle.type101=retro
+gui.new_video.handle.type102=siyah ve beyaz
+gui.new_video.handle.type103=yüksek kontrast
+gui.new_video.handle.type104=siberpunk
+gui.new_video.handle.type105=Parıltı
+gui.new_video.handle.type106=sonbahar günü
+gui.new_video.handle.type107=dolunay gecesi
+gui.new_video.handle.type108=güneşli
+gui.new_video.handle.type201=güneşli
+gui.new_video.handle.type202=yağmur
+gui.new_video.handle.type203=karlı gün
+gui.new_video.handle.type204=yıldızlı gökyüzü
+gui.new_video.handle.type205=gun batimi
+gui.new_video.handle.type301=film siyah sınır
+gui.new_video.handle.type302=el feneri
+gui.new_video.handle.type303=hız hattı
+gui.new_video.handle.type304=doji
+gui.new_video.handle.type305=Kelebek
+gui.new_video.handle.type306=noktalar
+gui.new_video.hide.setting.data1=adı gizle
+gui.new_video.hide.setting.data2=Diğerlerini sakla
+gui.new_video.hide.setting.data3=Kendini gizle
+
+language_end:video_lang

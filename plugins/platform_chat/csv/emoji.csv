@@ -1,0 +1,18 @@
+id	icon	text
+顺序	图片	小框时文字
+1	set:emoji.json image:img_0_phiz_angry	gui.emoji.angry
+2	set:emoji.json image:img_0_phiz_cry	gui.emoji.cry
+3	set:emoji.json image:img_0_phiz_darkcircles	gui.emoji.darkcircles
+4	set:emoji.json image:img_0_phiz_daze	gui.emoji.daze
+5	set:emoji.json image:img_0_phiz_funny	gui.emoji.funny
+6	set:emoji.json image:img_0_phiz_good	gui.emoji.good
+7	set:emoji.json image:img_0_phiz_gosh	gui.emoji.gosh
+8	set:emoji.json image:img_0_phiz_hello	gui.emoji.hello
+9	set:emoji.json image:img_0_phiz_love	gui.emoji.love
+10	set:emoji.json image:img_0_phiz_nosebleed	gui.emoji.nosebleed
+11	set:emoji.json image:img_0_phiz_shutup	gui.emoji.shutup
+12	set:emoji.json image:img_0_phiz_shy	gui.emoji.shy
+13	set:emoji.json image:img_0_phiz_speechless	gui.emoji.speechless
+14	set:emoji.json image:img_0_phiz_surprised	gui.emoji.surprised
+15	set:emoji.json image:img_0_phiz_think	gui.emoji.think
+16	set:emoji.json image:img_0_phiz_threwup	gui.emoji.threwup

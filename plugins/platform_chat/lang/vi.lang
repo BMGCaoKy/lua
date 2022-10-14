@@ -1,0 +1,176 @@
+
+
+language_start:chat
+
+越南语
+new
+
+zh=người Trung Quốc
+en=Tiếng Anh
+es=người Tây Ban Nha
+it=người Ý
+de=tiếng Đức
+fr=người Pháp
+ko=Hàn Quốc
+pt=Người Bồ Đào Nha
+ru=tiếng Nga
+ja=tiếng Nhật
+th=Tiếng thái
+vi=Tiếng Việt
+pl=đánh bóng
+in=Người Indonesia
+tr=Thổ nhĩ kỳ
+ms=người Malaysia
+km=tiếng Campuchia
+ar=tiếng Ả Rập
+
+
+language_start:platform_chat_lang
+
+
+
+ui.chat.profile.title=Thông tin của tôi
+ui.chat.profile.others_title=Hồ sơ
+ui.chat.profile.birth=Sinh nhật
+ui.chat.profile.constellation=Cung hoàng đạo
+ui.chat.profile.tribal=Clan
+ui.chat.profile.tag=Nhãn
+ui.chat.profile.confirm=Xác nhận
+ui.chat.profile.addTag=Chọn thẻ
+ui.chat.profile.tagSelectNum=Đã chọn: {.} {.}:
+ui.chat.profile.playTime={.} giờ
+
+ui.chat.profile.tagTypeName1=Trò chơi:
+ui.chat.profile.tagTypeName2=Sở thích:
+ui.chat.profile.tagTypeName3=Nhân cách:
+ui.chat.profile.tagTypeName4=Tính cách:
+
+ui.chat.profile.none_details=Người chơi này rất bí ẩn và không viết gì cả
+
+ui.chat.profile.constellationName1=Bảo Bình
+ui.chat.profile.constellationName2=cung Song Ngư
+ui.chat.profile.constellationName3=Bạch Dương
+ui.chat.profile.constellationName4=chòm sao Kim Ngưu
+ui.chat.profile.constellationName5=Song Tử
+ui.chat.profile.constellationName6=Ung thư
+ui.chat.profile.constellationName7=Sư Tử
+ui.chat.profile.constellationName8=Xử Nữ
+ui.chat.profile.constellationName9=Thiên Bình
+ui.chat.profile.constellationName10=Bò Cạp
+ui.chat.profile.constellationName11=chòm sao Nhân Mã
+ui.chat.profile.constellationName12=Ma Kết
+
+ui.chat.team=Lập nhóm
+ui.chat.pk =Trận chiến
+ui.chat.gift=Tặng quà
+ui.chat.apprentice=Người hướng dẫn
+ui.chat.invite=▢FF000000Chơi cùng nhau
+ui.chat.information=Chi tiết
+ui.chat.master =học nghề
+
+ui.chat.chating=Trò chuyện trong kênh Bản đồ
+ui.chat.chatMsgType1=Thế giới
+ui.chat.chatMsgType2=gia đình
+ui.chat.chatMsgType3=Trò chuyện riêng tư
+ui.chat.chatMsgType4=Hiện hành
+ui.chat.chatMsgType5=Hệ thống
+ui.chat.chatMsgType6=Đội
+ui.chat.chatMsgType7=Nghề nghiệp
+ui.chat.chatMsgType8=Bạn bè
+
+ui.chat.emoji.face=Biểu tượng cảm xúc
+ui.chat.emoji.goods=Mục
+ui.chat.emoji.pet=Vật nuôi
+ui.chat.emoji.short=Cụm từ ngắn
+
+ui.chat.friend.apply=▢FF00FFFFYêu cầu kết bạn
+ui.chat.friend.agreeAll=▢FF000000Chấp nhận tất cả
+ui.chat.friend.refusedAll=▢FF000000Từ chối tất cả
+ui.chat.friend.list=▢FF00FFFFDanh sách bạn bè
+ui.chat.friend.myProfile=Thông tin của tôi
+ui.chat.friend.addFriend=Thêm bạn
+
+ui.chat.friend.tips_apply=Bạn có một yêu cầu kết bạn
+ui.chat.friend.applyFriend=▢FF484261Những người bạn mới
+
+ui.chat.friend.gameFriend=▢FF484261Bạn bè trong cùng một trò chơi
+
+ui.chat.friend.platformFriend=▢FF484261Bạn BG
+ui.chat.friend.offline=▢FFFF0000Ngoại tuyến
+ui.chat.friend.online=▢FF00EC00Trực tuyến
+ui.chat.friend.send_add=Yêu cầu kết bạn đã được gửi
+
+ui.chat.friend.recent_contact=▢FF00FFFFTrò chuyện gần đây
+ui.chat.tips.unable_display=Không thể hiển thị loại tin nhắn
+
+ui.chat.team.hall=Đi đến Phòng lập nhóm
+ui.chat.system.input=▢FFFFFFFFKhông thể gửi tin nhắn trong kênh Hệ thống
+ui.chat.click.chat=Bấm để gõ
+ui.chat.autoplay=▢FFFFFFFFTự động phát tin nhắn thoại
+ui.chat.lock=Màn hình khóa
+ui.chat.player_private=▢FF000000Trò chuyện riêng tư
+ui.chat.ignore=Chặn tin nhắn
+ui.chat.disignore=Bỏ chặn tin nhắn
+ui.chat.player_addFriend=▢FF000000Thêm bạn
+ui.chat.applyed=Đã gửi yêu cầu
+ui.chat.isfriend=Bạn đã là bạn
+ui.chat.addinfo=Đã gửi yêu cầu kết bạn đến {.}
+ui.chat.cancel.sound=Huỷ bỏ
+ui.chat.press.sound=Nhấn và giữ để nói
+ui.chat.welcome= {.}, chào mừng bạn đến với Căn chỉnh
+ui.chat.strangr=Người lạ
+ui.chat.friend=Bạn bè
+ui.chat.system=Hệ thống
+ui.chat.offline=Người chơi đã rời khỏi máy chủ, không thể nhận được tin nhắn bây giờ
+ui.chat.voicefail=Không thể gửi tin nhắn thoại, vui lòng thử lại
+ui.chat.voiceless=Không đủ loa ngoài, không thể gửi tin nhắn thoại
+ui.chat.buyNum={.} cái loa
+ui.chat.voiceBuySucc=Mua hàng thành công
+ui.chat.voiceBuyFail=Giao dịch thất bại
+ui.chat.moonCard=Thẻ tháng thoại không giới hạn
+ui.chat.moonTime={.} ngày
+ui.chat.moonLess=Còn lại dưới 1 ngày
+ui.chat.privating=Đang trò chuyện riêng với {.}
+ui.chat.familing=Trò chuyện trong kênh phe phái
+ui.chat.sureBuy=Tiêu thụ {.} Khối G để mua?
+ui.chat.pickPlayerPlease=Chọn một người chơi trước
+ui.chat.newMsg=Tin nhắn mới x {.}
+ui.chat.commoning=Trong cuộc trò chuyện công khai
+interact_chat=Trò chuyện riêng tư
+ui.chat.shopTitle =Gói thoại
+ui.chat.server.friend.online=▢FFFFFFFFBạn của bạn [{.}] Đang trực tuyến
+ui.chat.moreMax=Văn bản quá dài, nội dung sau [{.}] Đã bị ẩn
+ui.chat.history1=Chọn một người chơi để trò chuyện riêng tư
+ui.chat.history2=0.0
+gui_lang_refuse_friend=Yêu cầu tự do của bạn đã bị từ chối
+ui.chat.agreeinfo=Chấp nhận yêu cầu kết bạn từ {.}
+ui.chat.refuseinfo=Từ chối yêu cầu kết bạn từ {.}
+ui.chat.deleteinfo=Bạn đã xóa bạn của mình {.}
+ui.chat.friend.request=Yêu cầu kết bạn
+ui.chat.player_delFriend=▢FF000000Hủy kết bạn
+gui_lang_kick_out=Trục xuất
+ui.chat.server.private.chat.need.same.server=▢FFFFFFFFBạn của bạn▢FF3A9CBF [{.}] ▢FFFFFFFF đang trực tuyến. Nó yêu cầu ở cùng một máy chủ để trò chuyện riêng tư
+ui.chat.server.vip.online=▢FFFFFFFF Người chơi▢FFFAE934VIP Danh dự [{.}] ▢FFFFFFFF đang trực tuyến
+ui.chat.hasVoice=x{.}
+ui.chat.cannotsend=Tin nhắn quá khó, vui lòng thử lại sau
+ui.chat.ignore.tip=Đã chặn thành công
+ui.chat.disignore.tip=Đã mở khóa thành công
+ui.chat.send.voice=Nhả để gửi tin nhắn thoại
+ui.chat.cancel.send.voice=Nhả để gọi lại tin nhắn thoại
+ui.chat.can.not.send=Kênh này đang ở chế độ không hoạt động, vui lòng thử lại sau%s giây
+ui.chat.can.not.send.emoji=Tính năng gửi đang được hạ nhiệt, vui lòng thử lại sau%s giây
+ui.chat.number=▢FF484261{.}/{.}
+ui.chat.playerInfo.name=▢FF00FFFF{.}
+ui.chat.playerInfo.id=▢FFFFFFFFID:{.}
+ui.chat.friend.name=▢FF00FFFF{.}
+
+ui.chat.send.wait=Khoảng thời gian gửi tin nhắn quá ngắn
+
+language_end:platform_chat_lang
+
+
+
+
+
+
+language_end:chat

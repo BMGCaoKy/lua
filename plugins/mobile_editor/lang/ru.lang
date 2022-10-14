@@ -1,0 +1,177 @@
+
+
+language_start:mobile_editor
+
+——————翻译同学你好，绿色为新增，红字为机翻————————
+language_start:new
+
+language_end:new
+
+ui.setting.graphics=Графика
+ui.setting.graphics.quality=Качество
+ui.setting.graphics.quality.low=Низкий
+ui.setting.graphics.quality.mid=Средний
+ui.setting.graphics.quality.high=Высокий
+
+ui.setting.shadows=Тени
+ui.setting.shadows.on=Включить
+ui.setting.shadows.off=Отключить
+
+ui.setting.controls=Управление
+ui.setting.controls.sensitivity=Чувствительность
+
+ui.setting.audio=Громкость
+ui.setting.audio.bgmvolume=Музыка
+ui.setting.audio.sfxvolume=Звуковые эффекты
+
+ui.setting.capture=Снимок экрана
+ui.setting.exit=Сохранить и выйти
+
+ui.bgm.1=music-001
+ui.bgm.2=music-002
+ui.bgm.3=music-003
+ui.bgm.4=music-004
+ui.bgm.5=music-005
+ui.bgm.6=music-006
+ui.bgm.7=music-007
+ui.bgm.8=music-008
+ui.bgm.9=music-009
+
+ui.bgm.author=Blockman GO-MUSIC
+
+ui.select =выбрать{.}
+ui.unselect =отменить выбор{.}
+
+ui.g2054_base_model_cube.name =Куб
+ui.g2054_base_model_sphere.name =Сфера
+ui.g2054_base_model_cylinder.name =Цилиндр
+ui.g2054_base_model_cone.name =Конус
+ui.g2054_base_model_half_cube.name =Половина куба
+ui.g2054_base_model_staris.name =Лестница
+ui.g2054_base_model_right_angle_triangular_prism.name =Прямоугольная треугольная призма
+ui.g2054_base_model_hollow_column.name =Полый цилиндр
+ui.g2054_base_model_fan_column.name =Часть цилиндра
+ui.g2054_base_mode_square_pyramid.name =Квадратная пирамида
+ui.g2054_base_model_circle.name =Звенеть
+ui.g2054_base_model_half_circle.name =Полукольцо
+ui.g2054_base_model_round_table.name =Усеченный конус
+ui.g2054_base_model_hollow_round_table.name =Полый усеченный конус
+ui.g2054_base_model_square_prism.name =Четырехугольная платформа
+ui.g2054_base_model_hemisphere.name =Полушарие
+
+ui.select.translate =Показать ось движения
+ui.select.scale =Включить режим масштабирования
+ui.select.rotate =Включить режим вращения
+ui.select.space.local =Включить режим локальной системы координат
+ui.select.space.world =Включить режим мировой системы координат
+
+ui.unselect.translate =Скрыть ось движения
+ui.unselect.scale =Отключить режим масштабирования
+ui.unselect.rotate =Отключить режим вращения
+
+ui.select.duplicate =Успешно скопировано
+ui.select.delete =Успешно удалено
+ui.select.group =Успешно сгруппировано
+ui.disable.group =Невозможно сгруппировать
+ui.select.ungroup =Разгруппировано
+ui.disable.ungroup =Не удалось разгруппировать
+ui.select.multiple =Режим множественного выбора включен
+ui.select.material =Открыт интерфейс выбора материала и цвета
+ui.disable.material =Невозможно изменить материал модели
+ui.unselect.multiple =Режим множественного выбора отключен
+ui.select.undo =Отменить
+ui.select.redo =Повторить
+
+ui.select.weather =
+ui.select.skybox =
+ui.select.music =
+ui.select.light =
+ui.select.ground =
+
+ui.env.ground.color =основной цвет
+ui.env.ground.texture =наземная карта
+ui.env.light.skylight=Солнечный свет
+ui.env.light.ambient.light =окружающий свет
+ui.env.light.intensity =Интенсивность света
+ui.env.bgm= Фоновая музыка
+ui.env.weather =Погода
+ui.env.skybox =скайбокс
+
+ui.bgm.0=тихий
+ui.bgm.1 =партия
+ui.bgm.2 =танцевальный карнавал
+ui.bgm.3 =тихий
+ui.bgm.4 =храм
+ui.bgm.5 =оживленный город
+ui.bgm.6 =финальное выяснение отношений
+ui.bgm.7 =тихий город
+ui.bgm.8 =шумный рынок
+ui.bgm.9 =легкий дождь
+ui.bgm.10 =Начать сейчас
+
+ui.birth.name = точка рождения
+ui.floor.name = первоначальный грунт
+
+ui.create.out_of_range =вне досягаемости, пожалуйста, поместите близко
+
+ui.select.game =игра
+ui.select.geometry =геометрия
+ui.select.outdoor =открытый
+ui.select.plant =растение
+ui.select.indoor =в помещении
+ui.select.props =реквизит
+
+ui.enter.rect =шатер старт
+ui.exit.rect =шатер заканчивается
+
+ui.scene_01 =пожарный кран
+ui.scene_02 =наполная лампа
+ui.scene_03 =уличный фонарь
+ui.scene_04 =баскетбольное кольцо
+ui.table_01 =офисный стол
+ui.table_02 =современный стол
+ui.table_03 =деревянный круглый стол
+ui.table_04 =стеклянный круглый стол
+ui.chair_01 =офисный стул
+ui.chair_02 =простой диван
+ui.chair_03 =скамейке в парке
+ui.chair_04 =стул из массива дерева
+ui.chair_05 =коренастый диван
+ui.chair_06 =стул босса
+ui.cabinet_01 =книжный шкаф
+ui.cabinet_02 =Гардероб
+ui.bed_01 =двуспальная кровать
+ui.bed_02 =односпальная кровать
+ui.bed_03 =квадратная кровать
+ui.bed_04 =Двухъярусная кровать
+ui.lamp_01 =занавес
+ui.lamp_02 =настольная лампа
+ui.equipment_01 =Аудио 01
+ui.equipment_02 =Аудио 02
+ui.equipment_03 =Аудио 03
+ui.equipment_04 =Смеситель
+ui.equipment_05 =электронный орган
+ui.equipment_06 =тарелки
+ui.equipment_07 =ударная установка
+ui.equipment_08 =микрофон
+ui.landscape_01 =дерево 01
+ui.landscape_02 =дерево 02
+ui.landscape_03 =дерево 03
+ui.landscape_04 =дерево 04
+ui.landscape_05 =дерево 05
+ui.landscape_06 =зеленый алтарь
+ui.prop_01 =Баррикада Канистра
+ui.prop_02 =лестница
+ui.prop_03 =огнетушитель
+ui.prop_04 =бомбить
+ui.prop_05 =дробовик
+ui.prop_06 =Взрывозащищенный щит
+ui.prop_07 =долларов
+ui.prop_08 =кошелек
+ui.prop_09 =баскетбол
+ui.prop_10 =футбол
+
+ui.setting.save.success =Успешно сохранено
+ui.setting.setting =параметр
+
+language_end:mobile_editor

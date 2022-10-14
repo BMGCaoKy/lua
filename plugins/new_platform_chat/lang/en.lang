@@ -1,0 +1,176 @@
+
+
+language_start:chat
+
+英文
+new
+
+zh=Chinese
+en=English
+es=Spanish
+it=Italian
+de=German
+fr=French
+ko=Korean
+pt=Portuguese
+ru=Russian
+ja=Japanese
+th=Thai
+vi=Vietnamese
+pl=Polish
+in=Indonesian
+tr=Turkish
+ms=Malay
+km=Cambodian
+ar=Arabic
+
+
+language_start:platform_chat_lang
+
+
+
+ui.chat.profile.title=My profile
+ui.chat.profile.others_title=Profile
+ui.chat.profile.birth=Birthday
+ui.chat.profile.constellation=Zodiac
+ui.chat.profile.tribal=Clan
+ui.chat.profile.tag=Tag
+ui.chat.profile.confirm=Confirm
+ui.chat.profile.addTag=Select Tag
+ui.chat.profile.tagSelectNum=Chosen:{.}{.}:
+ui.chat.profile.playTime={.}hour
+
+ui.chat.profile.tagTypeName1=Game:
+ui.chat.profile.tagTypeName2=Hobby:
+ui.chat.profile.tagTypeName3=Personality:
+ui.chat.profile.tagTypeName4=Character:
+
+ui.chat.profile.none_details=This player is quite mysterious, there is nothing here
+
+ui.chat.profile.constellationName1=Aquarius
+ui.chat.profile.constellationName2=Pisces
+ui.chat.profile.constellationName3=Aries
+ui.chat.profile.constellationName4=Taurus
+ui.chat.profile.constellationName5=Gemini
+ui.chat.profile.constellationName6=Cancer
+ui.chat.profile.constellationName7=Leo
+ui.chat.profile.constellationName8=Virgo
+ui.chat.profile.constellationName9=Libra
+ui.chat.profile.constellationName10=Scorpio
+ui.chat.profile.constellationName11=Sagittarius
+ui.chat.profile.constellationName12=Capricornus
+
+ui.chat.team=Team up
+ui.chat.pk =Battle
+ui.chat.gift=Send gift
+ui.chat.apprentice=Mentor
+ui.chat.invite=▢FF000000Play together
+ui.chat.information=Detail
+ui.chat.master =Apprentice
+
+ui.chat.chating=Chat in Map channel
+ui.chat.chatMsgType1=World
+ui.chat.chatMsgType2=Family
+ui.chat.chatMsgType3=Private Chat
+ui.chat.chatMsgType4=Current
+ui.chat.chatMsgType5=System
+ui.chat.chatMsgType6=Team
+ui.chat.chatMsgType7=Profession
+ui.chat.chatMsgType8=Friend
+
+ui.chat.emoji.face=Emoji
+ui.chat.emoji.goods=Item
+ui.chat.emoji.pet=Pet
+ui.chat.emoji.short=Short Phrase
+
+ui.chat.friend.apply=▢FF00FFFFFriend Request
+ui.chat.friend.agreeAll=▢FF000000Accept all
+ui.chat.friend.refusedAll=▢FF000000Reject all
+ui.chat.friend.list=▢FF00FFFFFriend List
+ui.chat.friend.myProfile=My profile
+ui.chat.friend.addFriend=Add friend
+
+ui.chat.friend.tips_apply=friend request
+ui.chat.friend.applyFriend=▢FF484261New friends
+
+ui.chat.friend.gameFriend=▢FF484261Friends in same game
+
+ui.chat.friend.platformFriend=▢FF484261Friends in platform
+ui.chat.friend.offline=▢FFFF0000Offline
+ui.chat.friend.online=▢FF00EC00Online
+ui.chat.friend.send_add=Friend request has been sent
+
+ui.chat.friend.recent_contact=▢FF00FFFFRecently chat
+ui.chat.tips.unable_display=Message type can´t be displayed
+
+ui.chat.team.hall=Go to Team up Hall 
+ui.chat.system.input=▢FFFFFFFFCan´t send message in System channel
+ui.chat.click.chat=Click to type
+ui.chat.autoplay=▢FFFFFFFFAuto-play voice messages
+ui.chat.lock=Lock screen
+ui.chat.player_private=▢FF000000Private chat
+ui.chat.ignore=Block messages
+ui.chat.disignore=Unblock messages
+ui.chat.player_addFriend=▢FF000000Add friend
+ui.chat.applyed=Request sent
+ui.chat.isfriend=You´ve already been friends 
+ui.chat.addinfo=Friend request sent to {.}
+ui.chat.cancel.sound=Cancel
+ui.chat.press.sound=Long press to speak
+ui.chat.welcome= {.}, welcome to the Alignment
+ui.chat.strangr=Strangers
+ui.chat.friend=Friends
+ui.chat.system=System
+ui.chat.offline=The player has left the server, can´t receive message now
+ui.chat.voicefail=Voice message can´t be sent, please try again
+ui.chat.voiceless=Insufficient megaphones, voice message can´t be sent
+ui.chat.buyNum={.} megaphone(s)
+ui.chat.voiceBuySucc=Purchase succeeded
+ui.chat.voiceBuyFail=Purchase failed
+ui.chat.moonCard=Unlimited voice month card
+ui.chat.moonTime={.} day
+ui.chat.moonLess=Remain less than 1 day
+ui.chat.privating=In private chat with {.}
+ui.chat.familing=Chat in faction channel  
+ui.chat.sureBuy=Consume {.} G-cubes to buy? 
+ui.chat.pickPlayerPlease=Choose a player first
+ui.chat.newMsg=New message x{.}
+ui.chat.commoning=In public chat
+interact_chat=Private chat
+ui.chat.shopTitle =Voice package
+ui.chat.server.friend.online=▢FFFFFFFFYour friend [{.}] is online
+ui.chat.moreMax=Text too long, content after [{.}] has been hidden
+ui.chat.history1=Choose a player for private chat
+ui.chat.history2=0.0
+gui_lang_refuse_friend=Your freind request has been rejected
+ui.chat.agreeinfo=Accept friend request from {.}
+ui.chat.refuseinfo=Reject friend request from {.}
+ui.chat.deleteinfo=You´ve deleted your friend {.}
+ui.chat.friend.request=Friend Request
+ui.chat.player_delFriend=▢FF000000Unfriend
+gui_lang_kick_out=Expell
+ui.chat.server.private.chat.need.same.server=▢FFFFFFFFYour friend▢FF3A9CBF[{.}]▢FFFFFFFFis online. It requires to be in the same server for private chat 
+ui.chat.server.vip.online=▢FFFFFFFFThe Honorable▢FFFAE934VIP player[{.}]▢FFFFFFFFis online
+ui.chat.hasVoice=x{.}
+ui.chat.cannotsend=Message too frecuently, please try again later
+ui.chat.ignore.tip=Blocked successfully
+ui.chat.disignore.tip=Unblocked successfully
+ui.chat.send.voice=Release to send voice message
+ui.chat.cancel.send.voice=Release to recall voice message
+ui.chat.can.not.send=This channel is on down mode, please try again after %s second
+ui.chat.can.not.send.emoji=Send feature is on cool down, please try again after %s second
+ui.chat.number=▢FF484261{.}/{.}
+ui.chat.playerInfo.name=▢FF00FFFF{.}
+ui.chat.playerInfo.id=▢FFFFFFFFID:{.}
+ui.chat.friend.name=▢FF00FFFF{.}
+
+ui.chat.send.wait=Sending message interval is too short
+
+language_end:platform_chat_lang
+
+
+
+
+
+
+language_end:chat

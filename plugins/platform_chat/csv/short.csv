@@ -1,0 +1,6 @@
+id	name	text	headText	event	eventArgs
+顺序	按钮上显示的短语	实际发送的短语	头顶显示的文字	事件	事件参数
+1	gui_short_right_2	gui_short_left_2	gui_short_head_2		
+1	gui_short_right_3	gui_short_left_3	gui_short_head_3		
+1	gui_short_right_4	gui_short_left_4	gui_short_head_4		
+1	gui_short_right_5	gui_short_left_5	gui_short_head_5		

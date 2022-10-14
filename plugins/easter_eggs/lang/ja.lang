@@ -1,0 +1,11 @@
+
+
+language_start:easter_egg_lang
+
+ui.easter.geteggs=イースターエッグが見つかりました！イースターエッグポイント+％d
+ui.easter.cantget=このイースターエッグをもう一度請求することはできません
+ui.easter.getfailure=申し立てに失敗しました。異常なネットワーク接続
+ui.easter.countdown=このラウンドの残り時間
+ui.easter.upperlimit=今日はイースターエッグの最大数を集めました
+
+language_end:easter_egg_lang

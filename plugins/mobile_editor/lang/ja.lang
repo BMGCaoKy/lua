@@ -1,0 +1,177 @@
+
+
+language_start:mobile_editor
+
+——————翻译同学你好，绿色为新增，红字为机翻————————
+language_start:new
+
+language_end:new
+
+ui.setting.graphics=グラフィック
+ui.setting.graphics.quality=品質
+ui.setting.graphics.quality.low=低い
+ui.setting.graphics.quality.mid=真ん中
+ui.setting.graphics.quality.high=高い
+
+ui.setting.shadows=風邪
+ui.setting.shadows.on=オンにする
+ui.setting.shadows.off=閉鎖
+
+ui.setting.controls=コントロール
+ui.setting.controls.sensitivity=感度
+
+ui.setting.audio=音量
+ui.setting.audio.bgmvolume=音楽
+ui.setting.audio.sfxvolume=効果音
+
+ui.setting.capture=スクリーンショット
+ui.setting.exit=保存して終了
+
+ui.bgm.1=music-001
+ui.bgm.2=music-002
+ui.bgm.3=music-003
+ui.bgm.4=music-004
+ui.bgm.5=music-005
+ui.bgm.6=music-006
+ui.bgm.7=music-007
+ui.bgm.8=music-008
+ui.bgm.9=music-009
+
+ui.bgm.author=Blockman GO-MUSIC
+
+ui.select =チェック{.}
+ui.unselect ={.}のチェックを外します
+
+ui.g2054_base_model_cube.name =キューブ
+ui.g2054_base_model_sphere.name =玉
+ui.g2054_base_model_cylinder.name =シリンダー
+ui.g2054_base_model_cone.name =円錐
+ui.g2054_base_model_half_cube.name =ハーフブリック
+ui.g2054_base_model_staris.name =階段
+ui.g2054_base_model_right_angle_triangular_prism.name =直角三角形プリズム
+ui.g2054_base_model_hollow_column.name =中空柱
+ui.g2054_base_model_fan_column.name =ファンコラム
+ui.g2054_base_mode_square_pyramid.name =四角形のピラミッド
+ui.g2054_base_model_circle.name =指輪
+ui.g2054_base_model_half_circle.name =ハーフリング
+ui.g2054_base_model_round_table.name =ラウンドテーブル
+ui.g2054_base_model_hollow_round_table.name =中空円卓
+ui.g2054_base_model_square_prism.name =四角形のプラットフォーム
+ui.g2054_base_model_hemisphere.name =半球
+
+ui.select.translate =移動軸を表示
+ui.select.scale =ズームモードを有効にする
+ui.select.rotate =スピンモードをオンにする
+ui.select.space.local =ローカル座標系モードを有効にする
+ui.select.space.world =ワールド座標系モードを有効にする
+
+ui.unselect.translate =移動軸を非表示にする
+ui.unselect.scale =ズームモードをオフにする
+ui.unselect.rotate =回転モードをオフにします
+
+ui.select.duplicate =正常にコピー
+ui.select.delete =正常に削除されました
+ui.select.group =組み合わせは成功です
+ui.disable.group =組み合わせることはできません
+ui.select.ungroup =正常に結合解除されました
+ui.disable.ungroup =グループ化を解除できません
+ui.select.multiple =複数選択モードがオンになっている
+ui.select.material =素材と色の選択インターフェースが開きました
+ui.disable.material =モデルは素材を編集できません
+ui.unselect.multiple =複数選択モードがオフになっている
+ui.select.undo =取り消す
+ui.select.redo =回復します
+
+ui.select.weather =
+ui.select.skybox =
+ui.select.music =
+ui.select.light =
+ui.select.ground =
+
+ui.env.ground.color =地色
+ui.env.ground.texture =グラウンドマップ
+ui.env.light.skylight=日光
+ui.env.light.ambient.light =周囲光
+ui.env.light.intensity =光強度
+ui.env.bgm= バックグラウンドミュージック
+ui.env.weather =天気
+ui.env.skybox =スカイボックス
+
+ui.bgm.0=静けさ
+ui.bgm.1 =パーティ
+ui.bgm.2 =ダンスカーニバル
+ui.bgm.3 =静かな
+ui.bgm.4 =寺
+ui.bgm.5 =活気のある街
+ui.bgm.6 =最終対決
+ui.bgm.7 =静かな町
+ui.bgm.8 =にぎやかな市場
+ui.bgm.9 =小雨
+ui.bgm.10 =今すぐ始める
+
+ui.birth.name = 誕生ポイント
+ui.floor.name = 初期の地面
+
+ui.create.out_of_range =範囲外です。近くに置いてください
+
+ui.select.game =ゲーム
+ui.select.geometry =ジオメトリ
+ui.select.outdoor =屋外
+ui.select.plant =工場
+ui.select.indoor =屋内
+ui.select.props =小道具
+
+ui.enter.rect =マーキースタート
+ui.exit.rect =マーキー終了
+
+ui.scene_01 =消火栓
+ui.scene_02 =フロアランプ
+ui.scene_03 =街路灯
+ui.scene_04 =バスケットボールフープ
+ui.table_01 =事務机
+ui.table_02 =モダンなテーブル
+ui.table_03 =木製の円卓
+ui.table_04 =ガラス円卓
+ui.chair_01 =事務用椅子
+ui.chair_02 =シンプルなソファ
+ui.chair_03 =公園のベンチ
+ui.chair_04 =無垢材の椅子
+ui.chair_05 =分厚いソファ
+ui.chair_06 =ボスチェア
+ui.cabinet_01 =本棚
+ui.cabinet_02 =ワードローブ
+ui.bed_01 =ダブルベッド
+ui.bed_02 =シングルベッド
+ui.bed_03 =四角いベッド
+ui.bed_04 =2段ベッド
+ui.lamp_01 =カーテン
+ui.lamp_02 =デスクランプ
+ui.equipment_01 =オーディオ01
+ui.equipment_02 =オーディオ02
+ui.equipment_03 =オーディオ03
+ui.equipment_04 =ミキサー
+ui.equipment_05 =電子オルガン
+ui.equipment_06 =シンバル
+ui.equipment_07 =ドラムキット
+ui.equipment_08 =マイクロフォン
+ui.landscape_01 =ツリー01
+ui.landscape_02 =ツリー02
+ui.landscape_03 =ツリー03
+ui.landscape_04 =ツリー04
+ui.landscape_05 =ツリー05
+ui.landscape_06 =緑の祭壇
+ui.prop_01 =バリケードキャニスター
+ui.prop_02 =はしご
+ui.prop_03 =消火器
+ui.prop_04 =爆弾
+ui.prop_05 =ショットガン
+ui.prop_06 =防爆シールド
+ui.prop_07 =ドル
+ui.prop_08 =財布
+ui.prop_09 =バスケットボール
+ui.prop_10 =フットボール
+
+ui.setting.save.success =正常に保存されました
+ui.setting.setting =設定
+
+language_end:mobile_editor

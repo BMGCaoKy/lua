@@ -1,0 +1,7 @@
+id	s_map	s_pos	n_eggType	s_income	s_actor	s_actorBox	n_textHeight	s_incomeEffect
+顺序	图片	彩蛋位置	彩蛋类型：1-普通；2—高级	收益:id(类型)#数量	彩蛋所用的模型配置	彩蛋模型碰撞合大小	彩蛋存在时间显示高度	彩蛋收益时播放的特效
+1	map001	244.5#117.6#135.5	1	1#1000	pet_gou.actor	1#1#1	1	g2030_dead.effect
+2	map001	245#117.6#135.5	1	1#1000	pet_gou.actor	1#1#1	1	g2030_dead.effect
+3	map001	247#117.6#135.5	1	1#1000	pet_gou.actor	1#1#1	1	g2030_dead.effect
+4	map001	249.5#117.6#135.5	1	1#1000	pet_gou.actor	1#1#1	1	g2030_dead.effect
+5	map001	251.5#117.6#135.5	1	1#1000	pet_gou.actor	1#1#1	1	g2030_dead.effect

@@ -1,0 +1,176 @@
+
+
+language_start:chat
+
+葡萄牙语
+new
+
+zh=Chinês
+en=Inglês
+es=Espanhol
+it=Italiano
+de=Alemão
+fr=Francês
+ko=Coreano
+pt=Português
+ru=Russo
+ja=Japonês
+th=Tailandês
+vi=Vietnamita
+pl=Polonês
+in=Indonésio
+tr=Turco
+ms=Malaio
+km=Cambojano
+ar=árabe
+
+
+language_start:platform_chat_lang
+
+
+
+ui.chat.profile.title=Meu documento
+ui.chat.profile.others_title=documento
+ui.chat.profile.birth=Aniversário
+ui.chat.profile.constellation=Constelação
+ui.chat.profile.tribal=Tribo
+ui.chat.profile.tag=Título
+ui.chat.profile.confirm=Confirmação
+ui.chat.profile.addTag=Selecionar títulos
+ui.chat.profile.tagSelectNum=Selecionou:{.}{.}:
+ui.chat.profile.playTime={.}hora
+
+ui.chat.profile.tagTypeName1=Jogo:
+ui.chat.profile.tagTypeName2=Hábito:
+ui.chat.profile.tagTypeName3=Personalidade:
+ui.chat.profile.tagTypeName4=Característica:
+
+ui.chat.profile.none_details=Este jogador é misterioso, nada está escrito
+
+ui.chat.profile.constellationName1=Aquário
+ui.chat.profile.constellationName2=Peixes
+ui.chat.profile.constellationName3=Áries
+ui.chat.profile.constellationName4=Touro
+ui.chat.profile.constellationName5=Gêmeos
+ui.chat.profile.constellationName6=Câncer
+ui.chat.profile.constellationName7=Leão
+ui.chat.profile.constellationName8=Virgem
+ui.chat.profile.constellationName9=Libra
+ui.chat.profile.constellationName10=Escorpião
+ui.chat.profile.constellationName11=Sagitário
+ui.chat.profile.constellationName12=Capricórnio
+
+ui.chat.team=Agrupar
+ui.chat.pk =Combater
+ui.chat.gift=Dar um presente
+ui.chat.apprentice=Aceitar um aprendiz
+ui.chat.invite=▢FF000000Convidar para jogar juntos
+ui.chat.information=Detalhes
+ui.chat.master =Tornar-se um aprendiz
+
+ui.chat.chating=Estar conversando no canal de mapa
+ui.chat.chatMsgType1=Mundo
+ui.chat.chatMsgType2=Família
+ui.chat.chatMsgType3=Contacto privado
+ui.chat.chatMsgType4=Actual
+ui.chat.chatMsgType5=Sistema
+ui.chat.chatMsgType6=Grupo
+ui.chat.chatMsgType7=Profissão
+ui.chat.chatMsgType8=Amigos
+
+ui.chat.emoji.face=Emoji
+ui.chat.emoji.goods=Artigo
+ui.chat.emoji.pet=Animal de estimação
+ui.chat.emoji.short=Frase
+
+ui.chat.friend.apply=▢FF00FFFFSoliciatação de amizade
+ui.chat.friend.agreeAll=▢FF000000Aceitar tudo
+ui.chat.friend.refusedAll=▢FF000000Recusar tudo
+ui.chat.friend.list=▢FF00FFFFLista de amigos
+ui.chat.friend.myProfile=Meu documento
+ui.chat.friend.addFriend=Adicionar amigos
+
+ui.chat.friend.tips_apply=Rceber sliciatação de amigo
+ui.chat.friend.applyFriend=▢FF484261Amigos novos
+
+ui.chat.friend.gameFriend=▢FF484261Amigos para jogar juntos
+
+ui.chat.friend.platformFriend=▢FF484261Amigos BG
+ui.chat.friend.offline=▢FFFF0000Desligado
+ui.chat.friend.online=▢FF00EC00Conectados
+ui.chat.friend.send_add=Enviou soliciatação de amigo
+
+ui.chat.friend.recent_contact=▢FF00FFFFContato mais recente
+ui.chat.tips.unable_display=O tipo de mensagem não pode ser mostrado
+
+ui.chat.team.hall=Ir para a sala de grupo
+ui.chat.system.input=▢FFFFFFFFO canal do sistema não pode enviar mensagens
+ui.chat.click.chat=Clique para entrar
+ui.chat.autoplay=▢FFFFFFFFReprodução automática de voz
+ui.chat.lock=Tela de bloqueio
+ui.chat.player_private=▢FF000000Contacto privado
+ui.chat.ignore=Bloquear mensagens
+ui.chat.disignore=Desbloquear
+ui.chat.player_addFriend=▢FF000000Adcionar amigos
+ui.chat.applyed=Soliciatou
+ui.chat.isfriend=Já é seu amigo
+ui.chat.addinfo=Enviou uma soliciatação de amigo para{.} 
+ui.chat.cancel.sound=Cancelar enviar
+ui.chat.press.sound=Apertar para falar
+ui.chat.welcome=Bem-vindo {...} participa do acampamento 
+ui.chat.strangr=Estranhos
+ui.chat.friend=Amigos
+ui.chat.system=Sistema
+ui.chat.offline=A outra parte deixou o servidor atual e não pode receber a mensagem
+ui.chat.voicefail=A transmissão de voz falhou, por favor tente novamente
+ui.chat.voiceless=Você não tem voz suficiente, o envio falhou
+ui.chat.buyNum={.} micrófonos
+ui.chat.voiceBuySucc=Compra sucedida
+ui.chat.voiceBuyFail=Compra fracassada
+ui.chat.moonCard=Cartão de voz mensal ilimitado
+ui.chat.moonTime={.} dia
+ui.chat.moonLess=Menos de 1 dia restante
+ui.chat.privating=Em contacto privado com {...}
+ui.chat.familing=Em contacto no canal de acampamento
+ui.chat.sureBuy=Se custa {...} Cubo de Ouro para comprar?
+ui.chat.pickPlayerPlease=Por favor, selecione primeiro um jogador
+ui.chat.newMsg=Mensagens novasx{.}
+ui.chat.commoning=Em contacto público
+interact_chat=Contacto privado
+ui.chat.shopTitle =Pacote de presente de voz
+ui.chat.server.friend.online=▢FFFFFFFF seu amigo [{...}] está ligado
+ui.chat.moreMax=O conteúdo é muito longo, [{...}] O texto subseqüente foi omitido
+ui.chat.history1=Selecione um jogador para contacto privado
+ui.chat.history2=0.0
+gui_lang_refuse_friend=Outro jogador rejeitou seu soliciatação de amizade
+ui.chat.agreeinfo=Aceitar o convite de amigo de {.}
+ui.chat.refuseinfo=Recusar o convite de amigo de {.}
+ui.chat.deleteinfo=Cancelou amigo{.}
+ui.chat.friend.request=Soliticiação de amizade
+ui.chat.player_delFriend=▢FF000000Inamizade
+gui_lang_kick_out=Expulsar
+ui.chat.server.private.chat.need.same.server=▢FFFFFFFFTu amigo▢FF3A9CBF[{.}]▢FFFFFFFFestá ligago. Contacto privado com um amigo precisa de que ambas as partes estejam no mesmo servidor
+ui.chat.server.vip.online=0.0
+ui.chat.hasVoice=x{.}
+ui.chat.cannotsend=Falar tão flequentemente, por favor, fale mais tarde
+ui.chat.ignore.tip=Bloqueado com sucesso
+ui.chat.disignore.tip=Desbloqueado com sucesso
+ui.chat.send.voice=Lançar para enviar voz
+ui.chat.cancel.send.voice=Libertar para cancelar enviar voz
+ui.chat.can.not.send=O canal atual está em resfriamento, por favor, tente após %s de segundos!
+ui.chat.can.not.send.emoji=Enviando no resfriamento, por favor, tente novamente após %s de segundos.
+ui.chat.number=▢FF484261{.}/{.}
+ui.chat.playerInfo.name=▢FF00FFFF{.}
+ui.chat.playerInfo.id=▢FFFFFFFFID:{.}
+ui.chat.friend.name=▢FF00FFFF{.}
+
+ui.chat.send.wait=O intervalo de envio da mensagem é muito curto
+
+language_end:platform_chat_lang
+
+
+
+
+
+
+language_end:chat

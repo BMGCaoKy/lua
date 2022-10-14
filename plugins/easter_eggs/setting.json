@@ -1,0 +1,26 @@
+{
+  "startTime" : {
+    "month": 3,
+    "day": 10
+  },
+  "endTime" : {
+    "month": 4,
+    "day": 25
+  },
+  "refreshFrequency" : {
+    "inEasterDay": 0.01,
+    "notInEasterDay": 0.1
+  },
+  "refreshNum": 3,
+  "refreshSeed": {
+
+  },
+  "easter_start_day": {
+    "day" : 22,
+    "month" : 3
+  },
+  "easter_end_day": {
+    "day" : 25,
+    "month" : 3
+  }
+}

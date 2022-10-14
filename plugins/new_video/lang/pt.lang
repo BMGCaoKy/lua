@@ -1,0 +1,40 @@
+
+
+language_start:video_lang
+
+
+
+gui.new_video.record_success=Gravação concluída. O vídeo será salvo na galeria.
+gui.new_video.record_memory=Espaço de armazenamento insuficiente. Falha ao gravar.
+gui.new_video.record_fail=Parâmetro não suportado. Falha ao gravar.
+
+gui.new_video.tab1=Filtro
+gui.new_video.tab2=Clima
+gui.new_video.tab3=Efeitos de tela
+gui.new_video.handle.tab1=Efeitos especiais
+gui.new_video.handle.tab2=Esconder interface
+gui.new_video.handle.tab3=Esconder configurações
+gui.new_video.handle.type101=Retrô
+gui.new_video.handle.type102=Preto e branco
+gui.new_video.handle.type103=Alto contraste
+gui.new_video.handle.type104=Cyberpunk
+gui.new_video.handle.type105=Brilho
+gui.new_video.handle.type106=Dia de outono
+gui.new_video.handle.type107=Noite de lua cheia
+gui.new_video.handle.type108=Céu aberto
+gui.new_video.handle.type201=Ensolarado
+gui.new_video.handle.type202=Chuvoso
+gui.new_video.handle.type203=Nevando
+gui.new_video.handle.type204=Céu estrelado
+gui.new_video.handle.type205=Pôr do Sol
+gui.new_video.handle.type301=Cinemático
+gui.new_video.handle.type302=Lanterna
+gui.new_video.handle.type303=Linhas de movimento
+gui.new_video.handle.type304=X
+gui.new_video.handle.type305=Borboleta
+gui.new_video.handle.type306=Pontinhos
+gui.new_video.hide.setting.data1=Esconder nome
+gui.new_video.hide.setting.data2=Esconder outros
+gui.new_video.hide.setting.data3=Esconder personagem
+
+language_end:video_lang

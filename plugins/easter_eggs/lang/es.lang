@@ -1,0 +1,11 @@
+
+
+language_start:easter_egg_lang
+
+ui.easter.geteggs=¡Encontraste Huevos de Pascua! Obtuviste: +%d
+ui.easter.cantget=No puedes volver a reclamar el mismo Huevo de Pascua.
+ui.easter.getfailure=Error al reclamar. Verifica tu red.
+ui.easter.countdown=Cuenta regresiva
+ui.easter.upperlimit=Has recogido el número máximo de huevos de Pascua hoy.
+
+language_end:easter_egg_lang

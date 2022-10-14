@@ -1,0 +1,11 @@
+
+
+language_start:easter_egg_lang
+
+ui.easter.geteggs=Oeuf de Pâques trouvé avec succès ! Points d'œufs de Pâques + %d
+ui.easter.cantget=Vous ne pouvez plus réclamer cet œuf de Pâques
+ui.easter.getfailure=Échec de la réclamation. Connexion réseau anormale
+ui.easter.countdown=Temps restant pour ce tour
+ui.easter.upperlimit=Vous avez collecté le nombre maximum d'œufs de Pâques aujourd'hui
+
+language_end:easter_egg_lang

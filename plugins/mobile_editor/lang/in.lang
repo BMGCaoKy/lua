@@ -1,0 +1,177 @@
+
+
+language_start:mobile_editor
+
+——————翻译同学你好，绿色为新增，红字为机翻————————
+language_start:new
+
+language_end:new
+
+ui.setting.graphics=grafis
+ui.setting.graphics.quality=kualitas
+ui.setting.graphics.quality.low=Rendah
+ui.setting.graphics.quality.mid=Tengah
+ui.setting.graphics.quality.high=tinggi
+
+ui.setting.shadows=bayangan
+ui.setting.shadows.on=Aktif
+ui.setting.shadows.off=Mati
+
+ui.setting.controls=kontrol
+ui.setting.controls.sensitivity=Sensitivitas
+
+ui.setting.audio=volume
+ui.setting.audio.bgmvolume=musik
+ui.setting.audio.sfxvolume=efek suara
+
+ui.setting.capture=tangkapan layar
+ui.setting.exit=Simpan dan keluar
+
+ui.bgm.1=music-001
+ui.bgm.2=music-002
+ui.bgm.3=music-003
+ui.bgm.4=music-004
+ui.bgm.5=music-005
+ui.bgm.6=music-006
+ui.bgm.7=music-007
+ui.bgm.8=music-008
+ui.bgm.9=music-009
+
+ui.bgm.author=Blockman GO-MUSIC
+
+ui.select =pilih{.}
+ui.unselect =batalkan pilihan {.}
+
+ui.g2054_base_model_cube.name =kubus
+ui.g2054_base_model_sphere.name =bola
+ui.g2054_base_model_cylinder.name =silinder
+ui.g2054_base_model_cone.name =kerucut
+ui.g2054_base_model_half_cube.name =Setengah kubus
+ui.g2054_base_model_staris.name =anak tangga
+ui.g2054_base_model_right_angle_triangular_prism.name =Prisma segitiga siku-siku
+ui.g2054_base_model_hollow_column.name =Silinder berongga
+ui.g2054_base_model_fan_column.name =Tabung
+ui.g2054_base_mode_square_pyramid.name =Piramida Persegi
+ui.g2054_base_model_circle.name =cincin
+ui.g2054_base_model_half_circle.name =setengah cincin
+ui.g2054_base_model_round_table.name =Kerucut terpotong
+ui.g2054_base_model_hollow_round_table.name =Kerucut terpotong berongga
+ui.g2054_base_model_square_prism.name =Frustum persegi
+ui.g2054_base_model_hemisphere.name =Belahan bumi
+
+ui.select.translate =Tampilkan sumbu gerakan
+ui.select.scale =Aktifkan mode zoom
+ui.select.rotate =Aktifkan mode rotasi
+ui.select.space.local =Aktifkan mode sistem koordinat lokal
+ui.select.space.world =Aktifkan mode sistem koordinat global
+
+ui.unselect.translate =Sembunyikan sumbu gerakan
+ui.unselect.scale =Nonaktifkan mode zoom
+ui.unselect.rotate =Nonaktifkan mode rotasi
+
+ui.select.duplicate =Berhasil disalin
+ui.select.delete =Berhasil dihapus
+ui.select.group =Berhasil dikelompokkan
+ui.disable.group =Tidak dapat mengelompokkan
+ui.select.ungroup =Berhasil membatalkan pengelompokan
+ui.disable.ungroup =Tidak dapat membatalkan grup
+ui.select.multiple =Mode multi-pilihan diaktifkan
+ui.select.material =Antarmuka pemilihan bahan dan warna dibuka
+ui.disable.material =Tidak dapat mengubah materi model
+ui.unselect.multiple =Mode multi-pilihan dinonaktifkan
+ui.select.undo =Undo
+ui.select.redo =Redo
+
+ui.select.weather =
+ui.select.skybox =
+ui.select.music =
+ui.select.light =
+ui.select.ground =
+
+ui.env.ground.color =warna dasar
+ui.env.ground.texture =peta tanah
+ui.env.light.skylight=cahaya matahari
+ui.env.light.ambient.light =cahaya sekitar
+ui.env.light.intensity =Intensitas cahaya
+ui.env.bgm= Latarbelakang musik
+ui.env.weather =cuaca
+ui.env.skybox =kotak langit
+
+ui.bgm.0=diam
+ui.bgm.1 =berpesta
+ui.bgm.2 =karnaval menari
+ui.bgm.3 =diam
+ui.bgm.4 =Kuil
+ui.bgm.5 =kota yang hidup
+ui.bgm.6 =pertarungan terakhir
+ui.bgm.7 =kota yang tenang
+ui.bgm.8 =pasar yang ramai
+ui.bgm.9 =hujan ringan
+ui.bgm.10 =Mulai sekarang
+
+ui.birth.name = titik lahir
+ui.floor.name = tanah awal
+
+ui.create.out_of_range =di luar jangkauan, harap dekatkan
+
+ui.select.game =permainan
+ui.select.geometry =geometri
+ui.select.outdoor =di luar ruangan
+ui.select.plant =tanaman
+ui.select.indoor =dalam
+ui.select.props =Atribut
+
+ui.enter.rect =tenda dimulai
+ui.exit.rect =tenda berakhir
+
+ui.scene_01 =keran kebakaran
+ui.scene_02 =lampu lantai
+ui.scene_03 =lampu jalan
+ui.scene_04 =ring basket
+ui.table_01 =meja kerja
+ui.table_02 =meja modern
+ui.table_03 =meja bundar kayu
+ui.table_04 =meja bundar kaca
+ui.chair_01 =kursi kantor
+ui.chair_02 =sofa sederhana
+ui.chair_03 =kursi taman
+ui.chair_04 =kursi kayu solid
+ui.chair_05 =sofa tebal
+ui.chair_06 =kursi bos
+ui.cabinet_01 =rak buku
+ui.cabinet_02 =Pakaian
+ui.bed_01 =ranjang ganda
+ui.bed_02 =tempat tidur tunggal
+ui.bed_03 =tempat tidur persegi
+ui.bed_04 =Tempat tidur susun
+ui.lamp_01 =tirai
+ui.lamp_02 =lampu meja
+ui.equipment_01 =Audio 01
+ui.equipment_02 =Audio 02
+ui.equipment_03 =Audio 03
+ui.equipment_04 =Pengaduk
+ui.equipment_05 =organ elektronik
+ui.equipment_06 =gembrengan
+ui.equipment_07 =peralatan drum
+ui.equipment_08 =mikropon
+ui.landscape_01 =pohon 01
+ui.landscape_02 =pohon 02
+ui.landscape_03 =pohon 03
+ui.landscape_04 =pohon 04
+ui.landscape_05 =pohon 05
+ui.landscape_06 =altar hijau
+ui.prop_01 =Tabung barikade
+ui.prop_02 =tangga
+ui.prop_03 =alat pemadam Api
+ui.prop_04 =bom
+ui.prop_05 =senapan
+ui.prop_06 =Perisai tahan ledakan
+ui.prop_07 =dolar
+ui.prop_08 =tas kecil
+ui.prop_09 =bola basket
+ui.prop_10 =sepak bola
+
+ui.setting.save.success =Berhasil disimpan
+ui.setting.setting =pengaturan
+
+language_end:mobile_editor

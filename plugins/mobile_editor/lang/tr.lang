@@ -1,0 +1,177 @@
+
+
+language_start:mobile_editor
+
+——————翻译同学你好，绿色为新增，红字为机翻————————
+language_start:new
+
+language_end:new
+
+ui.setting.graphics=grafik
+ui.setting.graphics.quality=kalite
+ui.setting.graphics.quality.low=Düşük
+ui.setting.graphics.quality.mid=orta
+ui.setting.graphics.quality.high=yüksek
+
+ui.setting.shadows=gölge
+ui.setting.shadows.on=aç
+ui.setting.shadows.off=kapatma
+
+ui.setting.controls=kontrol
+ui.setting.controls.sensitivity=Duyarlılık
+
+ui.setting.audio=Ses
+ui.setting.audio.bgmvolume=müzik
+ui.setting.audio.sfxvolume=ses efekti
+
+ui.setting.capture=ekran görüntüsü
+ui.setting.exit=kaydet ve çık
+
+ui.bgm.1=music-001
+ui.bgm.2=music-002
+ui.bgm.3=music-003
+ui.bgm.4=music-004
+ui.bgm.5=music-005
+ui.bgm.6=music-006
+ui.bgm.7=music-007
+ui.bgm.8=music-008
+ui.bgm.9=music-009
+
+ui.bgm.author=Blockman GO-MUSIC
+
+ui.select =Kontrol{.}
+ui.unselect ={.} işaretini kaldırın
+
+ui.g2054_base_model_cube.name =küp
+ui.g2054_base_model_sphere.name =top
+ui.g2054_base_model_cylinder.name =silindir
+ui.g2054_base_model_cone.name =koni
+ui.g2054_base_model_half_cube.name =yarım tuğla
+ui.g2054_base_model_staris.name =merdiven
+ui.g2054_base_model_right_angle_triangular_prism.name =dik açılı üçgen prizma
+ui.g2054_base_model_hollow_column.name =içi boş sütun
+ui.g2054_base_model_fan_column.name =fan sütunu
+ui.g2054_base_mode_square_pyramid.name =dörtgen piramit
+ui.g2054_base_model_circle.name =yüzük
+ui.g2054_base_model_half_circle.name =yarım yüzük
+ui.g2054_base_model_round_table.name =Yuvarlak masa
+ui.g2054_base_model_hollow_round_table.name =içi boş yuvarlak masa
+ui.g2054_base_model_square_prism.name =dörtgen platform
+ui.g2054_base_model_hemisphere.name =yarım küre
+
+ui.select.translate =hareket eksenini göster
+ui.select.scale =Yakınlaştırma modunu etkinleştir
+ui.select.rotate =Döndürme modunu aç
+ui.select.space.local =Yerel koordinat sistemi modunu etkinleştir
+ui.select.space.world =Dünya koordinat sistemi modunu etkinleştir
+
+ui.unselect.translate =hareket eksenini gizle
+ui.unselect.scale =Yakınlaştırma modunu kapat
+ui.unselect.rotate =Döndürme modunu kapat
+
+ui.select.duplicate =Başarıyla kopyala
+ui.select.delete =başarıyla silindi
+ui.select.group =Kombinasyon başarılı
+ui.disable.group =birleştirilemez
+ui.select.ungroup =Başarıyla birleştirildi
+ui.disable.ungroup =grup çözülemiyor
+ui.select.multiple =Çoklu seçim modu açık
+ui.select.material =Malzeme ve renk seçim arayüzü açıldı
+ui.disable.material =Model materyali düzenleyemez
+ui.unselect.multiple =Çoklu seçim modu kapalı
+ui.select.undo =geri çekmek
+ui.select.redo =kurtarmak
+
+ui.select.weather =
+ui.select.skybox =
+ui.select.music =
+ui.select.light =
+ui.select.ground =
+
+ui.env.ground.color =zemin rengi
+ui.env.ground.texture =yer haritası
+ui.env.light.skylight=gunes isigi
+ui.env.light.ambient.light =ortam ışığı
+ui.env.light.intensity =ışık şiddeti
+ui.env.bgm= Arka plan müziği
+ui.env.weather =hava Durumu
+ui.env.skybox =gökyüzü kutusu
+
+ui.bgm.0=sessiz
+ui.bgm.1 =Parti
+ui.bgm.2 =dans karnavalı
+ui.bgm.3 =sessizlik
+ui.bgm.4 =tapınak şakak .. mabet
+ui.bgm.5 =canlı Şehir
+ui.bgm.6 =son hesaplaşma
+ui.bgm.7 =sessiz kasaba
+ui.bgm.8 =hareketli pazar
+ui.bgm.9 =Hafif yağmur
+ui.bgm.10 =Şimdi başla
+
+ui.birth.name = doğum noktası
+ui.floor.name = ilk zemin
+
+ui.create.out_of_range =menzil dışında, lütfen yakına yerleştirin
+
+ui.select.game =oyun
+ui.select.geometry =geometri
+ui.select.outdoor =dış mekan
+ui.select.plant =bitki
+ui.select.indoor =kapalı
+ui.select.props =sahne
+
+ui.enter.rect =seçim çerçevesi
+ui.exit.rect =seçim çerçevesi biter
+
+ui.scene_01 =yangın musluğu
+ui.scene_02 =Zemin lambası
+ui.scene_03 =sokak lambası
+ui.scene_04 =basket potası
+ui.table_01 =Ofis masası
+ui.table_02 =modern masa
+ui.table_03 =ahşap yuvarlak masa
+ui.table_04 =cam yuvarlak masa
+ui.chair_01 =Ofis sandalyesi
+ui.chair_02 =basit kanepe
+ui.chair_03 =park bankı
+ui.chair_04 =masif ahşap sandalye
+ui.chair_05 =tıknaz kanepe
+ui.chair_06 =patron koltuğu
+ui.cabinet_01 =kitaplık
+ui.cabinet_02 =Giysi dolabı
+ui.bed_01 =çift ​​kişilik yatak
+ui.bed_02 =tek kişilik yatak
+ui.bed_03 =kare yatak
+ui.bed_04 =ranza
+ui.lamp_01 =perde
+ui.lamp_02 =masa lambası
+ui.equipment_01 =ses 01
+ui.equipment_02 =ses 02
+ui.equipment_03 =ses 03
+ui.equipment_04 =karıştırıcı
+ui.equipment_05 =elektronik organ
+ui.equipment_06 =ziller
+ui.equipment_07 =bateri seti
+ui.equipment_08 =mikrofon
+ui.landscape_01 =ağaç 01
+ui.landscape_02 =ağaç 02
+ui.landscape_03 =ağaç 03
+ui.landscape_04 =ağaç 04
+ui.landscape_05 =ağaç 05
+ui.landscape_06 =yeşil sunak
+ui.prop_01 =Barikat Kutusu
+ui.prop_02 =merdiven
+ui.prop_03 =yangın söndürücü
+ui.prop_04 =bomba
+ui.prop_05 =pompalı tüfek
+ui.prop_06 =Patlamaya dayanıklı kalkan
+ui.prop_07 =dolar
+ui.prop_08 =el çantası
+ui.prop_09 =Basketbol
+ui.prop_10 =Futbol
+
+ui.setting.save.success =Başarıyla kaydedildi
+ui.setting.setting =ayar
+
+language_end:mobile_editor

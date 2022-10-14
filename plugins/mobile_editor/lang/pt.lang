@@ -1,0 +1,177 @@
+
+
+language_start:mobile_editor
+
+——————翻译同学你好，绿色为新增，红字为机翻————————
+language_start:new
+
+language_end:new
+
+ui.setting.graphics=Gráficos
+ui.setting.graphics.quality=Qualidade
+ui.setting.graphics.quality.low=Baixa
+ui.setting.graphics.quality.mid=Média
+ui.setting.graphics.quality.high=Alta
+
+ui.setting.shadows=Sombras
+ui.setting.shadows.on=Ligadas
+ui.setting.shadows.off=Desligadas
+
+ui.setting.controls=Controles
+ui.setting.controls.sensitivity=Sensibilidade
+
+ui.setting.audio=Volume
+ui.setting.audio.bgmvolume=Música
+ui.setting.audio.sfxvolume=Efeitos
+
+ui.setting.capture=Captura de tela
+ui.setting.exit=Salvar e sair
+
+ui.bgm.1=music-001
+ui.bgm.2=music-002
+ui.bgm.3=music-003
+ui.bgm.4=music-004
+ui.bgm.5=music-005
+ui.bgm.6=music-006
+ui.bgm.7=music-007
+ui.bgm.8=music-008
+ui.bgm.9=music-009
+
+ui.bgm.author=Blockman GO-MUSIC
+
+ui.select =selecionar{.}
+ui.unselect =deselecionar{.}
+
+ui.g2054_base_model_cube.name =Cubo
+ui.g2054_base_model_sphere.name =Esfera
+ui.g2054_base_model_cylinder.name =Cilindro
+ui.g2054_base_model_cone.name =Cone
+ui.g2054_base_model_half_cube.name =Meio cubo
+ui.g2054_base_model_staris.name =Escada
+ui.g2054_base_model_right_angle_triangular_prism.name =Prisma triangular com ângulo à direita
+ui.g2054_base_model_hollow_column.name =Cilindro oco
+ui.g2054_base_model_fan_column.name =Segmento cilíndrico
+ui.g2054_base_mode_square_pyramid.name =Pirâmide quadrangular
+ui.g2054_base_model_circle.name =Toroide
+ui.g2054_base_model_half_circle.name =Meio toroide
+ui.g2054_base_model_round_table.name =Cone truncado
+ui.g2054_base_model_hollow_round_table.name =Cone truncado oco
+ui.g2054_base_model_square_prism.name =Tronco quadrado
+ui.g2054_base_model_hemisphere.name =Hemisfério
+
+ui.select.translate =Exibir eixo de movimento
+ui.select.scale =Ativar modo de zoom
+ui.select.rotate =Ativar modo de rotação
+ui.select.space.local =Ativar modo de sistema de coordenadas locais
+ui.select.space.world =Ativar modo de sistema de coordenadas globais
+
+ui.unselect.translate =Esconder eixo de movimento
+ui.unselect.scale =Desativar modo de zoom
+ui.unselect.rotate =Desativar modo de rotação
+
+ui.select.duplicate =Copiado
+ui.select.delete =Deletado
+ui.select.group =Agrupado
+ui.disable.group =Falha ao agrupar
+ui.select.ungroup =Desagrupado
+ui.disable.ungroup =Falha ao desagrupar
+ui.select.multiple =Modo de seleção múltipla ativado
+ui.select.material =Interface de seleção de cor e material aberta
+ui.disable.material =Não é possível modificar o material do modelo
+ui.unselect.multiple =Modo de seleção múltipla desativado
+ui.select.undo =Desfazer
+ui.select.redo =Refazer
+
+ui.select.weather =
+ui.select.skybox =
+ui.select.music =
+ui.select.light =
+ui.select.ground =
+
+ui.env.ground.color =cor de fundo
+ui.env.ground.texture =mapa terrestre
+ui.env.light.skylight=brilho do sol
+ui.env.light.ambient.light =luz ambiente
+ui.env.light.intensity =intensidade da luz
+ui.env.bgm= Música de fundo
+ui.env.weather =clima
+ui.env.skybox =camarote
+
+ui.bgm.0=silencioso
+ui.bgm.1 =Festa
+ui.bgm.2 =dançar carnaval
+ui.bgm.3 =quieto
+ui.bgm.4 =têmpora
+ui.bgm.5 =Cidade vibrante
+ui.bgm.6 =confronto final
+ui.bgm.7 =cidade tranquila
+ui.bgm.8 =mercado movimentado
+ui.bgm.9 =chuva leve
+ui.bgm.10 =Comece agora
+
+ui.birth.name = ponto de nascimento
+ui.floor.name = terreno inicial
+
+ui.create.out_of_range =fora do alcance, por favor coloque perto
+
+ui.select.game =jogos
+ui.select.geometry =geometria
+ui.select.outdoor =exterior
+ui.select.plant =plantar
+ui.select.indoor =interior
+ui.select.props =adereços
+
+ui.enter.rect =início de letreiro
+ui.exit.rect =extremidades da marquise
+
+ui.scene_01 =hidrante
+ui.scene_02 =luminária de piso
+ui.scene_03 =iluminação pública
+ui.scene_04 =cesta de basquete
+ui.table_01 =mesa de trabalho
+ui.table_02 =mesa moderna
+ui.table_03 =mesa redonda de madeira
+ui.table_04 =mesa redonda de vidro
+ui.chair_01 =cadeira de escritório
+ui.chair_02 =sofá simples
+ui.chair_03 =banco de parque
+ui.chair_04 =cadeira de madeira maciça
+ui.chair_05 =sofá grosso
+ui.chair_06 =cadeira do chefe
+ui.cabinet_01 =estante
+ui.cabinet_02 =Guarda roupa
+ui.bed_01 =cama de casal
+ui.bed_02 =cama de solteiro
+ui.bed_03 =cama quadrada
+ui.bed_04 =Beliche
+ui.lamp_01 =cortina
+ui.lamp_02 =lâmpada de mesa
+ui.equipment_01 =Áudio 01
+ui.equipment_02 =Áudio 02
+ui.equipment_03 =Áudio 03
+ui.equipment_04 =Misturador
+ui.equipment_05 =órgão eletrônico
+ui.equipment_06 =pratos
+ui.equipment_07 =bateria
+ui.equipment_08 =microfone
+ui.landscape_01 =árvore 01
+ui.landscape_02 =árvore 02
+ui.landscape_03 =árvore 03
+ui.landscape_04 =árvore 04
+ui.landscape_05 =árvore 05
+ui.landscape_06 =altar verde
+ui.prop_01 =Vasilha de Barricada
+ui.prop_02 =escada
+ui.prop_03 =extintor de incêndio
+ui.prop_04 =bombear
+ui.prop_05 =espingarda
+ui.prop_06 =Escudo à prova de explosão
+ui.prop_07 =dólares
+ui.prop_08 =Bolsa
+ui.prop_09 =basquetebol
+ui.prop_10 =futebol
+
+ui.setting.save.success =Salvo com sucesso
+ui.setting.setting =contexto
+
+language_end:mobile_editor

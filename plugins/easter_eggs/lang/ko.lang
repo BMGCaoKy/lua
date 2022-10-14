@@ -1,0 +1,11 @@
+
+
+language_start:easter_egg_lang
+
+ui.easter.geteggs=부활절 달걀을 성공적으로 찾았습니다! 이스터 에그 포인트+%d
+ui.easter.cantget=이 부활절 달걀을 다시 주장할 수 없습니다.
+ui.easter.getfailure=소유권 주장에 실패했습니다. 비정상적인 네트워크 연결
+ui.easter.countdown=이번 라운드의 남은 시간
+ui.easter.upperlimit=오늘 이스터 에그의 최대 개수를 모았습니다.
+
+language_end:easter_egg_lang

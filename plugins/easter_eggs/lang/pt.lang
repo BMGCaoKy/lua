@@ -1,0 +1,11 @@
+
+
+language_start:easter_egg_lang
+
+ui.easter.geteggs=Você encontrou Ovos de Páscoa! Pontos de Ovo de Páscoa +%d
+ui.easter.cantget=Não é possível resgatar o mesmo Ovo de Páscoa repetidamente.
+ui.easter.getfailure=Falha ao resgatar Conexão de rede anormal
+ui.easter.countdown=Contagem regressiva desta rodada
+ui.easter.upperlimit=Você coletou o número máximo de Ovos de Páscoa hoje
+
+language_end:easter_egg_lang

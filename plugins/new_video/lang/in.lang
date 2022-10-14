@@ -1,0 +1,40 @@
+
+
+language_start:video_lang
+
+
+
+gui.new_video.record_success=Perekaman selesai, video yang direkam akan berada di album foto
+gui.new_video.record_memory=Memori tidak cukup, perekaman dihentikan
+gui.new_video.record_fail=Parameter tidak terdukung, perekaman gagal
+
+gui.new_video.tab1=Filter
+gui.new_video.tab2=Cuaca
+gui.new_video.tab3=Efek layar
+gui.new_video.handle.tab1=Efek spesial
+gui.new_video.handle.tab2=Sembunyikan UI
+gui.new_video.handle.tab3=Sembunyikan pengaturan
+gui.new_video.handle.type101=Retro
+gui.new_video.handle.type102=Hitam putih
+gui.new_video.handle.type103=Kontras tinggi
+gui.new_video.handle.type104=Cyberpunk
+gui.new_video.handle.type105=Bersinar
+gui.new_video.handle.type106=Cahaya musim gugur
+gui.new_video.handle.type107=Cahaya bulan purnama
+gui.new_video.handle.type108=Cerah
+gui.new_video.handle.type201=Terik
+gui.new_video.handle.type202=Hujan
+gui.new_video.handle.type203=Salju
+gui.new_video.handle.type204=Langit berbintang
+gui.new_video.handle.type205=Sinar matahari terbenam
+gui.new_video.handle.type301=Sinematik
+gui.new_video.handle.type302=Senter
+gui.new_video.handle.type303=Garis kecepatan
+gui.new_video.handle.type304=Silang
+gui.new_video.handle.type305=Kupu-kupu
+gui.new_video.handle.type306=Dot-dot
+gui.new_video.hide.setting.data1=Sembunyikan nama
+gui.new_video.hide.setting.data2=Sembunyikan lainnya
+gui.new_video.hide.setting.data3=Sembunyikan diri sendiri
+
+language_end:video_lang

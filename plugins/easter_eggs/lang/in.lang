@@ -1,0 +1,11 @@
+
+
+language_start:easter_egg_lang
+
+ui.easter.geteggs=Berhasil menemukan telur paskah! Poin telur paskah+%d
+ui.easter.cantget=Kamu tidak bisa klaim telur paskah ini berkali-kali
+ui.easter.getfailure=Gagal klaim. Koneksi jaringan abnormal.
+ui.easter.countdown=Hitung mundur babak ini
+ui.easter.upperlimit=Anda telah mengumpulkan jumlah maksimum Telur Paskah hari ini
+
+language_end:easter_egg_lang

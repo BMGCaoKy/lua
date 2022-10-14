@@ -1,0 +1,11 @@
+
+
+language_start:easter_egg_lang
+
+ui.easter.geteggs=Pomyślnie znaleziono jajko wielkanocne! Punkty jajek wielkanocnych+%d
+ui.easter.cantget=Nie możesz ponownie odebrać tego jajka wielkanocnego
+ui.easter.getfailure=Nie udało się odebrać. Nieprawidłowe połączenie sieciowe
+ui.easter.countdown=Pozostały czas na tę rundę
+ui.easter.upperlimit=Zebrałeś dzisiaj maksymalną liczbę Easter Egg
+
+language_end:easter_egg_lang

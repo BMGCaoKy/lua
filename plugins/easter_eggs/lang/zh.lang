@@ -1,0 +1,11 @@
+
+
+language_start:easter_egg_lang
+
+ui.easter.geteggs=成功找到彩蛋！彩蛋积分+%d
+ui.easter.cantget=该彩蛋无法重复领取
+ui.easter.getfailure=领取失败，网络连接异常
+ui.easter.countdown=本轮存在时间
+ui.easter.upperlimit=今日可领取彩蛋已达上限
+
+language_end:easter_egg_lang

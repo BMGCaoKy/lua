@@ -1,0 +1,11 @@
+
+
+language_start:easter_egg_lang
+
+ui.easter.geteggs=Paskalya Yumurtası başarıyla bulundu! Paskalya Yumurtası Puanı+%d
+ui.easter.cantget=Bu Paskalya yumurtasını tekrar talep edemezsiniz
+ui.easter.getfailure=Hak talebinde bulunulamadı. Anormal ağ bağlantısı
+ui.easter.countdown=Bu tur için kalan süre
+ui.easter.upperlimit=Bugün maksimum sayıda Paskalya Yumurtası topladınız
+
+language_end:easter_egg_lang

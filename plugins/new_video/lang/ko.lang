@@ -1,0 +1,40 @@
+
+
+language_start:video_lang
+
+
+
+gui.new_video.record_success=녹화가 완료되면 이미 녹화한 영상은 앨범에 넣을 것이다
+gui.new_video.record_memory=핸드폰 메모리 부족, 녹화 종료
+gui.new_video.record_fail=매개 변수가 지원되지 않습니다. 기록 실패
+
+gui.new_video.tab1=필터
+gui.new_video.tab2=날씨
+gui.new_video.tab3=화면 효과
+gui.new_video.handle.tab1=특수 효과
+gui.new_video.handle.tab2=UI 숨기기
+gui.new_video.handle.tab3=설정 숨기기
+gui.new_video.handle.type101=복고풍
+gui.new_video.handle.type102=검정색과 흰색
+gui.new_video.handle.type103=고대비
+gui.new_video.handle.type104=사이버펑크
+gui.new_video.handle.type105=불타는 듯한 빛깔
+gui.new_video.handle.type106=가을날
+gui.new_video.handle.type107=보름달 밤
+gui.new_video.handle.type108=햇볕이 잘 드는
+gui.new_video.handle.type201=햇볕이 잘 드는
+gui.new_video.handle.type202=비
+gui.new_video.handle.type203=눈이 오는 날
+gui.new_video.handle.type204=별이 빛나는 하늘
+gui.new_video.handle.type205=일몰
+gui.new_video.handle.type301=영화 검은 테두리
+gui.new_video.handle.type302=플래시
+gui.new_video.handle.type303=스피드 라인
+gui.new_video.handle.type304=도지
+gui.new_video.handle.type305=나비
+gui.new_video.handle.type306=점
+gui.new_video.hide.setting.data1=이름을 숨기다
+gui.new_video.hide.setting.data2=남을 숨기다
+gui.new_video.hide.setting.data3=몸을 숨기다
+
+language_end:video_lang

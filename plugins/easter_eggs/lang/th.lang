@@ -1,0 +1,11 @@
+
+
+language_start:easter_egg_lang
+
+ui.easter.geteggs=พบไข่อีสเตอร์แล้ว! ได้รับแต้มไข่อีสเตอร์ +%d
+ui.easter.cantget=คุณไม่สามารถรับไข่อีสเตอร์นี้ซ้ำได้
+ui.easter.getfailure=การรับล้มเหลว การเชื่อมต่อมีปัญหา
+ui.easter.countdown=นับถอยหลังรอบนี้
+ui.easter.upperlimit=คุณได้รวบรวมจำนวนสูงสุดของไข่อีสเตอร์ในวันนี้
+
+language_end:easter_egg_lang

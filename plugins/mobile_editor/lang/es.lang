@@ -1,0 +1,177 @@
+
+
+language_start:mobile_editor
+
+——————翻译同学你好，绿色为新增，红字为机翻————————
+language_start:new
+
+language_end:new
+
+ui.setting.graphics=Gráficos
+ui.setting.graphics.quality=Calidad
+ui.setting.graphics.quality.low=Baja
+ui.setting.graphics.quality.mid=Media
+ui.setting.graphics.quality.high=Alta
+
+ui.setting.shadows=Sombras
+ui.setting.shadows.on=Encendidas
+ui.setting.shadows.off=Apagadas
+
+ui.setting.controls=Controles
+ui.setting.controls.sensitivity=Sensibilidad
+
+ui.setting.audio=Volumen
+ui.setting.audio.bgmvolume=Música
+ui.setting.audio.sfxvolume=Efectos especiales
+
+ui.setting.capture=Captura de pantalla
+ui.setting.exit=Guardar y salir
+
+ui.bgm.1=music-001
+ui.bgm.2=music-002
+ui.bgm.3=music-003
+ui.bgm.4=music-004
+ui.bgm.5=music-005
+ui.bgm.6=music-006
+ui.bgm.7=music-007
+ui.bgm.8=music-008
+ui.bgm.9=music-009
+
+ui.bgm.author=Blockman GO-MUSIC
+
+ui.select =Seleccionar {.}
+ui.unselect =Cancelar {.}
+
+ui.g2054_base_model_cube.name =Cubo
+ui.g2054_base_model_sphere.name =Esfera
+ui.g2054_base_model_cylinder.name =Cilindro
+ui.g2054_base_model_cone.name =Cono
+ui.g2054_base_model_half_cube.name =Medio cubo
+ui.g2054_base_model_staris.name =Escaleras
+ui.g2054_base_model_right_angle_triangular_prism.name =Prisma triangular de ángulo recto
+ui.g2054_base_model_hollow_column.name =Cilindro hueco
+ui.g2054_base_model_fan_column.name =Segmento cilíndrico
+ui.g2054_base_mode_square_pyramid.name =Pirámide cuadrangular
+ui.g2054_base_model_circle.name =Aro
+ui.g2054_base_model_half_circle.name =Medio aro
+ui.g2054_base_model_round_table.name =Cono trunco
+ui.g2054_base_model_hollow_round_table.name =Cono trunco hueco
+ui.g2054_base_model_square_prism.name =Tronco cuadrado
+ui.g2054_base_model_hemisphere.name =Hemisferio
+
+ui.select.translate =Mostrar eje de movimiento
+ui.select.scale =Habilitar modo zoom
+ui.select.rotate =Activar modo de giro
+ui.select.space.local =Habilitar el modo de sistema de coordenadas local
+ui.select.space.world =Habilitar el modo de sistema de coordenadas globales
+
+ui.unselect.translate =Ocultar el eje de movimiento
+ui.unselect.scale =Deshabilitar el modo de zoom
+ui.unselect.rotate =Deshabilitar el modo de rotación
+
+ui.select.duplicate =Copiado exitosamente
+ui.select.delete =Eliminado exitosamente
+ui.select.group =Agrupado con éxito
+ui.disable.group =No se puede agrupar
+ui.select.ungroup =Separado exitosamente
+ui.disable.ungroup =No se puede separar
+ui.select.multiple =Modo de selección múltiple activado
+ui.select.material =Interfaz de selección de material y color abierta
+ui.disable.material =No se puede editar el material del modelo
+ui.unselect.multiple =Modo de selección múltiple desactivado
+ui.select.undo =Deshacer
+ui.select.redo =Rehacer
+
+ui.select.weather =
+ui.select.skybox =
+ui.select.music =
+ui.select.light =
+ui.select.ground =
+
+ui.env.ground.color =color de fondo
+ui.env.ground.texture =mapa de tierra
+ui.env.light.skylight=Brillo Solar
+ui.env.light.ambient.light =luz ambiental
+ui.env.light.intensity =intensidad de luz
+ui.env.bgm= Música de fondo
+ui.env.weather =tiempo
+ui.env.skybox =palco
+
+ui.bgm.0=silencio
+ui.bgm.1 =fiesta
+ui.bgm.2 =baile de carnaval
+ui.bgm.3 =tranquilo
+ui.bgm.4 =templo
+ui.bgm.5 =Ciudad vibrante
+ui.bgm.6 =enfrentamiento final
+ui.bgm.7 =ciudad tranquila
+ui.bgm.8 =bullicioso mercado
+ui.bgm.9 =lluvia ligera
+ui.bgm.10 =Empezar ahora
+
+ui.birth.name = punto de nacimiento
+ui.floor.name = terreno inicial
+
+ui.create.out_of_range =fuera de rango, coloque cerca
+
+ui.select.game =juego
+ui.select.geometry =geometría
+ui.select.outdoor =exterior
+ui.select.plant =planta
+ui.select.indoor =interior
+ui.select.props =accesorios
+
+ui.enter.rect =inicio de marquesina
+ui.exit.rect =termina la marquesina
+
+ui.scene_01 =boca de incendio
+ui.scene_02 =lámpara de piso
+ui.scene_03 =luz de la calle
+ui.scene_04 =aro de baloncesto
+ui.table_01 =escritorio de oficina
+ui.table_02 =mesa moderna
+ui.table_03 =mesa redonda de madera
+ui.table_04 =mesa redonda de cristal
+ui.chair_01 =silla de oficina
+ui.chair_02 =sofá sencillo
+ui.chair_03 =Banco del parque
+ui.chair_04 =silla de madera maciza
+ui.chair_05 =sofá grueso
+ui.chair_06 =silla de jefe
+ui.cabinet_01 =estantería
+ui.cabinet_02 =Armario
+ui.bed_01 =cama matrimonial
+ui.bed_02 =cama individual
+ui.bed_03 =cama cuadrada
+ui.bed_04 =Litera
+ui.lamp_01 =cortina
+ui.lamp_02 =lámpara de escritorio
+ui.equipment_01 =sonido 01
+ui.equipment_02 =sonido 02
+ui.equipment_03 =sonido 03
+ui.equipment_04 =Mezclador
+ui.equipment_05 =organo electronico
+ui.equipment_06 =platillos
+ui.equipment_07 =kit de batería
+ui.equipment_08 =micrófono
+ui.landscape_01 =árbol 01
+ui.landscape_02 =árbol 02
+ui.landscape_03 =árbol 03
+ui.landscape_04 =árbol 04
+ui.landscape_05 =árbol 05
+ui.landscape_06 =altar verde
+ui.prop_01 =Bote de barricada
+ui.prop_02 =escalera
+ui.prop_03 =extintor de incendios
+ui.prop_04 =bomba
+ui.prop_05 =escopeta
+ui.prop_06 =Escudo a prueba de explosiones
+ui.prop_07 =dolares
+ui.prop_08 =bolso
+ui.prop_09 =baloncesto
+ui.prop_10 =fútbol
+
+ui.setting.save.success =Guardado exitosamente
+ui.setting.setting =ajuste
+
+language_end:mobile_editor

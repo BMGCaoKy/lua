@@ -1,0 +1,40 @@
+
+
+language_start:video_lang
+
+
+
+gui.new_video.record_success=La registrazione è completa e il video registrato verrà inserito nell'album
+gui.new_video.record_memory=Il telefono è a corto di memoria, la registrazione è finita
+gui.new_video.record_fail=Parametro non supportato, registrazione fallita
+
+gui.new_video.tab1=filtro
+gui.new_video.tab2=tempo metereologico
+gui.new_video.tab3=effetti dello schermo
+gui.new_video.handle.tab1=effetti speciali
+gui.new_video.handle.tab2=nascondi interfaccia utente
+gui.new_video.handle.tab3=nascondi le impostazioni
+gui.new_video.handle.type101=retrò
+gui.new_video.handle.type102=bianco e nero
+gui.new_video.handle.type103=alto contrasto
+gui.new_video.handle.type104=Cyberpunk
+gui.new_video.handle.type105=incandescenza
+gui.new_video.handle.type106=giorno d'autunno
+gui.new_video.handle.type107=notte di luna piena
+gui.new_video.handle.type108=soleggiato
+gui.new_video.handle.type201=soleggiato
+gui.new_video.handle.type202=piovere
+gui.new_video.handle.type203=giorno di neve
+gui.new_video.handle.type204=cielo stellato
+gui.new_video.handle.type205=tramonto
+gui.new_video.handle.type301=bordo nero del film
+gui.new_video.handle.type302=torcia elettrica
+gui.new_video.handle.type303=linea di velocità
+gui.new_video.handle.type304=doji
+gui.new_video.handle.type305=Farfalla
+gui.new_video.handle.type306=punti
+gui.new_video.hide.setting.data1=nascondi il nome
+gui.new_video.hide.setting.data2=Nascondi altri
+gui.new_video.hide.setting.data3=nasconditi
+
+language_end:video_lang

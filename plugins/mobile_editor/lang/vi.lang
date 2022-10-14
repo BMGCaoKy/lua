@@ -1,0 +1,177 @@
+
+
+language_start:mobile_editor
+
+——————翻译同学你好，绿色为新增，红字为机翻————————
+language_start:new
+
+language_end:new
+
+ui.setting.graphics=Hình ảnh
+ui.setting.graphics.quality=Chất lượng
+ui.setting.graphics.quality.low=Thấp
+ui.setting.graphics.quality.mid=Trung
+ui.setting.graphics.quality.high=Cao
+
+ui.setting.shadows=Bóng
+ui.setting.shadows.on=Bật
+ui.setting.shadows.off=Tắt
+
+ui.setting.controls=Điều kiển
+ui.setting.controls.sensitivity=Độ nhạy
+
+ui.setting.audio=Âm lượng
+ui.setting.audio.bgmvolume=Âm nhạc
+ui.setting.audio.sfxvolume=Âm hiệu
+
+ui.setting.capture=Ảnh màn hình
+ui.setting.exit=Lưu và thoát
+
+ui.bgm.1=music-001
+ui.bgm.2=music-002
+ui.bgm.3=music-003
+ui.bgm.4=music-004
+ui.bgm.5=music-005
+ui.bgm.6=music-006
+ui.bgm.7=music-007
+ui.bgm.8=music-008
+ui.bgm.9=music-009
+
+ui.bgm.author=Blockman GO-MUSIC
+
+ui.select =Chọn {.}
+ui.unselect =Bỏ chọn {.}
+
+ui.g2054_base_model_cube.name =khối lập phương
+ui.g2054_base_model_sphere.name =Hình cầu
+ui.g2054_base_model_cylinder.name =Hình trụ
+ui.g2054_base_model_cone.name =Hình nón
+ui.g2054_base_model_half_cube.name =Nửa viên gạch
+ui.g2054_base_model_staris.name =Cầu thang
+ui.g2054_base_model_right_angle_triangular_prism.name =Lăng trụ tam giác vuông
+ui.g2054_base_model_hollow_column.name =Cột rỗng
+ui.g2054_base_model_fan_column.name =Cột hình quạt
+ui.g2054_base_mode_square_pyramid.name =Hình chóp vuông
+ui.g2054_base_model_circle.name =Vòng tròn
+ui.g2054_base_model_half_circle.name =Nửa vòng tròn
+ui.g2054_base_model_round_table.name =Bàn tròn
+ui.g2054_base_model_hollow_round_table.name =Bàn tròn rỗng ruột
+ui.g2054_base_model_square_prism.name =Hình chóp cụt
+ui.g2054_base_model_hemisphere.name =Bán cầu
+
+ui.select.translate =Hiện trục chuyển động
+ui.select.scale =Bật chế độ thu phóng
+ui.select.rotate =Bật chế độ xoay
+ui.select.space.local =Bật hệ thống tọa độ bản địa
+ui.select.space.world =Bật hệ thống tọa độ thế giới
+
+ui.unselect.translate =Ẩn trục chuyển động
+ui.unselect.scale =Tắt chế độ thu phóng
+ui.unselect.rotate =Tắt chế độ xoay
+
+ui.select.duplicate =Sao chép thành công
+ui.select.delete =Xóa thành công
+ui.select.group =Kết hợp thành công
+ui.disable.group =Không thể kết hợp
+ui.select.ungroup =Hủy kết hợp thành công
+ui.disable.ungroup =Không thể hủy kết hợp
+ui.select.multiple =Đã mở chế độ chọn nhiều
+ui.select.material =Đã mở giao diện lựa chọn chất liệu và màu sắc
+ui.disable.material =Mô hình không thể chỉnh sửa tài liệu
+ui.unselect.multiple =Chế độ nhiều lựa chọn đang tắt
+ui.select.undo =Thu hồi
+ui.select.redo =Hồi phục
+
+ui.select.weather =
+ui.select.skybox =
+ui.select.music =
+ui.select.light =
+ui.select.ground =
+
+ui.env.ground.color =màu đất
+ui.env.ground.texture =bản đồ mặt đất
+ui.env.light.skylight=ánh sáng mặt trời
+ui.env.light.ambient.light =ánh sáng môi trường xung quanh
+ui.env.light.intensity =cường độ sáng
+ui.env.bgm= Nhạc nền
+ui.env.weather =thời tiết
+ui.env.skybox =hộp bầu trời
+
+ui.bgm.0=im lặng
+ui.bgm.1 =buổi tiệc
+ui.bgm.2 =lễ hội khiêu vũ
+ui.bgm.3 =Yên tĩnh
+ui.bgm.4 =ngôi đền
+ui.bgm.5 =thành phố sôi động
+ui.bgm.6 =cuộc thách đấu cuối cùng
+ui.bgm.7 =thị trấn yên tĩnh
+ui.bgm.8 =chợ nhộn nhịp
+ui.bgm.9 =mưa nhỏ
+ui.bgm.10 =Bắt đầu bây giờ
+
+ui.birth.name = điểm sinh
+ui.floor.name = mặt bằng ban đầu
+
+ui.create.out_of_range =ngoài phạm vi, vui lòng đặt gần
+
+ui.select.game =trò chơi
+ui.select.geometry =hình học
+ui.select.outdoor =ngoài trời
+ui.select.plant =thực vật
+ui.select.indoor =trong nhà
+ui.select.props =đạo cụ
+
+ui.enter.rect =bắt đầu marquee
+ui.exit.rect =marquee kết thúc
+
+ui.scene_01 =vòi chữa cháy
+ui.scene_02 =đèn sàn
+ui.scene_03 =đèn đường
+ui.scene_04 =đai sắt bóng rổ
+ui.table_01 =bàn văn phòng
+ui.table_02 =bàn hiện đại
+ui.table_03 =bàn tròn bằng gỗ
+ui.table_04 =bàn tròn kính
+ui.chair_01 =ghế văn phòng
+ui.chair_02 =ghế sofa đơn giản
+ui.chair_03 =ghế đá công viên
+ui.chair_04 =ghế gỗ rắn
+ui.chair_05 =ghế sofa chunky
+ui.chair_06 =ghế ông chủ
+ui.cabinet_01 =tủ sách
+ui.cabinet_02 =Tủ quần áo
+ui.bed_01 =giường đôi
+ui.bed_02 =giường đơn
+ui.bed_03 =giường vuông
+ui.bed_04 =Giường ngủ
+ui.lamp_01 =bức màn
+ui.lamp_02 =đèn bàn
+ui.equipment_01 =Âm thanh 01
+ui.equipment_02 =Âm thanh 02
+ui.equipment_03 =Âm thanh 03
+ui.equipment_04 =Máy trộn
+ui.equipment_05 =đàn organ điện tử
+ui.equipment_06 =chũm chọe
+ui.equipment_07 =bộ trống
+ui.equipment_08 =cái mic cờ rô
+ui.landscape_01 =cây 01
+ui.landscape_02 =cây 02
+ui.landscape_03 =cây 03
+ui.landscape_04 =cây 04
+ui.landscape_05 =cây 05
+ui.landscape_06 =bàn thờ xanh
+ui.prop_01 =Barricade Canister
+ui.prop_02 =thang
+ui.prop_03 =bình cứu hỏa
+ui.prop_04 =bom
+ui.prop_05 =súng ngắn
+ui.prop_06 =Tấm chắn chống cháy nổ
+ui.prop_07 =USD
+ui.prop_08 =cái ví
+ui.prop_09 =bóng rổ
+ui.prop_10 =bóng đá
+
+ui.setting.save.success =đã lưu thành công
+ui.setting.setting =cài đặt
+
+language_end:mobile_editor

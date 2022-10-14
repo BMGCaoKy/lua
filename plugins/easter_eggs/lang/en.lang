@@ -1,0 +1,11 @@
+
+
+language_start:easter_egg_lang
+
+ui.easter.geteggs=Successfully found Easter Egg! Easter Egg Points+%d
+ui.easter.cantget=You can not claim this Easter egg again
+ui.easter.getfailure=Failed to claim. Abnormal network connection
+ui.easter.countdown=Time remaining for this round
+ui.easter.upperlimit=You have collected the maximum number of Easter Egg today
+
+language_end:easter_egg_lang

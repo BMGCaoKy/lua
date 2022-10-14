@@ -1,0 +1,176 @@
+
+
+language_start:chat
+
+俄罗斯
+new
+
+zh=Китайский
+en=Английский
+es=Испанский
+it=Итальянский
+de=Немецкий
+fr=Французский
+ko=Корейский
+pt=Португальский
+ru=Русский
+ja=Японский
+th=Тайский
+vi=Вьетнамский
+pl=Польский
+in=Индонезийский
+tr=Турецкий
+ms=Малазийский
+km=Камбоджийский
+ar=арабский
+
+
+language_start:platform_chat_lang
+
+
+
+ui.chat.profile.title=Мой профиль
+ui.chat.profile.others_title=профиль
+ui.chat.profile.birth=День рождения
+ui.chat.profile.constellation=Знак зодиака
+ui.chat.profile.tribal=Клан
+ui.chat.profile.tag=Лейбл
+ui.chat.profile.confirm=Да
+ui.chat.profile.addTag=Выберите лейбл
+ui.chat.profile.tagSelectNum=Выбрано: {.}{.}:
+ui.chat.profile.playTime={.}часов
+
+ui.chat.profile.tagTypeName1=Игра:
+ui.chat.profile.tagTypeName2=Хобби:
+ui.chat.profile.tagTypeName3=Личность:
+ui.chat.profile.tagTypeName4=Характерная черта:
+
+ui.chat.profile.none_details=Этот игрок очень загадочный,ничего не написал
+
+ui.chat.profile.constellationName1=Водолей
+ui.chat.profile.constellationName2=Рыбы
+ui.chat.profile.constellationName3=Овен
+ui.chat.profile.constellationName4=Телец
+ui.chat.profile.constellationName5=Близнецы
+ui.chat.profile.constellationName6=Рак
+ui.chat.profile.constellationName7=Лев
+ui.chat.profile.constellationName8=Дева
+ui.chat.profile.constellationName9=Весы
+ui.chat.profile.constellationName10=Скорпион
+ui.chat.profile.constellationName11=Стрелец
+ui.chat.profile.constellationName12=Козерог
+
+ui.chat.team=Объединиться в команду
+ui.chat.pk =Битва
+ui.chat.gift=Дарение подарков
+ui.chat.apprentice=Прием учеников
+ui.chat.invite=▢FF000000Пригласить поиграть
+ui.chat.information=Деталь
+ui.chat.master =0.0
+
+ui.chat.chating=Общение на канале карты
+ui.chat.chatMsgType1=Мир
+ui.chat.chatMsgType2=Семья
+ui.chat.chatMsgType3=Личный чат
+ui.chat.chatMsgType4=Текущее
+ui.chat.chatMsgType5=Система
+ui.chat.chatMsgType6=Команда
+ui.chat.chatMsgType7=Профессия
+ui.chat.chatMsgType8=Друзья
+
+ui.chat.emoji.face=Эмоция
+ui.chat.emoji.goods=Предмет
+ui.chat.emoji.pet=Питомец
+ui.chat.emoji.short=Фразы
+
+ui.chat.friend.apply=▢FF00FFFFЗаявки в друзья
+ui.chat.friend.agreeAll=▢FF000000Добавить все 
+ui.chat.friend.refusedAll=▢FF000000Отклонить все
+ui.chat.friend.list=▢FF00FFFFМои друзья
+ui.chat.friend.myProfile=Мой профиль
+ui.chat.friend.addFriend=Добавить в друзья
+
+ui.chat.friend.tips_apply=У вас заявки в друзья
+ui.chat.friend.applyFriend=▢FF484261Новые друзья
+
+ui.chat.friend.gameFriend=▢FF484261играющие вместе друзья
+
+ui.chat.friend.platformFriend=▢FF484261BG друзья
+ui.chat.friend.offline=▢FFFF0000Оффлайн
+ui.chat.friend.online=▢FF00EC00онлайн
+ui.chat.friend.send_add=Заявки в друзья были отправлены
+
+ui.chat.friend.recent_contact=▢FF00FFFFОсновные
+ui.chat.tips.unable_display=Типы сообщений не отображаются
+
+ui.chat.team.hall=Идите в зал команды
+ui.chat.system.input=▢FFFFFFFFНевозможно отправлять сообщения в системном канале
+ui.chat.click.chat=Нажмите кнопку Ввод
+ui.chat.autoplay=▢FFFFFFFFАвтозапуск голоса
+ui.chat.lock=Блокировка экрана
+ui.chat.player_private=▢FF000000Личный чат
+ui.chat.ignore=Блокировка сообщений
+ui.chat.disignore=Разблокировка
+ui.chat.player_addFriend=▢FF000000Добавить в друзья
+ui.chat.applyed=Заявка отправлена
+ui.chat.isfriend=Уже Друзья
+ui.chat.addinfo=Приглашение в друзья было отправлено на адрес {.}
+ui.chat.cancel.sound=Отменить заявку
+ui.chat.press.sound=Удержив. и говорите
+ui.chat.welcome={.}Добро пожаловать в лагерь
+ui.chat.strangr=Незнакомец
+ui.chat.friend=Друзья
+ui.chat.system=Система
+ui.chat.offline=Другая сторона покинула текущий сервер и не может получить сообщение
+ui.chat.voicefail=Ошибка отправки голоса, попробуйте еще раз
+ui.chat.voiceless=У вас недостаточно голоса, отправить не удалось
+ui.chat.buyNum={.}Рог
+ui.chat.voiceBuySucc=Покупка удалась
+ui.chat.voiceBuyFail=Покупка не удалась
+ui.chat.moonCard=Ежемесячная карта с безлимитным голосом
+ui.chat.moonTime={.}Дней
+ui.chat.moonLess=Осталось менее 1 дня
+ui.chat.privating=В ЛС с {.}
+ui.chat.familing=Чат на канале Лагеря
+ui.chat.sureBuy=Вы тратите {.} Г-кубов на покупку?
+ui.chat.pickPlayerPlease=Пожалуйста, сначала выберите игрока
+ui.chat.newMsg=Новое сообщение x {.}
+ui.chat.commoning=В публичном чате
+interact_chat=Личный чат
+ui.chat.shopTitle =Голосовой пакет
+ui.chat.server.friend.online=▢FFFFFFFF ваш друг [{.}] в сети
+ui.chat.moreMax=Содержание слишком длинное, текст после [{.}] опущен
+ui.chat.history1=Пожалуйста, выберите игрока для личного чата
+ui.chat.history2=0.0
+gui_lang_refuse_friend=Ваша заявка в друзья была отклонена
+ui.chat.agreeinfo=Принимать заявку{.}
+ui.chat.refuseinfo=Отклонить заявку{.}
+ui.chat.deleteinfo=Друг{.} удален 
+ui.chat.friend.request=Заявки в друзья
+ui.chat.player_delFriend=▢FF000000Удалить из друзей
+gui_lang_kick_out=Прогонять
+ui.chat.server.private.chat.need.same.server=0.0
+ui.chat.server.vip.online=0.0
+ui.chat.hasVoice=x{.}
+ui.chat.cannotsend=Вы слишком часто говорите, пожалуйста, говорите позже
+ui.chat.ignore.tip=Заблокировать успешно
+ui.chat.disignore.tip=Разблокировать успешно
+ui.chat.send.voice=Отпустите, чтобы отправить голос
+ui.chat.cancel.send.voice=Отпустите, чтобы отменить отправку голоса
+ui.chat.can.not.send=Текущий канал остывает, повторите попытку через %s секунд!
+ui.chat.can.not.send.emoji=Отправка остывает, повторите попытку через %s секунд.
+ui.chat.number=▢FF484261{.}/{.}
+ui.chat.playerInfo.name=▢FF00FFFF{.}
+ui.chat.playerInfo.id=▢FFFFFFFFID:{.}
+ui.chat.friend.name=▢FF00FFFF{.}
+
+ui.chat.send.wait=Интервал отправки сообщения слишком короткий
+
+language_end:platform_chat_lang
+
+
+
+
+
+
+language_end:chat

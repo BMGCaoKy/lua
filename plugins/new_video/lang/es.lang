@@ -1,0 +1,40 @@
+
+
+language_start:video_lang
+
+
+
+gui.new_video.record_success=Grabación completada. El video se colocará en el álbum.
+gui.new_video.record_memory=Memoria insuficiente. Grabación finalizada.
+gui.new_video.record_fail=Error al grabar. Parámetros no compatibles.
+
+gui.new_video.tab1=Filtrar
+gui.new_video.tab2=Clima
+gui.new_video.tab3=Efecto de pantalla
+gui.new_video.handle.tab1=Efecto especial
+gui.new_video.handle.tab2=Ocultar sección
+gui.new_video.handle.tab3=Ocultar ajustes
+gui.new_video.handle.type101=Retro
+gui.new_video.handle.type102=Noir
+gui.new_video.handle.type103=Contraste
+gui.new_video.handle.type104=Ciberpunk
+gui.new_video.handle.type105=Brillante
+gui.new_video.handle.type106=Otoñal
+gui.new_video.handle.type107=Luna llena
+gui.new_video.handle.type108=Despejado
+gui.new_video.handle.type201=Soleado
+gui.new_video.handle.type202=Lluvioso
+gui.new_video.handle.type203=Nevado
+gui.new_video.handle.type204=Cielo estrellado
+gui.new_video.handle.type205=Soleado
+gui.new_video.handle.type301=Cine
+gui.new_video.handle.type302=Linterna
+gui.new_video.handle.type303=Alta velocidad
+gui.new_video.handle.type304=Cruz
+gui.new_video.handle.type305=Mariposa
+gui.new_video.handle.type306=Puntos
+gui.new_video.hide.setting.data1=Ocultar nombre
+gui.new_video.hide.setting.data2=Ocultar otros
+gui.new_video.hide.setting.data3=Ocultarse
+
+language_end:video_lang

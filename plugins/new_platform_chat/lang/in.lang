@@ -1,0 +1,176 @@
+
+
+language_start:chat
+
+印尼语
+new
+
+zh=Cina
+en=Inggris
+es=Orang Spanyol
+it=Italia
+de=Jerman
+fr=Perancis
+ko=Korea
+pt=Portugis
+ru=Rusia
+ja=Jepang
+th=Thai
+vi=Orang Vietnam
+pl=Polandia
+in=bahasa Indonesia
+tr=Turki
+ms=Malaysia
+km=Kamboja
+ar=Arab
+
+
+language_start:platform_chat_lang
+
+
+
+ui.chat.profile.title=Profil saya
+ui.chat.profile.others_title=Profil
+ui.chat.profile.birth=Ulang tahun
+ui.chat.profile.constellation=Zodiak
+ui.chat.profile.tribal=Klan
+ui.chat.profile.tag=Menandai
+ui.chat.profile.confirm=Konfirmasi
+ui.chat.profile.addTag=Pilih Tag
+ui.chat.profile.tagSelectNum=Terpilih:{.}{.}:
+ui.chat.profile.playTime={.}jam
+
+ui.chat.profile.tagTypeName1=Permainan:
+ui.chat.profile.tagTypeName2=Hobi:
+ui.chat.profile.tagTypeName3=Kepribadian:
+ui.chat.profile.tagTypeName4=Karakter:
+
+ui.chat.profile.none_details=Pemain ini sangat misterius dan tidak menulis apapun
+
+ui.chat.profile.constellationName1=Aquarius
+ui.chat.profile.constellationName2=Pisces
+ui.chat.profile.constellationName3=Aries
+ui.chat.profile.constellationName4=Taurus
+ui.chat.profile.constellationName5=Gemini
+ui.chat.profile.constellationName6=Kanker
+ui.chat.profile.constellationName7=Leo
+ui.chat.profile.constellationName8=Virgo
+ui.chat.profile.constellationName9=Libra
+ui.chat.profile.constellationName10=Scorpio
+ui.chat.profile.constellationName11=Sagittarius
+ui.chat.profile.constellationName12=Capricornus
+
+ui.chat.team=Bersekutu
+ui.chat.pk =Pertarungan
+ui.chat.gift=Mengirim hadiah
+ui.chat.apprentice=Mentor
+ui.chat.invite=▢FF000000Bermain bersama
+ui.chat.information=Detail
+ui.chat.master =Magang
+
+ui.chat.chating=Obrolan di saluran Peta
+ui.chat.chatMsgType1=Dunia
+ui.chat.chatMsgType2=Keluarga
+ui.chat.chatMsgType3=Obrolan Pribadi
+ui.chat.chatMsgType4=Arus
+ui.chat.chatMsgType5=Sistem
+ui.chat.chatMsgType6=Tim
+ui.chat.chatMsgType7=Profesi
+ui.chat.chatMsgType8=Teman
+
+ui.chat.emoji.face=Emoji
+ui.chat.emoji.goods=Barang
+ui.chat.emoji.pet=Membelai
+ui.chat.emoji.short=Frasa Singkat
+
+ui.chat.friend.apply=▢FF00FFFFPermintaan pertemanan
+ui.chat.friend.agreeAll=▢FF000000Terima semua
+ui.chat.friend.refusedAll=▢FF000000Tolak semua
+ui.chat.friend.list=▢FF00FFFFDaftar teman
+ui.chat.friend.myProfile=Profil saya
+ui.chat.friend.addFriend=Tambah teman
+
+ui.chat.friend.tips_apply=Anda memiliki permintaan pertemanan
+ui.chat.friend.applyFriend=▢FF484261Teman-teman baru
+
+ui.chat.friend.gameFriend=▢FF484261Teman di game yang sama
+
+ui.chat.friend.platformFriend=▢FF484261teman BG
+ui.chat.friend.offline=▢FFFF0000Offline
+ui.chat.friend.online=▢FF00EC00On line
+ui.chat.friend.send_add=Permintaan pertemanan telah dikirim
+
+ui.chat.friend.recent_contact=▢FF00FFFFBaru-baru ini mengobrol
+ui.chat.tips.unable_display=Jenis pesan tidak dapat ditampilkan
+
+ui.chat.team.hall=Pergi ke Team up Hall
+ui.chat.system.input=▢FFFFFFFFTidak dapat mengirim pesan di saluran Sistem
+ui.chat.click.chat=Klik untuk mengetik
+ui.chat.autoplay=▢FFFFFFFFPutar otomatis pesan suara
+ui.chat.lock=Layar kunci
+ui.chat.player_private=▢FF000000Obrolan pribadi
+ui.chat.ignore=Blokir pesan
+ui.chat.disignore=Batalkan pemblokiran pesan
+ui.chat.player_addFriend=▢FF000000Tambah teman
+ui.chat.applyed=Permintaan terkirim
+ui.chat.isfriend=Anda sudah berteman
+ui.chat.addinfo=Permintaan pertemanan dikirim ke {.}
+ui.chat.cancel.sound=Membatalkan
+ui.chat.press.sound=Tekan lama untuk berbicara
+ui.chat.welcome= {.}, selamat datang di Alignment
+ui.chat.strangr=Orang asing
+ui.chat.friend=Teman
+ui.chat.system=Sistem
+ui.chat.offline=Pemain telah meninggalkan server, tidak dapat menerima pesan sekarang
+ui.chat.voicefail=Pesan suara tidak dapat dikirim, silakan coba lagi
+ui.chat.voiceless=Megafon tidak mencukupi, pesan suara tidak dapat dikirim
+ui.chat.buyNum={.} megafon
+ui.chat.voiceBuySucc=Pembelian berhasil
+ui.chat.voiceBuyFail=Pembelian gagal
+ui.chat.moonCard=Kartu bulan suara tidak terbatas
+ui.chat.moonTime={.} hari
+ui.chat.moonLess=Tetap kurang dari 1 hari
+ui.chat.privating=Dalam obrolan pribadi dengan {.}
+ui.chat.familing=Ngobrol di saluran faksi
+ui.chat.sureBuy=Konsumsi {.} G-cubes untuk membeli?
+ui.chat.pickPlayerPlease=Pilih pemain terlebih dahulu
+ui.chat.newMsg=Pesan baru x {.}
+ui.chat.commoning=Dalam obrolan publik
+interact_chat=Obrolan pribadi
+ui.chat.shopTitle =Paket Nelpon
+ui.chat.server.friend.online=▢FFFFFFFFTeman Anda [{.}] Sedang online
+ui.chat.moreMax=Teks terlalu panjang, konten setelah [{.}] Telah disembunyikan
+ui.chat.history1=Pilih pemain untuk obrolan pribadi
+ui.chat.history2=0.0
+gui_lang_refuse_friend=Permintaan teman Anda telah ditolak
+ui.chat.agreeinfo=Terima permintaan pertemanan dari {.}
+ui.chat.refuseinfo=Tolak permintaan pertemanan dari {.}
+ui.chat.deleteinfo=Anda telah menghapus teman Anda {.}
+ui.chat.friend.request=Permintaan pertemanan
+ui.chat.player_delFriend=▢FF000000Unfriend
+gui_lang_kick_out=Usir
+ui.chat.server.private.chat.need.same.server=▢FFFFFFFFTeman Anda▢FF3A9CBF [{.}] ▢FFFFFFFF sedang online. Itu harus berada di server yang sama untuk obrolan pribadi
+ui.chat.server.vip.online=▢FFFFFFFF Yang Terhormat▢FFFAE934Pemain VIP [{.}] ▢FFFFFFFF sedang online
+ui.chat.hasVoice=x{.}
+ui.chat.cannotsend=Pesan terlalu cepat, coba lagi nanti
+ui.chat.ignore.tip=Berhasil diblokir
+ui.chat.disignore.tip=Berhasil dibebaskan
+ui.chat.send.voice=Lepaskan untuk mengirim pesan suara
+ui.chat.cancel.send.voice=Lepaskan untuk memanggil kembali pesan suara
+ui.chat.can.not.send=Saluran ini dalam mode turun, coba lagi setelah%s detik
+ui.chat.can.not.send.emoji=Fitur kirim sedang dalam masa tunggu, coba lagi setelah%s detik
+ui.chat.number=▢FF484261{.}/{.}
+ui.chat.playerInfo.name=▢FF00FFFF{.}
+ui.chat.playerInfo.id=▢FFFFFFFFID:{.}
+ui.chat.friend.name=▢FF00FFFF{.}
+
+ui.chat.send.wait=Sending message interval is too short
+
+language_end:platform_chat_lang
+
+
+1.0
+1.2
+
+
+language_end:chat

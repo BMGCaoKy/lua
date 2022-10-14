@@ -1,0 +1,10 @@
+{
+  "HideUiWhiteList": [
+    "actionControl",
+    "UI/new_video/gui/win_video_mode",
+    "videoMode"
+  ],
+  "AlphaTo0UiList": [
+    "actionControl"
+  ]
+}

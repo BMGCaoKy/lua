@@ -1,0 +1,40 @@
+
+
+language_start:video_lang
+
+
+
+gui.new_video.record_success=Nagranie jest zakończone, a nagrany film zostanie umieszczony do albumu
+gui.new_video.record_memory=Telefon nie ma pamięci, nagrywanie się skończyło
+gui.new_video.record_fail=Parametr nie obsługiwany, nagrywanie nie powiodło się
+
+gui.new_video.tab1=filtr
+gui.new_video.tab2=pogoda
+gui.new_video.tab3=efekty ekranowe
+gui.new_video.handle.tab1=efekty specjalne
+gui.new_video.handle.tab2=ukryj interfejs użytkownika
+gui.new_video.handle.tab3=ukryj ustawienia
+gui.new_video.handle.type101=retro
+gui.new_video.handle.type102=czarny i biały
+gui.new_video.handle.type103=wysoki kontrast
+gui.new_video.handle.type104=Cyberpunka
+gui.new_video.handle.type105=blask
+gui.new_video.handle.type106=jesienny dzień
+gui.new_video.handle.type107=noc pełni księżyca
+gui.new_video.handle.type108=słoneczny
+gui.new_video.handle.type201=słoneczny
+gui.new_video.handle.type202=deszcz
+gui.new_video.handle.type203=Śnieżny dzień
+gui.new_video.handle.type204=gwiaździste niebo
+gui.new_video.handle.type205=zachód słońca
+gui.new_video.handle.type301=film czarna ramka
+gui.new_video.handle.type302=latarka
+gui.new_video.handle.type303=linia prędkości
+gui.new_video.handle.type304=doji
+gui.new_video.handle.type305=Motyl
+gui.new_video.handle.type306=kropki
+gui.new_video.hide.setting.data1=ukryj imię
+gui.new_video.hide.setting.data2=Ukryj inne
+gui.new_video.hide.setting.data3=Schowaj się
+
+language_end:video_lang

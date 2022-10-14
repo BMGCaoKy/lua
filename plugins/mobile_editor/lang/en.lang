@@ -1,0 +1,177 @@
+
+
+language_start:mobile_editor
+
+——————翻译同学你好，绿色为新增，红字为机翻————————
+language_start:new
+
+language_end:new
+
+ui.setting.graphics=Graphics
+ui.setting.graphics.quality=Quality
+ui.setting.graphics.quality.low=Low
+ui.setting.graphics.quality.mid=Medium
+ui.setting.graphics.quality.high=High
+
+ui.setting.shadows=Shadows
+ui.setting.shadows.on=On
+ui.setting.shadows.off=Off
+
+ui.setting.controls=Controls
+ui.setting.controls.sensitivity=Sensitivity
+
+ui.setting.audio=Volume
+ui.setting.audio.bgmvolume=Music
+ui.setting.audio.sfxvolume=SFX
+
+ui.setting.capture=Screenshot
+ui.setting.exit=Save and exit
+
+ui.bgm.1=music-001
+ui.bgm.2=music-002
+ui.bgm.3=music-003
+ui.bgm.4=music-004
+ui.bgm.5=music-005
+ui.bgm.6=music-006
+ui.bgm.7=music-007
+ui.bgm.8=music-008
+ui.bgm.9=music-009
+
+ui.bgm.author=Blockman GO-MUSIC
+
+ui.select =select{.}
+ui.unselect =deselect{.}
+
+ui.g2054_base_model_cube.name =Cube
+ui.g2054_base_model_sphere.name =Sphere
+ui.g2054_base_model_cylinder.name =Cylinder
+ui.g2054_base_model_cone.name =Cone
+ui.g2054_base_model_half_cube.name =Half cube
+ui.g2054_base_model_staris.name =Stairs
+ui.g2054_base_model_right_angle_triangular_prism.name =Right-angled triangular prism
+ui.g2054_base_model_hollow_column.name =Hollow cylinder
+ui.g2054_base_model_fan_column.name =Cylindrical segment
+ui.g2054_base_mode_square_pyramid.name =Square Pyramid
+ui.g2054_base_model_circle.name =Ring
+ui.g2054_base_model_half_circle.name =Half ring
+ui.g2054_base_model_round_table.name =Truncated cone
+ui.g2054_base_model_hollow_round_table.name =Hollowed truncated cone
+ui.g2054_base_model_square_prism.name =Square frustum
+ui.g2054_base_model_hemisphere.name =Hemisphere
+
+ui.select.translate =Display movement axis
+ui.select.scale =Enable zoom mode
+ui.select.rotate =Enable rotation mode
+ui.select.space.local =Enable local coordinate system mode
+ui.select.space.world =Enable global coordinate system mode
+
+ui.unselect.translate =Hide movement axis
+ui.unselect.scale =Disable zoom mode
+ui.unselect.rotate =Disable rotation mode
+
+ui.select.duplicate =Successfully copied
+ui.select.delete =Successfully deleted
+ui.select.group =Successfully grouped
+ui.disable.group =Unable to group
+ui.select.ungroup =Successfully ungrouped
+ui.disable.ungroup =Unable to ungroup
+ui.select.multiple =Multi-selection mode enabled
+ui.select.material =Material and color selection interface opened
+ui.disable.material =Unable to modify material of the model
+ui.unselect.multiple =Multi-selection mode disabled
+ui.select.undo =Undo
+ui.select.redo =Redo
+
+ui.select.weather =
+ui.select.skybox =
+ui.select.music =
+ui.select.light =
+ui.select.ground =
+
+ui.env.ground.color =ground color
+ui.env.ground.texture =ground map
+ui.env.light.skylight=sunshine
+ui.env.light.ambient.light =ambient light
+ui.env.light.intensity =light intensity
+ui.env.bgm= Background music
+ui.env.weather =weather
+ui.env.skybox =skybox
+
+ui.bgm.0=silent
+ui.bgm.1 =party
+ui.bgm.2 =dance carnival
+ui.bgm.3 =quiet
+ui.bgm.4 =temple
+ui.bgm.5 =vibrant city
+ui.bgm.6 =final showdown
+ui.bgm.7 =quiet town
+ui.bgm.8 =bustling market
+ui.bgm.9 =light rain
+ui.bgm.10 =Start now
+
+ui.birth.name = birth point
+ui.floor.name = initial ground
+
+ui.create.out_of_range =out of range, please place close
+
+ui.select.game =game
+ui.select.geometry =geometry
+ui.select.outdoor =outdoor
+ui.select.plant =plant
+ui.select.indoor =indoor
+ui.select.props =props
+
+ui.enter.rect =marquee start
+ui.exit.rect =marquee ends
+
+ui.scene_01 =fire hydrant
+ui.scene_02 =floor lamp
+ui.scene_03 =street light
+ui.scene_04 =basketball hoop
+ui.table_01 =office desk
+ui.table_02 =modern table
+ui.table_03 =wooden round table
+ui.table_04 =glass round table
+ui.chair_01 =office chair
+ui.chair_02 =simple sofa
+ui.chair_03 =park bench
+ui.chair_04 =solid wood chair
+ui.chair_05 =chunky sofa
+ui.chair_06 =boss chair
+ui.cabinet_01 =bookcase
+ui.cabinet_02 =Wardrobe
+ui.bed_01 =double bed
+ui.bed_02 =single bed
+ui.bed_03 =square bed
+ui.bed_04 =Bunk bed
+ui.lamp_01 =curtain
+ui.lamp_02 =desk lamp
+ui.equipment_01 =Audio 01
+ui.equipment_02 =Audio 02
+ui.equipment_03 =Audio 03
+ui.equipment_04 =Mixer
+ui.equipment_05 =electronic organ
+ui.equipment_06 =cymbals
+ui.equipment_07 =drum kit
+ui.equipment_08 =microphone
+ui.landscape_01 =tree 01
+ui.landscape_02 =tree 02
+ui.landscape_03 =tree 03
+ui.landscape_04 =tree 04
+ui.landscape_05 =tree 05
+ui.landscape_06 =green altar
+ui.prop_01 =Barricade Canister
+ui.prop_02 =ladder
+ui.prop_03 =fire extinguisher
+ui.prop_04 =bomb
+ui.prop_05 =shotgun
+ui.prop_06 =riot shield
+ui.prop_07 =dollars
+ui.prop_08 =purse
+ui.prop_09 =basketball
+ui.prop_10 =football
+
+ui.setting.save.success =Saved successfully
+ui.setting.setting =Saved successfully
+
+language_end:mobile_editor

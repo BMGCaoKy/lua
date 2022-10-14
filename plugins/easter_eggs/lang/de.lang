@@ -1,0 +1,11 @@
+
+
+language_start:easter_egg_lang
+
+ui.easter.geteggs=Osterei erfolgreich gefunden! Easter-Egg-Punkte+%d
+ui.easter.cantget=Sie können dieses Osterei nicht erneut beanspruchen
+ui.easter.getfailure=Anspruch konnte nicht erhoben werden. Ungewöhnliche Netzwerkverbindung
+ui.easter.countdown=Verbleibende Zeit für diese Runde
+ui.easter.upperlimit=Sie haben heute die maximale Anzahl an Ostereiern gesammelt
+
+language_end:easter_egg_lang

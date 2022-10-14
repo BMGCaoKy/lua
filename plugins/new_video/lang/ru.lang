@@ -1,0 +1,40 @@
+
+
+language_start:video_lang
+
+
+
+gui.new_video.record_success=Запись завершена, записанное видео будет помещено в фотоальбом
+gui.new_video.record_memory=Недостаточно памяти телефона, запись закончилась
+gui.new_video.record_fail=Параметр не поддерживается, запись не удалась
+
+gui.new_video.tab1=Фильтр
+gui.new_video.tab2=Погода
+gui.new_video.tab3=Экранные эффекты
+gui.new_video.handle.tab1=Спецэффекты
+gui.new_video.handle.tab2=Скрыть UI
+gui.new_video.handle.tab3=Скрыть настройки
+gui.new_video.handle.type101=Ретро
+gui.new_video.handle.type102=Нуар
+gui.new_video.handle.type103=Высокий контраст
+gui.new_video.handle.type104=Киберпанк
+gui.new_video.handle.type105=Свечение
+gui.new_video.handle.type106=Осенний дневной свет
+gui.new_video.handle.type107=Ночь полнолуния
+gui.new_video.handle.type108=Безоблачно
+gui.new_video.handle.type201=Солнечно
+gui.new_video.handle.type202=Дождливо
+gui.new_video.handle.type203=Снежно
+gui.new_video.handle.type204=Звездное небо
+gui.new_video.handle.type205=Закатное сияние
+gui.new_video.handle.type301=Кино
+gui.new_video.handle.type302=Факел
+gui.new_video.handle.type303=Линия скорости
+gui.new_video.handle.type304=Крест
+gui.new_video.handle.type305=Бабочка
+gui.new_video.handle.type306=Точки
+gui.new_video.hide.setting.data1=Скрыть имя
+gui.new_video.hide.setting.data2=Скрыть другие
+gui.new_video.hide.setting.data3=Скрыть себя
+
+language_end:video_lang

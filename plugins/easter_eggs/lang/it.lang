@@ -1,0 +1,11 @@
+
+
+language_start:easter_egg_lang
+
+ui.easter.geteggs=Uovo di Pasqua trovato con successo! Punti Uovo di Pasqua+%d
+ui.easter.cantget=Non puoi rivendicare di nuovo questo uovo di Pasqua
+ui.easter.getfailure=Impossibile rivendicare. Connessione di rete anomala
+ui.easter.countdown=Tempo rimanente per questo round
+ui.easter.upperlimit=Hai raccolto il numero massimo di Easter Egg oggi
+
+language_end:easter_egg_lang

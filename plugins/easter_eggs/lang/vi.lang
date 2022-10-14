@@ -1,0 +1,11 @@
+
+
+language_start:easter_egg_lang
+
+ui.easter.geteggs=Tìm thấy trứng! Điểm tăng +%d
+ui.easter.cantget=Không thể nhận lại trứng này
+ui.easter.getfailure=Nhận thất bại, lỗi mạng
+ui.easter.countdown=Thời gian vòng này
+ui.easter.upperlimit=Bạn đã thu thập được số lượng Trứng Phục sinh tối đa ngày hôm nay
+
+language_end:easter_egg_lang

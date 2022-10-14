@@ -1,0 +1,40 @@
+
+
+language_start:video_lang
+
+
+
+gui.new_video.record_success=Recording completed, the recorded video will be put into the photo album
+gui.new_video.record_memory=Insufficient phone memory, recording ended
+gui.new_video.record_fail=Parameter not supported, recording failed
+
+gui.new_video.tab1=Filter
+gui.new_video.tab2=Weather
+gui.new_video.tab3=Screen effects
+gui.new_video.handle.tab1=Special effects
+gui.new_video.handle.tab2=Hide UI
+gui.new_video.handle.tab3=Hide settings
+gui.new_video.handle.type101=Retro
+gui.new_video.handle.type102=B/W
+gui.new_video.handle.type103=High contrast
+gui.new_video.handle.type104=Cyberpunk
+gui.new_video.handle.type105=Glow
+gui.new_video.handle.type106=Autumn daylight
+gui.new_video.handle.type107=Full moon night
+gui.new_video.handle.type108=Cloudless
+gui.new_video.handle.type201=Sunny
+gui.new_video.handle.type202=Rainy
+gui.new_video.handle.type203=Snowy
+gui.new_video.handle.type204=Starry sky
+gui.new_video.handle.type205=Sunset glow
+gui.new_video.handle.type301=Cinematic
+gui.new_video.handle.type302=Flashlight
+gui.new_video.handle.type303=Speed line
+gui.new_video.handle.type304=Cross
+gui.new_video.handle.type305=Butterfly
+gui.new_video.handle.type306=Dots
+gui.new_video.hide.setting.data1=Hide name
+gui.new_video.hide.setting.data2=Hide others
+gui.new_video.hide.setting.data3=Hide yourself
+
+language_end:video_lang

@@ -1,0 +1,189 @@
+
+
+language_start:mobile_editor
+
+——————翻译同学你好，绿色为新增，红字为机翻————————
+language_start:new
+ui.object.menu.geometry=几何体
+ui.object.menu.outdoor=室外
+ui.object.menu.indoor=室内
+ui.object.menu.plant=植物
+ui.object.menu.props=道具
+ui.object.combine.tip=选择你想组合的零件
+ui.object.camera.tip=为你的作品拍摄封面
+ui.object.camera.shoot.success=已替换最新封面
+ui.setting.main.change.cover=更改封面
+ui.setting.main.back.home=回到主页
+language_end:new
+
+ui.setting.graphics=图形
+ui.setting.graphics.quality=质量
+ui.setting.graphics.quality.low=低
+ui.setting.graphics.quality.mid=中
+ui.setting.graphics.quality.high=高
+
+ui.setting.shadows=阴影
+ui.setting.shadows.on=开启
+ui.setting.shadows.off=关闭
+
+ui.setting.controls=控制
+ui.setting.controls.sensitivity=灵敏度
+
+ui.setting.audio=音量
+ui.setting.audio.bgmvolume=音乐
+ui.setting.audio.sfxvolume=音效
+
+ui.setting.capture=截屏
+ui.setting.exit=保存并退出
+
+ui.bgm.1=music-001
+ui.bgm.2=music-002
+ui.bgm.3=music-003
+ui.bgm.4=music-004
+ui.bgm.5=music-005
+ui.bgm.6=music-006
+ui.bgm.7=music-007
+ui.bgm.8=music-008
+ui.bgm.9=music-009
+
+ui.bgm.author=Blockman GO-MUSIC
+
+ui.select =选中{.}
+ui.unselect =取消选中{.}
+
+ui.g2054_base_model_cube.name =立方体
+ui.g2054_base_model_sphere.name =圆球
+ui.g2054_base_model_cylinder.name =圆柱
+ui.g2054_base_model_cone.name =锥体
+ui.g2054_base_model_half_cube.name =半砖
+ui.g2054_base_model_staris.name =楼梯
+ui.g2054_base_model_right_angle_triangular_prism.name =直角三棱柱
+ui.g2054_base_model_hollow_column.name =空心柱
+ui.g2054_base_model_fan_column.name =扇形柱
+ui.g2054_base_mode_square_pyramid.name =四棱锥
+ui.g2054_base_model_circle.name =圆环
+ui.g2054_base_model_half_circle.name =半圆环
+ui.g2054_base_model_round_table.name =圆台
+ui.g2054_base_model_hollow_round_table.name =空心圆台
+ui.g2054_base_model_square_prism.name =四棱台
+ui.g2054_base_model_hemisphere.name =半球体
+
+ui.select.translate =显示移动轴
+ui.select.scale =开启缩放模式
+ui.select.rotate =开启旋转模式
+ui.select.space.local =开启本地坐标系模式
+ui.select.space.world =开启世界坐标系模式
+
+ui.unselect.translate =隐藏移动轴
+ui.unselect.scale =关闭缩放模式
+ui.unselect.rotate =关闭旋转模式
+
+ui.select.duplicate =复制成功
+ui.select.delete =删除成功
+ui.select.group =组合成功
+ui.disable.group =无法组合
+ui.select.ungroup =解除组合成功
+ui.disable.ungroup =无法解除组合
+ui.select.multiple =已开启多选模式
+ui.select.material =已打开材质与颜色选择界面
+ui.disable.material =模型无法编辑材质
+ui.unselect.multiple =多选模式已关闭
+ui.select.undo =撤销
+ui.select.redo =恢复
+
+ui.select.weather =天气
+ui.select.skybox =天空盒
+ui.select.music =背景音乐
+ui.select.light =光照
+ui.select.ground =地板
+
+ui.env.ground.color =地面颜色
+ui.env.ground.texture =地面贴图
+ui.env.light.skylight=太阳光
+ui.env.light.ambient.light =环境光
+ui.env.light.intensity =光照强度
+ui.env.light.angle=光照角度
+ui.env.light.direct=光照方向
+
+ui.env.bgm= 背景音乐
+ui.env.weather =天气
+ui.env.skybox =天空盒
+
+ui.bgm.0=无声
+ui.bgm.1 =派对
+ui.bgm.2 =舞池狂欢
+ui.bgm.3 =静谧
+ui.bgm.4 =神殿
+ui.bgm.5 =活力都市
+ui.bgm.6 =最终对决
+ui.bgm.7 =宁静小镇
+ui.bgm.8 =繁华集市
+ui.bgm.9 =小雨
+ui.bgm.10 =即刻启程
+
+ui.birth.name = 出生点
+ui.floor.name = 初始地面
+
+ui.create.out_of_range =超出范围，请离近放置
+
+ui.select.game =游戏
+ui.select.geometry =几何体
+ui.select.outdoor =室外
+ui.select.plant =植物
+ui.select.indoor =室内
+ui.select.props =道具
+
+ui.enter.rect =选框开始
+ui.exit.rect =选框结束
+
+ui.scene_01 =消防栓
+ui.scene_02 =地灯
+ui.scene_03 =路灯
+ui.scene_04 =篮球架
+ui.table_01 =办公桌子
+ui.table_02 =现代桌子
+ui.table_03 =木质圆桌
+ui.table_04 =玻璃圆桌
+ui.chair_01 =办公椅子
+ui.chair_02 =简约沙发
+ui.chair_03 =公园长椅
+ui.chair_04 =实木椅子
+ui.chair_05 =厚实沙发
+ui.chair_06 =老板椅子
+ui.cabinet_01 =书柜
+ui.cabinet_02 =衣柜
+ui.bed_01 =双人床
+ui.bed_02 =单人床
+ui.bed_03 =方块床
+ui.bed_04 =双层床
+ui.lamp_01 =窗帘
+ui.lamp_02 =台灯
+ui.equipment_01 =音响01
+ui.equipment_02 =音响02
+ui.equipment_03 =音响03
+ui.equipment_04 =调音台
+ui.equipment_05 =电子琴
+ui.equipment_06 =钹
+ui.equipment_07 =架子鼓
+ui.equipment_08 =话筒
+ui.landscape_01 =树01
+ui.landscape_02 =树02
+ui.landscape_03 =树03
+ui.landscape_04 =树04
+ui.landscape_05 =树05
+ui.landscape_06 =绿化坛
+ui.prop_01 =路障筒
+ui.prop_02 =梯子
+ui.prop_03 =灭火器
+ui.prop_04 =炸弹
+ui.prop_05 =霰弹枪
+ui.prop_06 =防暴盾
+ui.prop_07 =美金
+ui.prop_08 =钱袋
+ui.prop_09 =篮球
+ui.prop_10 =足球
+
+ui.setting.save.success =保存成功
+ui.setting.setting =设置
+
+language_end:mobile_editor

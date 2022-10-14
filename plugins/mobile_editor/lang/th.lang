@@ -1,0 +1,177 @@
+
+
+language_start:mobile_editor
+
+——————翻译同学你好，绿色为新增，红字为机翻————————
+language_start:new
+
+language_end:new
+
+ui.setting.graphics=กราฟิก
+ui.setting.graphics.quality=คุณภาพ
+ui.setting.graphics.quality.low=ต่ำ
+ui.setting.graphics.quality.mid=ปานกลาง
+ui.setting.graphics.quality.high=สูง
+
+ui.setting.shadows=เงา
+ui.setting.shadows.on=เปิด
+ui.setting.shadows.off=ปิด
+
+ui.setting.controls=การควบคุม
+ui.setting.controls.sensitivity=ความไว
+
+ui.setting.audio=ความดังเสียง
+ui.setting.audio.bgmvolume=เพลง
+ui.setting.audio.sfxvolume=เสียงเอฟเฟค
+
+ui.setting.capture=ภาพหน้าจอ
+ui.setting.exit=บันทึกและออก
+
+ui.bgm.1=music-001
+ui.bgm.2=music-002
+ui.bgm.3=music-003
+ui.bgm.4=music-004
+ui.bgm.5=music-005
+ui.bgm.6=music-006
+ui.bgm.7=music-007
+ui.bgm.8=music-008
+ui.bgm.9=music-009
+
+ui.bgm.author=Blockman GO-MUSIC
+
+ui.select =เลือก {.}
+ui.unselect =ยกเลิกการเลือก {.}
+
+ui.g2054_base_model_cube.name =ลูกบาศก์
+ui.g2054_base_model_sphere.name =ทรงกลม
+ui.g2054_base_model_cylinder.name =ทรงกระบอก
+ui.g2054_base_model_cone.name =กรวย
+ui.g2054_base_model_half_cube.name =ครึ่งลูกบาสก์
+ui.g2054_base_model_staris.name =บันได
+ui.g2054_base_model_right_angle_triangular_prism.name =ปริซึมสามเหลี่ยมมุมฉาก
+ui.g2054_base_model_hollow_column.name =ทรงกระบอกกลวง
+ui.g2054_base_model_fan_column.name =ชิ้นส่วนกระบอก
+ui.g2054_base_mode_square_pyramid.name =พีระมิดสี่เหลี่ยม
+ui.g2054_base_model_circle.name =วงแหวน
+ui.g2054_base_model_half_circle.name =ครึ่งวงแหวน
+ui.g2054_base_model_round_table.name =กรวยตัดยอด
+ui.g2054_base_model_hollow_round_table.name =กรวยกลวงตัดยอด
+ui.g2054_base_model_square_prism.name =แท่นสี่เหลี่ยม
+ui.g2054_base_model_hemisphere.name =ครึ่งทรงกลม
+
+ui.select.translate =แสดงแกนการเคลื่อนไหว
+ui.select.scale =เปิดใช้งานโหมดซูม
+ui.select.rotate =เปิดโหมดการหมุน
+ui.select.space.local =เปิดใช้งานโหมดระบบพิกัดในพื้นที่
+ui.select.space.world =เปิดใช้งานโหมดระบบพิกัดโลก
+
+ui.unselect.translate =ซ่อนแกนการเคลื่อนไหว
+ui.unselect.scale =ปิดโหมดซูม
+ui.unselect.rotate =ปิดโหมดการหมุน
+
+ui.select.duplicate =คัดลอกสำเร็จ
+ui.select.delete =ลบสำเร็จ
+ui.select.group =รวมกลุ่มสำเร็จ
+ui.disable.group =รวมกลุ่มล้มเหลว
+ui.select.ungroup =ยกเลิกการรวมกลุ่มสำเร็จ
+ui.disable.ungroup =ยกเลิกการรวมกลุ่มไม่ได้
+ui.select.multiple =เปิดโหมดการเลือกหลายรายการแล้ว
+ui.select.material =เปิดอินเทอร์เฟซการเลือกวัสดุและสีแล้ว
+ui.disable.material =โมเดลไม่สามารถแก้ไขวัสดุได้
+ui.unselect.multiple =โหมดการเลือกหลายรายการปิดอยู่
+ui.select.undo =เลิกทำ
+ui.select.redo =ทำใหม่
+
+ui.select.weather =
+ui.select.skybox =
+ui.select.music =
+ui.select.light =
+ui.select.ground =
+
+ui.env.ground.color =สีพื้น
+ui.env.ground.texture =แผนที่พื้นดิน
+ui.env.light.skylight=แสงอาทิตย์
+ui.env.light.ambient.light =แสงรอบข้าง
+ui.env.light.intensity =ความเข้มของแสง
+ui.env.bgm= เพลงประกอบ
+ui.env.weather =สภาพอากาศ
+ui.env.skybox =skybox
+
+ui.bgm.0=เงียบ
+ui.bgm.1 =งานสังสรรค์
+ui.bgm.2 =งานรื่นเริงเต้นรำ
+ui.bgm.3 =เงียบ
+ui.bgm.4 =วัด
+ui.bgm.5 =เมืองที่มีชีวิตชีวา
+ui.bgm.6 =การประลองครั้งสุดท้าย
+ui.bgm.7 =เมืองที่เงียบสงบ
+ui.bgm.8 =ตลาดคึกคัก
+ui.bgm.9 =ฝนตกปรอยๆ
+ui.bgm.10 =เริ่มเลย
+
+ui.birth.name = จุดกำเนิด
+ui.floor.name = พื้นดินเริ่มต้น
+
+ui.create.out_of_range =อยู่นอกระยะ กรุณาวางใกล้
+
+ui.select.game =เกม
+ui.select.geometry =เรขาคณิต
+ui.select.outdoor =กลางแจ้ง
+ui.select.plant =ปลูก
+ui.select.indoor =ในร่ม
+ui.select.props =อุปกรณ์ประกอบฉาก
+
+ui.enter.rect =ปะรำเริ่มต้น
+ui.exit.rect =กระโจมสิ้นสุด
+
+ui.scene_01 =ดับเพลิง
+ui.scene_02 =โคมไฟตั้งพื้น
+ui.scene_03 =ไฟถนน
+ui.scene_04 =ห่วงบาสเกตบอล
+ui.table_01 =โต๊ะทำงาน
+ui.table_02 =โต๊ะสมัยใหม่
+ui.table_03 =โต๊ะไม้กลม
+ui.table_04 =โต๊ะกลมกระจก
+ui.chair_01 =เก้าอี้สำนักงาน
+ui.chair_02 =โซฟาธรรมดา
+ui.chair_03 =ม้านั่งในสวน
+ui.chair_04 =เก้าอี้ไม้เนื้อแข็ง
+ui.chair_05 =โซฟาอ้วน
+ui.chair_06 =เจ้านายเก้าอี้
+ui.cabinet_01 =ตู้หนังสือ
+ui.cabinet_02 =ตู้เสื้อผ้า
+ui.bed_01 =เตียงคู่
+ui.bed_02 =เตียงเดี่ยว
+ui.bed_03 =เตียงสี่เหลี่ยม
+ui.bed_04 =เตียงสองชั้น
+ui.lamp_01 =ม่าน
+ui.lamp_02 =โคมไฟตั้งโต๊ะ
+ui.equipment_01 =เสียง 01
+ui.equipment_02 =เสียง 02
+ui.equipment_03 =เสียง 03
+ui.equipment_04 =มิกเซอร์
+ui.equipment_05 =อวัยวะอิเล็กทรอนิกส์
+ui.equipment_06 =ฉาบ
+ui.equipment_07 =กลองชุด
+ui.equipment_08 =ไมโครโฟน
+ui.landscape_01 =ต้นไม้ 01
+ui.landscape_02 =ต้นไม้02
+ui.landscape_03 =ต้นไม้03
+ui.landscape_04 =ต้นไม้ 04
+ui.landscape_05 =ต้นไม้ 05
+ui.landscape_06 =แท่นบูชาสีเขียว
+ui.prop_01 =กระป๋องกั้น
+ui.prop_02 =บันไดปีน
+ui.prop_03 =เครื่องดับเพลิง
+ui.prop_04 =ระเบิด
+ui.prop_05 =ปืนลูกซอง
+ui.prop_06 =โล่ป้องกันการระเบิด
+ui.prop_07 =ดอลลาร์
+ui.prop_08 =กระเป๋าเงิน
+ui.prop_09 =บาสเกตบอล
+ui.prop_10 =ฟุตบอล
+
+ui.setting.save.success =บันทึกเรียบร้อยแล้ว
+ui.setting.setting =การตั้งค่า
+
+language_end:mobile_editor

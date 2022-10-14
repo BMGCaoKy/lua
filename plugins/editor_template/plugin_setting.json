@@ -1,0 +1,3098 @@
+{
+  "bagItemsList": [
+    "allItem",
+    "block",
+    "special",
+    "item",
+    "entity",
+    "moveBlock",
+    "equip",
+    "Weapon",
+    "res"
+  ],
+  "cannotStackList": [
+    "myplugin/aa_door_down",
+    "myplugin/aa_door_up",
+    "myplugin/huoba"
+  ],
+  "enumStateType": {
+    "ALLITEM":1,
+    "BLOCK": 2,
+    "SPECIAL": 3,
+    "ITEM": 4,
+    "MONSTER": 5,
+    "MOVE_BLOCK": 6,
+    "EQUIP": 7,
+    "Weapon": 8,
+    "res": 9
+  },
+  "bagItemsType": [
+    "block",
+    "block",
+    "special",
+    "item",
+    "entity",
+    "entity",
+    "item",
+    "item",
+    "item"
+  ],
+  "editVictorySettingUIList": [
+    "mapEditVictorySettingLayout",
+    "mapEditVictoryShowSetting"
+  ],
+  "bagUIData": [
+    {
+      "text": "win.map.item.bag.allItem.text",
+      "icon": "set:map_edit_bag.json image:all_icon_tap_bag.png",
+      "fetchFunc": "fetchAllItemInfo",
+      "openFunc": "openAllItemUi"
+    },
+    {
+      "text": "win.map.item.bag.blocks.text",
+      "icon": "set:map_edit_bag.json image:block_icon_tap_bag.png",
+      "fetchFunc": "fetchBuildInfo",
+      "openFunc": "openBuildUi"
+    },
+    {
+      "text": "win.map.item.bag.special.text",
+      "icon": "set:map_edit_bag.json image:special_icon_tap_bag.png",
+      "fetchFunc": "fetchSpecial",
+      "openFunc": "openSpecialUi"
+    },
+    {
+      "text": "win.map.item.bag.tools.text",
+      "icon": "set:map_edit_bag.json image:tools_icon_tap_bag.png",
+      "fetchFunc": "fetchItemInfo",
+      "openFunc": "openItemUi"
+    },
+    {
+      "text": "win.map.item.bag.monsters.text",
+      "icon": "set:map_edit_bag.json image:monsters_icon_tap_bag.png",
+      "fetchFunc": "fetchMonster",
+      "openFunc": "openMonsterUi"
+    },
+    {
+      "text": "win.map.item.bag.moving.blocks.text1",
+      "icon": "set:map_edit_bag.json image:Mobileterrain_icon_tap_bag.png",
+      "fetchFunc": "fetchMoveBlock",
+      "openFunc": "openMoveBlock"
+    },
+    {
+      "text": "win.map.item.bag.equipment.text",
+      "icon": "set:map_edit_bag2.json image:icon_equipment_tap_bag.png",
+      "fetchFunc": "fetchEquip",
+      "openFunc": "openEquipUi"
+    },
+    {
+      "text": "win.map.item.bag.arms.text",
+      "icon": "set:map_edit_bag2.json image:icon_arms_tap_bag.png",
+      "fetchFunc": "fetchWeapon",
+      "openFunc": "openWeaponUi"
+    },
+    {
+      "text": "win.map.item.bag.resources.text",
+      "icon": "set:map_edit_bag2.json image:icon_resources_tap_bag.png",
+      "fetchFunc": "fetchResources",
+      "openFunc": "openResourcesUi"
+    }
+  ],
+  "selectActorList": [
+    {
+      "actor": "editor_boy.actor",
+      "icon": "image/icon/img_p_8.png",
+      "name": "actor.name.boy_actor",
+      "width": 76,
+      "height": 155
+    },
+    {
+      "actor": "character_new_blue_mario.actor",
+      "icon": "image/icon/img_p_5.png",
+      "name": "actor.name.mario_actor",
+      "width": 97,
+      "height": 155
+    },
+    {
+      "actor": "herotycoon_spiderman.actor",
+      "icon": "image/icon/img_p_9.png",
+      "name": "actor.name.spiderman_actor",
+      "width": 78,
+      "height": 152
+    },
+    {
+      "actor": "herotycoon_captainamerica.actor",
+      "icon": "image/icon/img_p_6.png",
+      "name": "actor.name.captainamerica_actor",
+      "width": 130,
+      "height": 158
+    },
+    {
+      "actor": "herotycoon_hulk.actor",
+      "icon": "image/icon/img_p_4.png",
+      "name": "actor.name.hulk_actor",
+      "width": 103,
+      "height": 149
+    },
+    {
+      "actor": "herotycoon_Blackpanther.actor",
+      "icon": "image/icon/img_p_3.png",
+      "name": "actor.name.Blackpanther_actor",
+      "width": 108,
+      "height": 152
+    },
+    {
+      "actor": "herotycoon_ironman.actor",
+      "icon": "image/icon/img_p_2.png",
+      "name": "actor.name.ironman_actor",
+      "width": 80,
+      "height": 152
+    },
+    {
+      "actor": "herotycoon_punisher.actor",
+      "icon": "image/icon/img_p_1.png",
+      "name": "actor.name.punisher_actor",
+      "width": 72,
+      "height": 158
+    }
+  ],
+  "blockFoldList": [
+    {
+      "Category": "myplugin/sand_0",
+      "unfold": [
+        "myplugin/sand_0",
+        "myplugin/sand_1",
+        "myplugin/sand_2",
+        "myplugin/sand_3",
+        "myplugin/sand_4"
+      ]
+    },
+    {
+      "Category": "myplugin/stonebrick",
+      "unfold": [
+        "myplugin/stonebrick",
+        "myplugin/Sand_brick_0",
+        "myplugin/Sand_brick_1",
+        "myplugin/Sand_brick_4",
+        "myplugin/Sand_brick_5",
+        "myplugin/Sand_brick_6",
+        "myplugin/Sand_brick_7",
+        "myplugin/brick_block"
+      ]
+    },
+    {
+      "Category": "myplugin/planks_oak",
+      "unfold": [
+        "myplugin/planks_oak",
+        "myplugin/planks_acacia",
+        "myplugin/acacia_wood_slab",
+        "myplugin/planks_big_oak",
+        "myplugin/birch_wood_slab",
+        "myplugin/jungle_wood_slab",
+        "myplugin/double_wooden_slab",
+        "myplugin/double_wooden_slab_1",
+        "myplugin/double_wooden_slab_3",
+        "myplugin/spruce_wood_slab",
+        "myplugin/planks_spruce",
+        "myplugin/wooden_slab",
+        "myplugin/wooden_slab_8",
+        "myplugin/wooden_slab_9",
+        "myplugin/wooden_slab_11"
+      ]
+    },
+    {
+      "Category": "myplugin/wool_0",
+      "unfold": [
+        "myplugin/wool_0",
+        "myplugin/wool_1",
+        "myplugin/wool_3",
+        "myplugin/wool_4",
+        "myplugin/wool_5",
+        "myplugin/wool_6",
+        "myplugin/wool_7",
+        "myplugin/wool_9",
+        "myplugin/wool_12",
+        "myplugin/wool_13",
+        "myplugin/wool_14",
+        "myplugin/wool_15"
+      ]
+    },
+    {
+      "Category": "myplugin/glass_0",
+      "unfold": [
+        "myplugin/glass_0",
+        "myplugin/stained_glass",
+        "myplugin/glass_black",
+        "myplugin/glass_magenta",
+        "myplugin/glass_orange",
+        "myplugin/glass_light_blue",
+        "myplugin/glass_lime",
+        "myplugin/glass_pink",
+        "myplugin/glass_cyan",
+        "myplugin/glass_purple",
+        "myplugin/glass_red"
+      ]
+    },
+    {
+      "Category": "myplugin/concrete_brown",
+      "unfold": [
+        "myplugin/concrete_brown",
+        "myplugin/concrete_powder_blue",
+        "myplugin/concrete_light_blue",
+        "myplugin/concrete_powder_lime",
+        "myplugin/concrete_orange",
+        "myplugin/concrete_white",
+        "myplugin/concrete_magenta",
+        "myplugin/concrete_powder_cyan",
+        "myplugin/concrete_yellow",
+        "myplugin/concrete_lime",
+        "myplugin/concrete_pink",
+        "myplugin/concrete_lightgray",
+        "myplugin/concrete_cyan",
+        "myplugin/concrete_purple",
+        "myplugin/concrete_red",
+        "myplugin/concrete_black"
+      ]
+    },
+    {
+      "Category": "myplugin/green_shulker_box",
+      "unfold": [
+        "myplugin/green_shulker_box",
+        "myplugin/light_blue_shulker_box_01",
+        "myplugin/light_blue_shulker_box_02",
+        "myplugin/lime_shulker_box",
+        "myplugin/orange_shulker_box",
+        "myplugin/purple_shulker_box",
+        "myplugin/white_shulker_box"
+      ]
+    },
+    {
+      "Category": "myplugin/water_1",
+      "unfold": [
+        "myplugin/water_1",
+        "myplugin/water_3",
+        "myplugin/water_4",
+        "myplugin/water_5",
+        "myplugin/water_6",
+        "myplugin/water_7",
+        "myplugin/water_2"
+      ]
+    },
+    {
+      "Category": "myplugin/bone_block",
+      "unfold": [
+        "myplugin/bone_block",
+        "myplugin/bone_block_4",
+        "myplugin/bone_block_8"
+      ]
+    },
+    {
+      "Category": "myplugin/oak_stairs",
+      "unfold": [
+        "myplugin/oak_stairs",
+        "myplugin/oak_stairs01",
+        "myplugin/oak_stairs02",
+        "myplugin/oak_stairs03",
+        "myplugin/oak_stairs08",
+        "myplugin/oak_stairs_down",
+        "myplugin/oak_stairs01_down",
+        "myplugin/oak_stairs02_down",
+        "myplugin/oak_stairs03_down"
+      ]
+    },
+    {
+      "Category": "myplugin/stone_brick_stairs",
+      "unfold": [
+        "myplugin/stone_brick_stairs",
+        "myplugin/stone_brick_stairs01",
+        "myplugin/stone_brick_stairs02",
+        "myplugin/stone_brick_stairs03",
+        "myplugin/stone_brick_stairs_down",
+        "myplugin/stone_brick_stairs01_down",
+        "myplugin/stone_brick_stairs02_down",
+        "myplugin/stone_brick_stairs03_down"
+      ]
+    },
+    {
+      "Category": "myplugin/spruce_stairs",
+      "unfold": [
+        "myplugin/spruce_stairs",
+        "myplugin/spruce_stairs01",
+        "myplugin/spruce_stairs02",
+        "myplugin/spruce_stairs03",
+        "myplugin/spruce_stairs_down",
+        "myplugin/spruce_stairs01_down",
+        "myplugin/spruce_stairs02_down",
+        "myplugin/spruce_stairs03_down"
+      ]
+    },
+    {
+      "Category": "myplugin/jungle_stairs",
+      "unfold": [
+        "myplugin/jungle_stairs",
+        "myplugin/jungle_stairs01",
+        "myplugin/jungle_stairs02",
+        "myplugin/jungle_stairs03",
+        "myplugin/jungle_stairs04",
+        "myplugin/jungle_stairs_down",
+        "myplugin/jungle_stairs01_down",
+        "myplugin/jungle_stairs02_down",
+        "myplugin/jungle_stairs03_down"
+      ]
+    },
+    {
+      "Category": "myplugin/sandstone_stairs",
+      "unfold": [
+        "myplugin/sandstone_stairs",
+        "myplugin/sandstone_stairs01",
+        "myplugin/sandstone_stairs02"
+      ]
+    },
+    {
+      "Category": "myplugin/fence_gate",
+      "unfold": [
+        "myplugin/fence_gate",
+        "myplugin/fence_gate_1",
+        "myplugin/fence_gate_2",
+        "myplugin/fence_gate_3",
+        "myplugin/fence",
+        "myplugin/flower_pot",
+        "myplugin/glass_pane_top"
+      ]
+    },
+    {
+      "Category": "myplugin/clay_0",
+      "unfold": [
+        "myplugin/clay_0",
+        "myplugin/stained_hardened_clay_0",
+        "myplugin/stained_hardened_clay_2",
+        "myplugin/stained_hardened_clay_4",
+        "myplugin/stained_hardened_clay_6",
+        "myplugin/stained_hardened_clay_7",
+        "myplugin/stained_hardened_clay_8",
+        "myplugin/stained_hardened_clay_9",
+        "myplugin/stained_hardened_clay_14",
+        "myplugin/stained_hardened_clay_1",
+        "myplugin/stained_hardened_clay_12",
+        "myplugin/stained_hardened_clay_11"
+      ]
+    },
+    {
+      "Category": "myplugin/gravel",
+      "unfold": [
+        "myplugin/gravel",
+        "myplugin/gold_ore",
+        "myplugin/iron_ore",
+        "myplugin/lapis_ore",
+        "myplugin/diamond_ore",
+        "myplugin/redstone_ore",
+        "myplugin/emerald_ore",
+        "myplugin/coal_ore"
+      ]
+    },
+    {
+      "Category": "myplugin/leaves_oak_01",
+      "unfold": [
+        "myplugin/leaves_oak_01",
+        "myplugin/leaves_oak_opaque",
+        "myplugin/leaves_spruce_nodecay",
+        "myplugin/leaves_oak",
+        "myplugin/leaves_spruce",
+        "myplugin/leaves_birch",
+        "myplugin/leaves_birch_opaque",
+        "myplugin/leaves_jungle_opaque",
+        "myplugin/leaves2"
+      ]
+    },
+    {
+      "Category": "myplugin/flower_tulip_orange",
+      "unfold": [
+        "myplugin/flower_tulip_orange",
+        "myplugin/flower_tulip_pink",
+        "myplugin/flower_tulip_red",
+        "myplugin/flower_tulip_white",
+        "myplugin/beetroots_stage_1",
+        "myplugin/beetroots_stage_2",
+        "myplugin/pine_stage_3",
+        "myplugin/sapling_oak",
+        "myplugin/reeds",
+        "myplugin/strawb_erry_stage_5",
+        "myplugin/red_mushroom",
+        "myplugin/azure_bluet",
+        "myplugin/deadbush",
+        "myplugin/tallgrass",
+        "myplugin/double_plant_sunflower_back",
+        "myplugin/double_plant_syringa_bottom",
+        "myplugin/waterlily",
+        "myplugin/cactus",
+        "myplugin/pumpkin_face_off_3",
+        "myplugin/web",
+        "myplugin/brown_mushroom",
+        "myplugin/double_plant_paeonia_bottom",
+        "myplugin/double_plant_rose_top",
+        "myplugin/double_plant_sunflower_front",
+        "myplugin/yellow_flower",
+        "myplugin/red_flower",
+        "myplugin/oxeye_daisy",
+        "myplugin/double_plant_fern_bottom",
+        "myplugin/fern",
+        "myplugin/vine_002",
+        "myplugin/vine_1",
+        "myplugin/vine_2",
+        "myplugin/vine_4"
+      ]
+    },
+    {
+      "Category": "myplugin/carrots_stage_1",
+      "unfold": [
+        "myplugin/carrots_stage_1",
+        "myplugin/carrots_stage_2",
+        "myplugin/carrots_stage_3",
+        "myplugin/potatoes_stage_1",
+        "myplugin/potatoes_stage_2",
+        "myplugin/potatoes_stage_3",
+        "myplugin/wheat_stage_2",
+        "myplugin/wheat_stage_3",
+        "myplugin/wheat_stage_4",
+        "myplugin/wheat_stage_5",
+        "myplugin/wheat_stage_6",
+        "myplugin/wheat_stage_7"
+      ]
+    },
+    { "Category": "myplugin/invisible" },
+    { "Category": "myplugin/grass" },
+    { "Category": "myplugin/dirt" },
+    { "Category": "myplugin/snow_layer" },
+    { "Category": "myplugin/planks_birch" },
+    { "Category": "myplugin/stone_slab" },
+    { "Category": "myplugin/double_stone_slab" },
+    { "Category": "myplugin/farmland_dry" },
+    { "Category": "myplugin/farmland_wet" },
+    { "Category": "myplugin/glass_green" },
+    { "Category": "myplugin/prismarine" },
+    { "Category": "myplugin/obsidian" },
+    { "Category": "myplugin/lava_1" },
+    { "Category": "myplugin/stone" },
+    { "Category": "myplugin/stone_andesite_smooth" },
+    { "Category": "myplugin/soul_sand" },
+    { "Category": "myplugin/quartz_block_0" },
+    { "Category": "myplugin/metal_0" },
+    { "Category": "myplugin/ice" },
+    { "Category": "myplugin/cobblestone" },
+    { "Category": "myplugin/log_birch" },
+    { "Category": "myplugin/log_jungle" },
+    { "Category": "myplugin/log_acacia" },
+    { "Category": "myplugin/log_oak" },
+    { "Category": "myplugin/concrete_black" },
+    { "Category": "myplugin/gold_block" },
+    { "Category": "myplugin/diamond_block_0" },
+    { "Category": "myplugin/sandstone" },
+    { "Category": "myplugin/log_spruce" },
+    { "Category": "myplugin/log_spruce_x" },
+    { "Category": "myplugin/log_spruce_z" },
+    { "Category": "myplugin/snow_0" },
+    { "Category": "myplugin/glowstone" },
+    { "Category": "myplugin/bookshelf" },
+    { "Category": "myplugin/mob_spawner" },
+    { "Category": "myplugin/normal_chest" },
+    { "Category": "myplugin/crafting_table" },
+    { "Category": "myplugin/emerald_block" },
+    { "Category": "myplugin/cobblestone_wall_0" },
+    { "Category": "myplugin/packed_ice" },
+    { "Category": "myplugin/sandstone_slab" },
+    { "Category": "myplugin/stone_brick_slab_up" },
+    { "Category": "myplugin/anvil_3" },
+    { "Category": "myplugin/bedrock" },
+    { "Category": "myplugin/glass_0_2" },
+    { "Category": "myplugin/ladder_map" },
+    { "Category": "myplugin/aa_door_down" },
+    { "Category": "myplugin/huoba" }
+  ],
+  "block": [
+    "myplugin/invisible",
+    "myplugin/grass",
+    "myplugin/sand_0",
+    "myplugin/sand_1",
+    "myplugin/sand_2",
+    "myplugin/dirt",
+    "myplugin/snow_layer",
+    "myplugin/Sand_brick_0",
+    "myplugin/Sand_brick_1",
+    "myplugin/Sand_brick_2",
+    "myplugin/Sand_brick_4",
+    "myplugin/Sand_brick_5",
+    "myplugin/planks_acacia",
+    "myplugin/planks_big_oak",
+    "myplugin/planks_birch",
+    "myplugin/planks_jungle",
+    "myplugin/planks_oak",
+    "myplugin/acacia_wood_slab",
+    "myplugin/stone_slab",
+    "myplugin/double_stone_slab",
+    "myplugin/wool_1",
+    "myplugin/wool_3",
+    "myplugin/wool_0",
+    "myplugin/wool_12",
+    "myplugin/wool_13",
+    "myplugin/wool_14",
+    "myplugin/wool_15",
+    "myplugin/wool_4",
+    "myplugin/wool_5",
+    "myplugin/wool_6",
+    "myplugin/wool_7",
+    "myplugin/wool_9",
+    "myplugin/farmland_dry",
+    "myplugin/farmland_wet",
+    "myplugin/glass_black",
+    "myplugin/glass_green",
+    "myplugin/glass_magenta",
+    "myplugin/prismarine",
+    "myplugin/concrete_brown",
+    "myplugin/concrete_powder_blue",
+    "myplugin/concrete_powder_cyan",
+    "myplugin/concrete_powder_lime",
+    "myplugin/concrete_powder_white",
+    "myplugin/brick_block",
+    "myplugin/brick_block_orange",
+    "myplugin/obsidian",
+    "myplugin/green_shulker_box",
+    "myplugin/light_blue_shulker_box_01",
+    "myplugin/light_blue_shulker_box_02",
+    "myplugin/lime_shulker_box",
+    "myplugin/orange_shulker_box",
+    "myplugin/purple_shulker_box",
+    "myplugin/white_shulker_box",
+    "myplugin/water_1",
+    "myplugin/water_3",
+    "myplugin/water_4",
+    "myplugin/water_5",
+    "myplugin/water_6",
+    "myplugin/water_7",
+    "myplugin/lava_1",
+    "myplugin/stone",
+    "myplugin/stone_andesite_smooth",
+    "myplugin/soul_sand",
+    "myplugin/quartz_block_0",
+    "myplugin/metal_0",
+    "myplugin/ice",
+    "myplugin/bone_block",
+    "myplugin/bone_block_4",
+    "myplugin/bone_block_8",
+    "myplugin/cobblestone",
+    "myplugin/log_birch",
+    "myplugin/log_jungle",
+    "myplugin/log_acacia",
+    "myplugin/log_oak",
+    "myplugin/leaves_oak_01",
+    "myplugin/leaves_oak_opaque",
+    "myplugin/concrete_orange",
+    "myplugin/concrete_white",
+    "myplugin/concrete_magenta",
+    "myplugin/concrete_light_blue",
+    "myplugin/concrete_yellow",
+    "myplugin/concrete_lime",
+    "myplugin/concrete_pink",
+    "myplugin/concrete_lightgray",
+    "myplugin/concrete_cyan",
+    "myplugin/concrete_purple",
+    "myplugin/concrete_red",
+    "myplugin/concrete_black",
+    "myplugin/gold_block",
+    "myplugin/diamond_block_0",
+    "myplugin/sandstone",
+    "myplugin/oak_stairs",
+    "myplugin/oak_stairs01",
+    "myplugin/oak_stairs02",
+    "myplugin/oak_stairs03",
+    "myplugin/oak_stairs08",
+    "myplugin/oak_stairs_down",
+    "myplugin/oak_stairs01_down",
+    "myplugin/oak_stairs02_down",
+    "myplugin/oak_stairs03_down",
+    "myplugin/stone_brick_stairs",
+    "myplugin/stone_brick_stairs01",
+    "myplugin/stone_brick_stairs02",
+    "myplugin/stone_brick_stairs03",
+    "myplugin/stone_brick_stairs_down",
+    "myplugin/stone_brick_stairs01_down",
+    "myplugin/stone_brick_stairs02_down",
+    "myplugin/stone_brick_stairs03_down",
+    "myplugin/spruce_stairs",
+    "myplugin/spruce_stairs01",
+    "myplugin/spruce_stairs02",
+    "myplugin/spruce_stairs03",
+    "myplugin/spruce_stairs_down",
+    "myplugin/spruce_stairs01_down",
+    "myplugin/spruce_stairs02_down",
+    "myplugin/spruce_stairs03_down",
+    "myplugin/jungle_stairs",
+    "myplugin/jungle_stairs01",
+    "myplugin/jungle_stairs02",
+    "myplugin/jungle_stairs03",
+    "myplugin/jungle_stairs04",
+    "myplugin/jungle_stairs_down",
+    "myplugin/jungle_stairs01_down",
+    "myplugin/jungle_stairs02_down",
+    "myplugin/jungle_stairs03_down",
+    "myplugin/sandstone_stairs",
+    "myplugin/sandstone_stairs01",
+    "myplugin/sandstone_stairs02",
+    "myplugin/sandstone_stairs03",
+    "myplugin/fence_gate_2",
+    "myplugin/fence_gate_3",
+    "myplugin/fence",
+    "myplugin/glass_pane_top",
+    "myplugin/flower_pot",
+    "myplugin/log_spruce",
+    "myplugin/log_spruce_x",
+    "myplugin/log_spruce_z",
+    "myplugin/snow_0",
+    "myplugin/glowstone",
+    "myplugin/bookshelf",
+    "myplugin/mob_spawner",
+    "myplugin/normal_chest",
+    "myplugin/crafting_table",
+    "myplugin/stonebrick",
+    "myplugin/double_wooden_slab",
+    "myplugin/wooden_slab",
+    "myplugin/spruce_wood_slab",
+    "myplugin/birch_wood_slab",
+    "myplugin/jungle_wood_slab",
+    "myplugin/double_wooden_slab_1",
+    "myplugin/double_wooden_slab_3",
+    "myplugin/wooden_slab_8",
+    "myplugin/wooden_slab_9",
+    "myplugin/wooden_slab_11",
+    "myplugin/emerald_block",
+    "myplugin/cobblestone_wall_0",
+    "myplugin/packed_ice",
+    "myplugin/planks_spruce",
+    "myplugin/clay_0",
+    "myplugin/stained_hardened_clay_0",
+    "myplugin/stained_hardened_clay_2",
+    "myplugin/stained_hardened_clay_4",
+    "myplugin/stained_hardened_clay_6",
+    "myplugin/stained_hardened_clay_7",
+    "myplugin/stained_hardened_clay_8",
+    "myplugin/stained_hardened_clay_9",
+    "myplugin/stained_hardened_clay_14",
+    "myplugin/stained_hardened_clay_1",
+    "myplugin/stained_hardened_clay_12",
+    "myplugin/stained_hardened_clay_11",
+    "myplugin/sandstone_slab",
+    "myplugin/stone_brick_slab_up",
+    "myplugin/leaves_spruce_nodecay",
+    "myplugin/anvil_3",
+    "myplugin/bedrock",
+    "myplugin/gravel",
+    "myplugin/gold_ore",
+    "myplugin/iron_ore",
+    "myplugin/lapis_ore",
+    "myplugin/diamond_ore",
+    "myplugin/redstone_ore",
+    "myplugin/emerald_ore",
+    "myplugin/glass_0_2",
+    "myplugin/stained_glass",
+    "myplugin/glass_orange",
+    "myplugin/glass_light_blue",
+    "myplugin/glass_yellow",
+    "myplugin/glass_lime",
+    "myplugin/glass_pink",
+    "myplugin/glass_cyan",
+    "myplugin/glass_purple",
+    "myplugin/glass_red",
+    "myplugin/ladder_map",
+    "myplugin/aa_door_down",
+    "myplugin/huoba",
+    "myplugin/flower_tulip_orange",
+    "myplugin/flower_tulip_pink",
+    "myplugin/flower_tulip_red",
+    "myplugin/flower_tulip_white",
+    "myplugin/beetroots_stage_1",
+    "myplugin/beetroots_stage_2",
+    "myplugin/potatoes_stage_3",
+    "myplugin/pine_stage_3",
+    "myplugin/sapling_oak",
+    "myplugin/reeds",
+    "myplugin/vine_002",
+    "myplugin/vine_1",
+    "myplugin/vine_2",
+    "myplugin/vine_4",
+    "myplugin/vine_7",
+    "myplugin/strawb_erry_stage_5",
+    "myplugin/red_mushroom",
+    "myplugin/azure_bluet",
+    "myplugin/blue_orchid",
+    "myplugin/double_plant_paeonia_top",
+    "myplugin/double_plant_rose_top",
+    "myplugin/double_plant_sunflower_front",
+    "myplugin/oxeye_daisy",
+    "myplugin/yellow_flower",
+    "myplugin/red_flower",
+    "myplugin/deadbush",
+    "myplugin/leaves_oak",
+    "myplugin/leaves_spruce",
+    "myplugin/leaves_birch",
+    "myplugin/wheat_stage_7",
+    "myplugin/carrots_stage_3",
+    "myplugin/tallgrass",
+    "myplugin/double_plant_grass_bottom",
+    "myplugin/double_plant_sunflower_back",
+    "myplugin/double_plant_syringa_bottom",
+    "myplugin/double_plant_paeonia_bottom",
+    "myplugin/double_plant_fern_bottom",
+    "myplugin/fern",
+    "myplugin/waterlily",
+    "myplugin/cactus",
+    "myplugin/brown_mushroom",
+    "myplugin/pumpkin_face_off_3",
+    "myplugin/web"
+  ],
+  "equip": [
+    {
+      "type": "item",
+      "name": "myplugin/equip_leather_boots"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/equip_leather_chestplate"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/equip_leather_helmet"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/equip_leather_leggings"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/equip_clothes_silver"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/equip_pant_silver"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/equip_shoes_silver"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/equip_clothes_aurum"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/equip_pant_aurum"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/equip_shoes_aurum"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/equip_clothes_diamond"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/equip_pant_diamond"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/equip_shoes_diamond"
+    }
+  ],
+  "buff": [
+    {
+      "type": "item",
+      "name": "myplugin/buff_item_maxHp"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/buff_item_maxVp"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/buff_item_boost_create"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/attach_fire_self2"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/buff_item_accelerate_rebirth"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/buff_item_deDamage_1"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/buff_item_hot_spring2"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/buff_item_moveSpeed"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/buff_item_jump"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/buff_item_damage"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/attach_deArmour"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/attach_pressing"
+    }
+  ],
+  "bagToolList": [
+    {
+      "type": "item",
+      "name": "myplugin/shear"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/diamond_axe"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/diamond_pickaxe"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/gold_axe"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/gold_pickaxe"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/iron_axe"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/iron_pickaxe"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/wood_axe"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/wood_pickaxe"
+    }
+  ],
+  "bagWeaponList": [
+    {
+      "type": "item",
+      "name": "myplugin/iron_sword"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/wood_sword"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/gold_sword"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/diamond_sword"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/bow_standby"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/bow_standby_middle"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/bow_standby_high"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/arrow"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/blaze_rod"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/shear"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/diamond_axe"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/diamond_pickaxe"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/gold_axe"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/gold_pickaxe"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/iron_axe"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/iron_pickaxe"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/wood_axe"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/wood_pickaxe"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/gun_ak47"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/gun_awp"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/gun_explosive_terminator"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/gun_submachine_bullet"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/gun_sniper_bullet"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/gun_paodan_bullet"
+    }
+  ],
+  "bagBuffList": [],
+  "shopItemList": [
+    {
+      "type": "item",
+      "name": "myplugin/bucket_water"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/bucket_empty"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/bucket_lava"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/sponge"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/wool_0"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/glass_0"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/flame_bomb"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/tnt"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/bridge_egg"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/gold_apple"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/end_stone"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/double_oak_wood_slab"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/obsidian"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/grenade"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/ladder"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/defenceTower"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/defenceWall"
+    }
+  ],
+  "dropItemList": [
+    {
+      "type": "item",
+      "name": "myplugin/food_meat_cattle"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_meat_chicken"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_meat_duck"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_meat_pig"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_meat_sheep"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/potion_hunger"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_bread"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_canned"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_chocolate"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_cocoaBeans"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_driedMeat"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_platter"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_strawberry"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_wheat"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/rescue_plank"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/bucket_water"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/bucket_empty"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/bucket_lava"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/sponge"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/wool_0"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/glass_0"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/flame_bomb"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/tnt"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/bridge_egg"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/gold_apple"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/potion_jump"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/potion_disappear"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/potion_speed"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/blink_pearl"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/end_stone"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/double_oak_wood_slab"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/obsidian"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/grenade"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/ladder"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/defenceTower"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/defenceWall"
+    }
+  ],
+  "resourceList": [
+    {
+      "type": "item",
+      "name": "myplugin/iron_ingot"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/gold_ingot"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/emerald"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/diamond"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/green_currency"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/resPoint"
+    }
+  ],
+  "shopResourceList": [
+    {
+      "type": "item",
+      "name": "myplugin/iron_ingot"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/gold_ingot"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/emerald"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/diamond"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/green_currency"
+    }
+  ],
+  "specialblock": [
+    "myplugin/non"
+  ],
+  "item": [
+    {
+      "type": "item",
+      "name": "myplugin/flame_bomb"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/tnt"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/potion_hunger"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_meat_pig"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_meat_cattle"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_meat_chicken"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_meat_duck"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_meat_sheep"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_bread"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_canned"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_chocolate"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_cocoaBeans"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_driedMeat"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_platter"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_strawberry"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/food_wheat"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/bridge_egg"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/gold_apple"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/potion_jump"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/potion_disappear"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/potion_speed"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/blink_pearl"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/rescue_plank"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/bucket_water"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/bucket_empty"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/bucket_lava"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/sponge"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/wool_0"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/glass_0"
+    },
+    {
+      "type": "item",
+      "name": "myplugin/grenade"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/flower"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/propGold"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/redMushroom"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/star"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/end_stone"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/double_oak_wood_slab"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/obsidian"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/ladder"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/defenceTower"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/defenceWall"
+    }
+  ],
+  "special": [
+    {
+      "type": "entity",
+      "name": "myplugin/wolf_fangs_1"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/wolf_fangs_2"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/boomBlock"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/transfer_point1"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/transfer_point2"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/accelerate"
+    },
+    {
+      "type": "block",
+      "name": "myplugin/slime"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/endPoint"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/startpoint"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/savePos"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlock"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlock",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/flower",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlock_flower_name",
+      "descTipInfo": "vectorBlock_flower_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlock",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/propGold",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlock_propGold_name",
+      "descTipInfo": "vectorBlock_propGold_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlock",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/redMushroom",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlock_redMushroom_name",
+      "descTipInfo": "vectorBlock_redMushroom_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlock",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/star",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlock_star_name",
+      "descTipInfo": "vectorBlock_star_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockLong"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockLong",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/flower",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlockLong_flower_name",
+      "descTipInfo": "vectorBlockLong_flower_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockLong",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/propGold",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlockLong_propGold_name",
+      "descTipInfo": "vectorBlockLong_propGold_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockLong",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/redMushroom",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlockLong_redMushroom_name",
+      "descTipInfo": "vectorBlockLong_redMushroom_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockLong",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/star",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlockLong_star_name",
+      "descTipInfo": "vectorBlockLong_star_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockLong02"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockLong02",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/flower",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlockLong02_flower_name",
+      "descTipInfo": "vectorBlockLong02_flower_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockLong02",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/propGold",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlockLong02_propGold_name",
+      "descTipInfo": "vectorBlockLong02_propGold_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockLong02",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/redMushroom",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlockLong02_redMushroom_name",
+      "descTipInfo": "vectorBlockLong02_redMushroom_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockLong02",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/star",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlockLong02_star_name",
+      "descTipInfo": "vectorBlockLong02_star_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockPurple"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockPurple",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/flower",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlockPurple_flower_name",
+      "descTipInfo": "vectorBlockPurple_flower_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockPurple",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/propGold",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlockPurple_propGold_name",
+      "descTipInfo": "vectorBlockPurple_propGold_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockPurple",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/redMushroom",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlockPurple_redMushroom_name",
+      "descTipInfo": "vectorBlockPurple_redMushroom_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockPurple",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/star",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlockPurple_star_name",
+      "descTipInfo": "vectorBlockPurple_star_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockRed"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockRed",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/flower",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlockRed_flower_name",
+      "descTipInfo": "vectorBlockRed_flower_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockRed",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/propGold",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlockRed_propGold_name",
+      "descTipInfo": "vectorBlockRed_propGold_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockRed",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/redMushroom",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlockRed_redMushroom_name",
+      "descTipInfo": "vectorBlockRed_redMushroom_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockRed",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/star",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlockRed_star_name",
+      "descTipInfo": "vectorBlockRed_star_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockWood"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockWood",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/flower",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlockWood_flower_name",
+      "descTipInfo": "vectorBlockWood_flower_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockWood",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/propGold",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlockWood_propGold_name",
+      "descTipInfo": "vectorBlockWood_propGold_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockWood",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/redMushroom",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlockWood_redMushroom_name",
+      "descTipInfo": "vectorBlockWood_redMushroom_desc"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/vectorBlockWood",
+      "dropobjects": {
+        "type": "entity",
+        "fullName": "myplugin/star",
+        "count": 1
+      },
+      "nameTipInfo": "vectorBlockWood_star_name",
+      "descTipInfo": "vectorBlockWood_star_desc"
+    }
+  ],
+  "entity": [
+    {
+      "type": "entity",
+      "name": "myplugin/merchant_1"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/merchant_2"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/merchant_3"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/merchant_4"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/ghost"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/zombie"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/skull"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/pig"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/cow"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/sheep"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/hen"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/duck"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/big_turtle"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/turtleWitch"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/mushroomMonsterBig"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/new_big_chomper"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/new_chomper"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/new_chomper_fire"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/small_mushroom_monster"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/turtle"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/ladybird_disenable_fly"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/ladybird_enable_fly"
+    }
+  ],
+  "blockStyle": [
+    "myplugin/yVector",
+    "myplugin/rVector",
+    "myplugin/gVector",
+    "myplugin/bVector"
+  ],
+  "moveBlock": [
+    {
+      "type": "entity",
+      "name": "myplugin/planks_jungle"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/quartz_block_0"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/stained_hardened_clay_0"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/planks_birch"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/glass_0"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/green_shulker_box"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/lime_shulker_box"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/light_blue_shulker_box_02"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/light_blue_shulker_box_01"
+    },
+    {
+      "type": "entity",
+      "name": "myplugin/quartz_ore"
+    }
+  ],
+  "toolPropEdit": {
+    "base": [
+      {
+        "descIndex": 1000,
+        "pos": {
+          "isHandBuff": true,
+          "propKey": "maxHp"
+        },
+        "desc": "生命力加成"
+      },
+      {
+        "descIndex": 1001,
+        "SysConvert": 0.01,
+        "pos": {
+          "isHandBuff": true,
+          "propKey": "moveSpeed"
+        },
+        "desc": "移动速度"
+      },
+      {
+        "descIndex": 1002,
+        "pos": {
+          "isHandBuff": true,
+          "propKey": "jumpSpeed"
+        },
+        "desc": "跳跃高度"
+      },
+      {
+        "descIndex": 1003,
+        "pos": {
+          "isHandBuff": true,
+          "propKey": "damage"
+        },
+        "desc": "攻击力"
+      },
+      {
+        "descIndex": 1004,
+        "pos": {
+          "isHandBuff": true,
+          "propKey": "defense"
+        },
+        "desc": "护甲加成"
+      },
+      {
+        "descIndex": 1006,
+        "pos": {
+          "isSelf": true,
+          "propKey": "equipTemporaryShield"
+        },
+        "desc": "护盾加成"
+      },
+      {
+        "descIndex": 1005,
+        "pos": {
+          "propKey": "hurtDistance",
+          "mod": "skill"
+        },
+        "desc": "击退距离"
+      },
+      {
+        "descIndex": 1007,
+        "pos": {
+          "isSelf": true,
+          "propKey": "effAllBlock"
+        },
+        "desc": "效率"
+      }
+    ]
+  },
+  "equipPropEdit": {
+    "base": [
+      {
+        "descIndex": 1000,
+        "pos": {
+          "isEquipBuff": true,
+          "propKey": "maxHp"
+        },
+        "desc": "生命力加成"
+      },
+      {
+        "descIndex": 1001,
+        "SysConvert": 0.01,
+        "pos": {
+          "isEquipBuff": true,
+          "propKey": "moveSpeed"
+        },
+        "desc": "移动速度"
+      },
+      {
+        "descIndex": 1002,
+        "pos": {
+          "isEquipBuff": true,
+          "propKey": "jumpSpeed"
+        },
+        "desc": "跳跃高度"
+      },
+      {
+        "descIndex": 1003,
+        "pos": {
+          "isEquipBuff": true,
+          "propKey": "damage"
+        },
+        "desc": "攻击力"
+      },
+      {
+        "descIndex": 1004,
+        "pos": {
+          "isEquipBuff": true,
+          "propKey": "defense"
+        },
+        "desc": "护甲加成"
+      },
+      {
+        "descIndex": 1006,
+        "pos": {
+          "isSelf": true,
+          "propKey": "equipTemporaryShield"
+        },
+        "desc": "护盾加成"
+      },
+      {
+        "descIndex": 1005,
+        "pos": {
+          "propKey": "hurtDistance",
+          "mod": "skill"
+        },
+        "desc": "击退距离"
+      }
+    ]
+  },
+  "weaponPropEdit": {
+    "base": [
+      {
+        "descIndex": 1000,
+        "pos": {
+          "isHandBuff": true,
+          "propKey": "maxHp"
+        },
+        "desc": "生命力加成"
+      },
+      {
+        "descIndex": 1001,
+        "SysConvert": 0.01,
+        "pos": {
+          "isHandBuff": true,
+          "propKey": "moveSpeed"
+        },
+        "desc": "移动速度"
+      },
+      {
+        "descIndex": 1002,
+        "pos": {
+          "isHandBuff": true,
+          "propKey": "jumpSpeed"
+        },
+        "desc": "跳跃高度"
+      },
+      {
+        "descIndex": 1003,
+        "pos": {
+          "isHandBuff": true,
+          "propKey": "damage"
+        },
+        "desc": "攻击力"
+      },
+      {
+        "descIndex": 1004,
+        "pos": {
+          "isHandBuff": true,
+          "propKey": "defense"
+        },
+        "desc": "护甲加成"
+      },
+      {
+        "descIndex": 1006,
+        "pos": {
+          "isSelf": true,
+          "propKey": "equipTemporaryShield"
+        },
+        "desc": "护盾加成"
+      },
+      {
+        "descIndex": 1005,
+        "pos": {
+          "propKey": "hurtDistance",
+          "mod": "skill"
+        },
+        "desc": "击退距离"
+      }
+    ]
+  },
+  "gunPropEdit": {
+    "base": [
+      {
+        "descIndex": 5024,
+        "uiType": "switch",
+        "pos": {
+          "isSelf": true,
+          "propKey": "container.gunCapacity"
+        },
+        "desc": "gunCapacity"
+      },
+      {
+        "descIndex": 5025,
+        "pos": {
+          "isSelf": true,
+          "propKey": "container.maxCapacity"
+        },
+        "desc": "maxCapacity"
+      },
+      {
+        "descIndex": 5026,
+        "pos": {
+          "isSelf": true,
+          "propKey": "container.initCapacity"
+        },
+        "desc": "initCapacity"
+      },
+      {
+        "descIndex": 1003,
+        "pos": {
+          "isHandBuff": true,
+          "propKey": "damage"
+        },
+        "desc": "攻击力"
+      }
+    ]
+  },
+  "buff_template": {
+    "fire": {
+      "showIcon": "set:buff_icon.json image:flame_self.png",
+      "edit_icon": "image/attach/flame_self.png",
+      "name": "editor.buff.fire_buff",
+      "desc_index": 2027,
+      "attachType": "fire",
+      "continueDamage": 2,
+      "fixTime": "max",
+      "continueTime": 5,
+      "dataUIList": [
+        {
+          "type": "slider",
+          "index": 2027,
+          "value": 3
+        },
+        {
+          "type": "slider",
+          "index": 3002,
+          "value": 3
+        }
+      ],
+      "sysConvert": [
+        20
+      ],
+      "base": "fire_effect"
+    },
+    "fire_modify": [
+      "continueTime",
+      "continueDamage"
+    ],
+    "deArmour": {
+      "showIcon": "set:buff_icon.json image:deArmour_self.png",
+      "desc_index": 3003,
+      "edit_icon": "image/attach/deArmour_self.png",
+      "name": "editor.buff.deArmour_buff",
+      "attachType": "deArmour",
+      "deArmour": 100
+    },
+    "deArmour_modify": [
+      "deArmour"
+    ],
+    "damage": {
+      "showIcon": "set:buff_icon.json image:attack_self.png",
+      "desc_index": 2033,
+      "edit_icon": "image/attach/attack_self.png",
+      "name": "editor.buff.damage_buff",
+      "attachType": "damage",
+      "damage": 100
+    },
+    "damage_modify": [
+      "damage"
+    ],
+    "pressing": {
+      "showIcon": "set:buff_icon.json image:pressing_self.png",
+      "desc_index": 1007,
+      "edit_icon": "image/attach/pressing_self.png",
+      "name": "pressing_buff",
+      "attachType": "pressing",
+      "breakEfficient": 0.2
+    },
+    "deDamage": {
+      "showIcon": "set:buff_icon.json image:deDamage_self.png",
+      "desc_index": 2029,
+      "edit_icon": "image/attach/deDamage_self.png",
+      "name": "editor.buff.deDamage_buff",
+      "attachType": "deDamage",
+      "deDamage": 100
+    },
+    "deDamage_modify": [
+      "deDamage"
+    ],
+    "maxHp": {
+      "showIcon": "set:buff_icon.json image:maxHp_self2.png",
+      "desc_index": 1000,
+      "edit_icon": "image/attach/maxHp_self2.png",
+      "name": "editor.buff.HP_buff",
+      "type": "maxHp",
+      "dataUIList": [
+        {
+          "type": "slider",
+          "index": 1000,
+          "value": 100
+        },
+        {
+          "type": "switch",
+          "index": 21,
+          "value": false
+        }
+      ],
+      "maxHp": 100,
+      "forTeam": false
+    },
+    "maxHp_modify": [
+      "maxHp"
+    ],
+    "reduceTime": {
+      "showIcon": "set:buff_icon.json image:revive_self.png",
+      "desc_index": 2028,
+      "edit_icon": "image/attach/revive_self.png",
+      "name": "editor.buff.revive_buff",
+      "base": "accelerate_rebirth",
+      "type": "reduceTime",
+      "dataUIList": [
+        {
+          "type": "slider",
+          "index": 2028,
+          "value": 100
+        },
+        {
+          "type": "switch",
+          "index": 2024,
+          "value": false
+        }
+      ],
+      "sysConvert": [
+        20
+      ],
+      "reduceTime": 100,
+      "forTeam": false
+    },
+    "reduceTime_modify": [
+      "reduceTime"
+    ],
+    "moveSpeed": {
+      "showIcon": "set:buff_icon.json image:expedite_self.png",
+      "desc_index": 2031,
+      "edit_icon": "image/attach/expedite_self.png",
+      "name": "editor.buff.speed_buff",
+      "type": "moveSpeed",
+      "moveSpeed": 0.1
+    },
+    "moveSpeed_modify": [
+      "moveSpeed"
+    ],
+    "jumpSpeed": {
+      "showIcon": "set:buff_icon.json image:jump_self.png",
+      "desc_index": 2032,
+      "edit_icon": "image/attach/jump_self.png",
+      "name": "editor.buff.jump_buff",
+      "type": "jumpSpeed",
+      "jumpSpeed": 1
+    },
+    "jumpSpeed_modify": [
+      "jumpSpeed"
+    ]
+  },
+  "equipBuffList": [
+    "deDamage"
+  ],
+  "weaponBuffList": [
+    "damage",
+    "deArmour",
+    "fire"
+  ],
+  "toolBuffList": [
+    "pressing"
+  ],
+  "bowBuffList": [
+    "damage"
+  ],
+  "swordBuffList": [
+    "fire",
+    "deArmour",
+    "damage"
+  ],
+  "foodBuffList": [
+    "maxHp",
+    "fire",
+    "reduceTime",
+    "deDamage",
+    "moveSpeed",
+    "jumpSpeed",
+    "damage",
+    "deArmour",
+    "pressing"
+  ],
+  "monsterPropEdit": {
+    "base": [
+      {
+        "descIndex": 2004,
+        "pos": {
+          "isSelf": true,
+          "propKey": "damage"
+        },
+        "desc": "攻击力"
+      },
+      {
+        "descIndex": 2005,
+        "pos": {
+          "isSelf": true,
+          "propKey": "maxHp"
+        },
+        "desc": "血量"
+      },
+      {
+        "descIndex": 2006,
+        "uiType": "switch",
+        "pos": {
+          "isSelf": true,
+          "propKey": "hideHp"
+        },
+        "desc": "隐藏血量"
+      },
+      {
+        "descIndex": 2007,
+        "uiType": "switch",
+        "pos": {
+          "isSelf": true,
+          "propKey": "isReviveTime"
+        },
+        "desc": "重生"
+      },
+      {
+        "descIndex": 2008,
+        "pos": {
+          "isSelf": true,
+          "propKey": "reviveTime"
+        },
+        "SysConvert": 20,
+        "desc": "重生时间"
+      },
+      {
+        "descIndex": 2009,
+        "pos": {
+          "isSelf": true,
+          "propKey": "addScore"
+        },
+        "desc": "分数"
+      },
+      {
+        "descIndex": 2010,
+        "uiType": "switch",
+        "pos": {
+          "isSelf": true,
+          "propKey": "damageByCollision"
+        },
+        "desc": "碰撞伤害"
+      }
+    ]
+  },
+  "fireBulletPropEdit": {
+    "base": [
+      {
+        "descIndex": 2011,
+        "pos": {
+          "mod": "buff",
+          "name": "flame_bomb_burn_buff",
+          "propKey": "continueDamage"
+        },
+        "desc": "火焰弹每秒持续伤害"
+      },
+      {
+        "descIndex": 2012,
+        "pos": {
+          "mod": "skill",
+          "name": "flame_bomb_burn",
+          "propKey": "buffTime"
+        },
+        "SysConvert": 20,
+        "desc": "火焰弹持续伤害时间"
+      },
+      {
+        "descIndex": 2013,
+        "pos": {
+          "mod": "buff",
+          "name": "flame_bomb_burn_buff",
+          "propKey": "initDamage"
+        },
+        "desc": "初始伤害"
+      },
+      {
+        "descIndex": 2014,
+        "pos": {
+          "isSelf": true,
+          "propKey": "cooldown"
+        },
+        "SysConvert": 20,
+        "desc": "cd"
+      }
+    ]
+  },
+  "grenadePropEdit": {
+    "base": [
+      {
+        "descIndex": 3000,
+        "pos": {
+          "mod": "skill",
+          "name": "grenade_hit",
+          "propKey": "damage"
+        },
+        "desc": "初始伤害"
+      },
+      {
+        "descIndex": 2014,
+        "pos": {
+          "isSelf": true,
+          "propKey": "cooldown"
+        },
+        "SysConvert": 20,
+        "desc": "cd"
+      }
+    ]
+  },
+  "tntPropEdit": {
+    "base": [
+      {
+        "descIndex": 2015,
+        "pos": {
+          "mod": "buff",
+          "name": "tnt_burn_buff",
+          "propKey": "continueDamage"
+        },
+        "desc": "tnt每秒持续伤害"
+      },
+      {
+        "descIndex": 2016,
+        "pos": {
+          "mod": "skill",
+          "name": "tnt_hit",
+          "propKey": "blowBuffTime"
+        },
+        "SysConvert": 20,
+        "desc": "tnt持续伤害时间"
+      },
+      {
+        "descIndex": 3000,
+        "pos": {
+          "mod": "skill",
+          "name": "tnt_hit",
+          "propKey": "damage"
+        },
+        "desc": "初始伤害"
+      },
+      {
+        "descIndex": 2014,
+        "pos": {
+          "isSelf": true,
+          "propKey": "cooldown"
+        },
+        "SysConvert": 20,
+        "desc": "cd"
+      }
+    ]
+  },
+  "jumpDrugPropEdit": {
+    "base": [
+      {
+        "descIndex": 2017,
+        "pos": {
+          "mod": "buff",
+          "name": "jump_speed",
+          "propKey": "jumpSpeed"
+        },
+        "desc": "跳跃药水跳跃力加成"
+      },
+      {
+        "descIndex": 2018,
+        "pos": {
+          "mod": "skill",
+          "name": "potion_jump2",
+          "propKey": "buffTime"
+        },
+        "SysConvert": 20,
+        "desc": "跳跃药水持续时间"
+      },
+      {
+        "descIndex": 2014,
+        "pos": {
+          "isSelf": true,
+          "propKey": "cooldown"
+        },
+        "SysConvert": 20,
+        "desc": "cd"
+      }
+    ]
+  },
+  "hungerPropEdit": {
+    "base": [
+      {
+        "descIndex": 2035,
+        "pos": {
+          "mod": "buff",
+          "name": "hunger_recover",
+          "propKey": "recoverVpStep"
+        },
+        "desc": "饥饿值恢复"
+      },
+      {
+        "descIndex": 2014,
+        "pos": {
+          "isSelf": true,
+          "propKey": "cooldown"
+        },
+        "SysConvert": 20,
+        "desc": "cd"
+      }
+    ]
+  },
+  "foodPropEdit": {
+    "base": [
+      {
+        "descIndex": 2023,
+        "pos": {
+          "isSelf": true,
+          "propKey": "recoverHpStep"
+        },
+        "desc": "恢复的生命"
+      },
+      {
+        "descIndex": 2035,
+        "pos": {
+          "isSelf": true,
+          "propKey": "recoverVpStep"
+        },
+        "desc": "饥饿值恢复"
+      },
+      {
+        "descIndex": 1001,
+        "pos": {
+          "isFoodBuff": true,
+          "propKey": "moveSpeed"
+        },
+        "desc": "移动速度"
+      },
+      {
+        "descIndex": 1002,
+        "pos": {
+          "isFoodBuff": true,
+          "propKey": "jumpSpeed"
+        },
+        "desc": "跳跃高度"
+      },
+      {
+        "descIndex": 1003,
+        "pos": {
+          "isFoodBuff": true,
+          "propKey": "damage"
+        },
+        "desc": "攻击力"
+      },
+      {
+        "descIndex": 1004,
+        "pos": {
+          "isFoodBuff": true,
+          "propKey": "defense"
+        },
+        "desc": "护甲加成"
+      },
+      {
+        "descIndex": 2018,
+        "pos": {
+          "isSelf": true,
+          "propKey": "buffContinueTime"
+        },
+        "SysConvert": 20,
+        "desc": "效果持续时间"
+      }
+    ]
+  },
+  "hideDrugPropEdit": {
+    "base": [
+      {
+        "descIndex": 2019,
+        "pos": {
+          "mod": "skill",
+          "name": "potion_disappear2",
+          "propKey": "buffTime"
+        },
+        "SysConvert": 20,
+        "desc": "持续时间"
+      },
+      {
+        "descIndex": 2014,
+        "pos": {
+          "isSelf": true,
+          "propKey": "cooldown"
+        },
+        "SysConvert": 20,
+        "desc": "cd"
+      }
+    ]
+  },
+  "moveSpeedDrugPropEdit": {
+    "base": [
+      {
+        "descIndex": 3001,
+        "pos": {
+          "mod": "skill",
+          "name": "potion_speedup2",
+          "propKey": "buffTime"
+        },
+        "SysConvert": 20,
+        "desc": "持续时间"
+      },
+      {
+        "descIndex": 2014,
+        "pos": {
+          "isSelf": true,
+          "propKey": "cooldown"
+        },
+        "SysConvert": 20,
+        "desc": "cd"
+      },
+      {
+        "descIndex": 2020,
+        "pos": {
+          "mod": "buff",
+          "name": "speedup",
+          "propKey": "moveSpeed"
+        },
+        "SysConvert": 0.01,
+        "desc": "加速加成"
+      }
+    ]
+  },
+  "egg_block": {
+    "base": [
+      {
+        "descIndex": 2021,
+        "pos": {
+          "mod": "block",
+          "name": "wool_0",
+          "propKey": "breakTime"
+        },
+        "SysConvert": 20,
+        "desc": "硬度"
+      }
+    ]
+  },
+  "score_edit": {
+    "base": [
+      {
+        "descIndex": 2080,
+        "pos": {
+          "isSelf": true,
+          "propKey": "addScore"
+        },
+        "desc": "设置积分"
+      }
+    ]
+  },
+  "mushroom_edit": {
+    "base": [
+      {
+        "descIndex": 2080,
+        "pos": {
+          "isSelf": true,
+          "propKey": "addScore"
+        },
+        "desc": "设置积分"
+      },
+      {
+        "descIndex": 2081,
+        "pos": {
+          "isSelf": true,
+          "propKey": "addHp"
+        },
+        "desc": "回血"
+      }
+    ]
+  },
+  "flower_edit": {
+    "base": [
+      {
+        "descIndex": 2080,
+        "pos": {
+          "isSelf": true,
+          "propKey": "addScore"
+        },
+        "desc": "设置积分"
+      },
+      {
+        "descIndex": 2081,
+        "pos": {
+          "isSelf": true,
+          "propKey": "addHp"
+        },
+        "desc": "回血"
+      },
+      {
+        "descIndex": 2082,
+        "pos": {
+          "mod": "skill",
+          "name": "fire_ball_attack",
+          "propKey": "damage"
+        },
+        "desc": "攻击力"
+      }
+    ]
+  },
+  "lava_prop_edit": {
+    "base": [
+      {
+        "descIndex": 5020,
+        "pos": {
+          "mod": "buff",
+          "name": "in_lava_damage_buff",
+          "propKey": "lava_damage_var"
+        },
+        "desc": "每秒燃烧伤害"
+      },
+      {
+        "descIndex": 5021,
+        "pos": {
+          "mod": "buff",
+          "name": "in_lava_retard_buff",
+          "propKey": "lava_damage_time"
+        },
+        "desc": "燃烧时间"
+      }
+    ]
+  },
+  "block_breakTime": {
+    "base": [
+      {
+        "descIndex": 2021,
+        "pos": {
+          "isSelf": true,
+          "propKey": "breakTime"
+        },
+        "SysConvert": 20,
+        "desc": "硬度"
+      },
+      {
+        "descIndex": 5009,
+        "pos": {
+          "isSelf": true,
+          "propKey": "dropItemList"
+        },
+        "uiType": "button",
+        "event": "setDropItem"
+      }
+    ]
+  },
+  "block_breakTime2": {
+    "base": [
+      {
+        "descIndex": 2021,
+        "pos": {
+          "isSelf": true,
+          "propKey": "breakTime"
+        },
+        "SysConvert": 20,
+        "desc": "硬度"
+      }
+    ]
+  },
+  "apple_prop": {
+    "base": [
+      {
+        "descIndex": 2022,
+        "pos": {
+          "mod": "buff",
+          "name": "gold_apple_buff",
+          "propKey": "apple_hp"
+        },
+        "desc": "额外的生命值"
+      },
+      {
+        "descIndex": 2023,
+        "pos": {
+          "mod": "buff",
+          "name": "gold_apple_buff",
+          "propKey": "recoverHp"
+        },
+        "desc": "恢复的生命"
+      },
+      {
+        "descIndex": 2014,
+        "pos": {
+          "isSelf": true,
+          "propKey": "cooldown"
+        },
+        "SysConvert": 20,
+        "desc": "cd"
+      }
+    ]
+  },
+  "buff_item_maxHp": {
+    "base": [
+      {
+        "descIndex": 2025,
+        "pos": {
+          "mod": "buff",
+          "name": "maxHp_self_1",
+          "propKey": "maxHp",
+          "path": "$itembuff/"
+        },
+        "desc": "增加数值"
+      },
+      {
+        "descIndex": 2024,
+        "uiType": "switch",
+        "pos": {
+          "isSelf": true,
+          "propKey": "forTeam"
+        },
+        "desc": "队伍"
+      }
+    ]
+  },
+  "buff_item_maxVp": {
+    "base": [
+      {
+        "descIndex": 2036,
+        "pos": {
+          "mod": "buff",
+          "name": "maxVpBuff",
+          "propKey": "maxVp",
+          "path": "$itembuff/"
+        },
+        "desc": "增加数值"
+      },
+      {
+        "descIndex": 2024,
+        "uiType": "switch",
+        "pos": {
+          "isSelf": true,
+          "propKey": "forTeam"
+        },
+        "desc": "队伍"
+      }
+    ]
+  },
+  "buff_item_boost_create": {
+    "base": [
+      {
+        "descIndex": 2026,
+        "pos": {
+          "mod": "buff",
+          "name": "boost_create",
+          "propKey": "addStep",
+          "path": "$itembuff/"
+        },
+        "desc": "生产加速"
+      }
+    ]
+  },
+  "attach_fire_self2": {
+    "base": [
+      {
+        "descIndex": 2027,
+        "pos": {
+          "mod": "buff",
+          "name": "attach_fire2",
+          "propKey": "continueTime",
+          "path": "$attachBuff/"
+        },
+        "SysConvert": 20,
+        "desc": "伤害持续时间"
+      },
+      {
+        "descIndex": 3002,
+        "pos": {
+          "mod": "buff",
+          "name": "attach_fire2",
+          "propKey": "continueDamage",
+          "path": "$attachBuff/"
+        },
+        "desc": "火焰伤害"
+      },
+      {
+        "descIndex": 2024,
+        "uiType": "switch",
+        "pos": {
+          "isSelf": true,
+          "propKey": "forTeam"
+        },
+        "desc": "队伍"
+      }
+    ]
+  },
+  "buff_item_accelerate_rebirth": {
+    "base": [
+      {
+        "descIndex": 2028,
+        "pos": {
+          "mod": "buff",
+          "name": "accelerate_rebirth",
+          "propKey": "reduceTime",
+          "path": "$itembuff/"
+        },
+        "SysConvert": 20,
+        "desc": "减少等待复活时间"
+      },
+      {
+        "descIndex": 2024,
+        "uiType": "switch",
+        "pos": {
+          "isSelf": true,
+          "propKey": "forTeam"
+        },
+        "desc": "队伍"
+      }
+    ]
+  },
+  "buff_item_deDamage_1": {
+    "base": [
+      {
+        "descIndex": 2029,
+        "pos": {
+          "mod": "buff",
+          "name": "deDamage1",
+          "propKey": "deDamage",
+          "path": "$attachBuff/"
+        },
+        "desc": "减伤"
+      },
+      {
+        "descIndex": 2024,
+        "uiType": "switch",
+        "pos": {
+          "isSelf": true,
+          "propKey": "forTeam"
+        },
+        "desc": "队伍"
+      }
+    ]
+  },
+  "buff_item_hot_spring2": {
+    "base": [
+      {
+        "descIndex": 2030,
+        "pos": {
+          "mod": "buff",
+          "name": "hot_spring_buff",
+          "propKey": "addStep",
+          "path": "$itembuff/"
+        },
+        "desc": "每秒回复数值"
+      }
+    ]
+  },
+  "buff_item_moveSpeed": {
+    "base": [
+      {
+        "descIndex": 2031,
+        "pos": {
+          "mod": "buff",
+          "name": "moveSpeed_buff",
+          "propKey": "moveSpeed",
+          "path": "$itembuff/"
+        },
+        "desc": "移速加成数值"
+      },
+      {
+        "descIndex": 2024,
+        "uiType": "switch",
+        "pos": {
+          "isSelf": true,
+          "propKey": "forTeam"
+        },
+        "desc": "队伍"
+      }
+    ]
+  },
+  "buff_item_jump": {
+    "base": [
+      {
+        "descIndex": 2032,
+        "pos": {
+          "mod": "buff",
+          "name": "jump_buff",
+          "propKey": "jumpSpeed",
+          "path": "$itembuff/"
+        },
+        "desc": "跳跃加成数值"
+      },
+      {
+        "descIndex": 2024,
+        "uiType": "switch",
+        "pos": {
+          "isSelf": true,
+          "propKey": "forTeam"
+        },
+        "desc": "队伍"
+      }
+    ]
+  },
+  "buff_item_damage": {
+    "base": [
+      {
+        "descIndex": 2033,
+        "pos": {
+          "mod": "buff",
+          "name": "attach_damage",
+          "propKey": "damage",
+          "path": "$attachBuff/"
+        },
+        "desc": "攻击力加成"
+      },
+      {
+        "descIndex": 2024,
+        "uiType": "switch",
+        "pos": {
+          "isSelf": true,
+          "propKey": "forTeam"
+        },
+        "desc": "队伍"
+      }
+    ]
+  },
+  "buff_item_deArmour_1": {
+    "base": [
+      {
+        "descIndex": 2034,
+        "pos": {
+          "mod": "buff",
+          "name": "buff_item_deArmour_1",
+          "propKey": "deArmour",
+          "path": "$attachBuff/"
+        },
+        "desc": "无视护甲"
+      },
+      {
+        "descIndex": 2024,
+        "uiType": "switch",
+        "pos": {
+          "isSelf": true,
+          "propKey": "forTeam"
+        },
+        "desc": "队伍"
+      }
+    ]
+  },
+  "attach_deArmour": {
+    "base": [
+      {
+        "descIndex": 3003,
+        "pos": {
+          "mod": "buff",
+          "name": "attach_deArmour",
+          "propKey": "deArmour",
+          "path": "$attachBuff/"
+        },
+        "desc": "无视护甲"
+      },
+      {
+        "descIndex": 2024,
+        "uiType": "switch",
+        "pos": {
+          "isSelf": true,
+          "propKey": "forTeam"
+        },
+        "desc": "队伍"
+      }
+    ]
+  },
+  "attach_pressing": {
+    "base": [
+      {
+        "descIndex": 1007,
+        "pos": {
+          "mod": "buff",
+          "name": "attach_pressing",
+          "propKey": "breakEfficient",
+          "path": "$attachBuff/"
+        },
+        "desc": "无视护甲"
+      },
+      {
+        "descIndex": 2024,
+        "uiType": "switch",
+        "pos": {
+          "isSelf": true,
+          "propKey": "forTeam"
+        },
+        "desc": "队伍"
+      }
+    ]
+  },
+  "teamTemplate": {
+    "color": "RED",
+    "actorName": "editor_boy.actor",
+    "memberLimit": 4,
+    "id": 1,
+    "bed": {
+      "enable": false,
+      "entity": "myplugin/egg"
+    }
+  }
+}

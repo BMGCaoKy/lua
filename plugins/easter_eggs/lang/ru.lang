@@ -1,0 +1,11 @@
+
+
+language_start:easter_egg_lang
+
+ui.easter.geteggs=Успешно найдены пасхальные яйца! Очки пасхальных яиц+%d
+ui.easter.cantget=Вы не можете получить пасхальные яйца повторно
+ui.easter.getfailure=Не удалось получить. Аномальное сетевое подключение
+ui.easter.countdown=Обратный отсчет этого раунда
+ui.easter.upperlimit=Сегодня вы собрали максимальное количество пасхальных яиц.
+
+language_end:easter_egg_lang

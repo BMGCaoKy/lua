@@ -1,0 +1,6 @@
+id	n_eggType	s_income	s_actor	s_actorBox	n_textHeight
+顺序	彩蛋类型：1-普通；2—高级	收益:id(类型)#数量	彩蛋所用的模型配置	彩蛋模型碰撞合大小	彩蛋存在时间显示高度
+1	1	1#2	ob37_easteregg_low_1.actor	1#1#1	0.9
+2	1	1#2	ob37_easteregg_low_2.actor	1#1#1	0.9
+3	1	1#2	ob37_easteregg_low_3.actor	1#1#1	0.9
+4	2	1#5	ob37_easteregg_high_1.actor	1#1#1	0.9

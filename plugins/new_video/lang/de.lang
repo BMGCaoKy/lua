@@ -1,0 +1,40 @@
+
+
+language_start:video_lang
+
+
+
+gui.new_video.record_success=บันทึกเสร็จแล้ว วีดีโอที่บันทึกไว้จะอยู่ในอัลบั้มภาพ
+gui.new_video.record_memory=หน่วยความจำโทรศัพท์ไม่เพียงพอ การบันทึกสิ้นสุด
+gui.new_video.record_fail=ไม่รองรับพารามิเตอร์ การบันทึกล้มเหลว
+
+gui.new_video.tab1=Filter
+gui.new_video.tab2=Wetter
+gui.new_video.tab3=Bildschirmeffekte
+gui.new_video.handle.tab1=Spezialeffekte
+gui.new_video.handle.tab2=Benutzeroberfläche ausblenden
+gui.new_video.handle.tab3=Einstellungen verstecken
+gui.new_video.handle.type101=retro
+gui.new_video.handle.type102=Schwarz und weiß
+gui.new_video.handle.type103=Hoher Kontrast
+gui.new_video.handle.type104=Cyberpunk
+gui.new_video.handle.type105=glühen
+gui.new_video.handle.type106=Herbsttag
+gui.new_video.handle.type107=Vollmondnacht
+gui.new_video.handle.type108=sonnig
+gui.new_video.handle.type201=sonnig
+gui.new_video.handle.type202=Regen
+gui.new_video.handle.type203=Schneetag
+gui.new_video.handle.type204=sternenklarer Himmel
+gui.new_video.handle.type205=Sonnenuntergang
+gui.new_video.handle.type301=Film schwarzer Rand
+gui.new_video.handle.type302=Taschenlampe
+gui.new_video.handle.type303=Geschwindigkeitslinie
+gui.new_video.handle.type304=doji
+gui.new_video.handle.type305=Schmetterling
+gui.new_video.handle.type306=Punkte
+gui.new_video.hide.setting.data1=Namen verstecken
+gui.new_video.hide.setting.data2=ซ่อนคนอื่น
+gui.new_video.hide.setting.data3=Versteck dich
+
+language_end:video_lang

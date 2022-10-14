@@ -1,0 +1,176 @@
+
+
+language_start:chat
+
+韩语
+new
+
+zh=중국어
+en=영어
+es=스페인의
+it=이탈리아 사람
+de=독일어
+fr=프랑스어
+ko=한국어
+pt=포르투갈어
+ru=러시아어
+ja=일본어
+th=태국어
+vi=베트남어
+pl=폴란드어
+in=인도네시아어
+tr=터키어
+ms=말레이어
+km=캄보디아
+ar=아라비아 말
+
+
+language_start:platform_chat_lang
+
+
+
+ui.chat.profile.title=나의 자료
+ui.chat.profile.others_title=데이터
+ui.chat.profile.birth=생일
+ui.chat.profile.constellation=별자리
+ui.chat.profile.tribal=부락
+ui.chat.profile.tag=라벨
+ui.chat.profile.confirm=확인
+ui.chat.profile.addTag=라벨 선택
+ui.chat.profile.tagSelectNum=:{.}{.}: 선택했다
+ui.chat.profile.playTime={.}시간
+
+ui.chat.profile.tagTypeName1=게임:
+ui.chat.profile.tagTypeName2=취미:
+ui.chat.profile.tagTypeName3=개성:
+ui.chat.profile.tagTypeName4=특징:
+
+ui.chat.profile.none_details=이 플레이어는 매우 신비스럽고 아무것도 쓰지 않았습니다.
+
+ui.chat.profile.constellationName1=물병자리
+ui.chat.profile.constellationName2=물고기자리
+ui.chat.profile.constellationName3=양자리
+ui.chat.profile.constellationName4=황소자리
+ui.chat.profile.constellationName5=쌍둥이자리
+ui.chat.profile.constellationName6=게자리
+ui.chat.profile.constellationName7=사자자리
+ui.chat.profile.constellationName8=처녀자리
+ui.chat.profile.constellationName9=천칭자리
+ui.chat.profile.constellationName10=전갈자리
+ui.chat.profile.constellationName11=사수자리
+ui.chat.profile.constellationName12=염소자리
+
+ui.chat.team=팀업
+ui.chat.pk =PK
+ui.chat.gift=선물하기
+ui.chat.apprentice=멘토
+ui.chat.invite=▢FF000000함께 놀다고 신청
+ui.chat.information=상세
+ui.chat.master =사사하기
+
+ui.chat.chating=지도 채널 채팅 중
+ui.chat.chatMsgType1=세계
+ui.chat.chatMsgType2=기족
+ui.chat.chatMsgType3=일대일 채팅
+ui.chat.chatMsgType4=눈앞
+ui.chat.chatMsgType5=시스템
+ui.chat.chatMsgType6=팀
+ui.chat.chatMsgType7=직업
+ui.chat.chatMsgType8=친두
+
+ui.chat.emoji.face=표정
+ui.chat.emoji.goods=물품
+ui.chat.emoji.pet=애완 동물
+ui.chat.emoji.short=단어
+
+ui.chat.friend.apply=▢FF00FFFF친구 신청
+ui.chat.friend.agreeAll=▢FF000000전부 동의
+ui.chat.friend.refusedAll=▢FF000000모두 거부
+ui.chat.friend.list=▢FF00FFFF친구 목록
+ui.chat.friend.myProfile=나의 자료
+ui.chat.friend.addFriend=친구 추가
+
+ui.chat.friend.tips_apply=친구 신청을 받았습니다
+ui.chat.friend.applyFriend=▢FF484261새로운 친구
+
+ui.chat.friend.gameFriend=▢FF484261함께 노는 친구
+
+ui.chat.friend.platformFriend=▢FF484261BG 친구들
+ui.chat.friend.offline=▢FFFF0000오프라인
+ui.chat.friend.online=▢FF00EC00온라인
+ui.chat.friend.send_add=친구 신청을 이미 보냈습니다
+
+ui.chat.friend.recent_contact=▢FF00FFFF최근 연락한 사람
+ui.chat.tips.unable_display=메시지 형식을 표시할 수 없습니다
+
+ui.chat.team.hall=팀 로비로 가기
+ui.chat.system.input=▢FFFFFFFF시스템 채널에서 메시지를 보낼 수 없습니다
+ui.chat.click.chat=클릭 입력
+ui.chat.autoplay=▢FFFFFFFF자동 재생음성
+ui.chat.lock=화면 잠금
+ui.chat.player_private=▢FF000000일대일 채팅
+ui.chat.ignore=소식 차단
+ui.chat.disignore=차단 취소
+ui.chat.player_addFriend=▢FF000000친구추가
+ui.chat.applyed=이미 신청했습니다
+ui.chat.isfriend=이미 친구이었습니다
+ui.chat.addinfo={.}에 친구 신청 보냈습니다
+ui.chat.cancel.sound=발송 취소
+ui.chat.press.sound=길게 누르고 말하다
+ui.chat.welcome={.}캠프에 오신 것을 환영합니다.
+ui.chat.strangr=낯선 사람
+ui.chat.friend=친구
+ui.chat.system=시스템
+ui.chat.offline=상대방이 이미 현재 서버를 떠났기 때문에, 메시지를 받을 수 없습니다
+ui.chat.voicefail=음성 전송에 실패했습니다. 다시 시도하십시오.
+ui.chat.voiceless=음성 횟수가 부족합니다. 전송에 실패했습니다.
+ui.chat.buyNum=나팔 {.}개
+ui.chat.voiceBuySucc=구매 성공
+ui.chat.voiceBuyFail=구매 실패
+ui.chat.moonCard=음성 무제한 월 카드
+ui.chat.moonTime={.}일
+ui.chat.moonLess=1일 미만 남음
+ui.chat.privating=지금 {.}과 일대일 채팅을 하고 있습니다.
+ui.chat.familing=캠프 채널 채팅 중
+ui.chat.sureBuy={.} 골드 큐브를 사용해 구입하시겠습니까?
+ui.chat.pickPlayerPlease=플레이어 한 명 먼저 선택하세요
+ui.chat.newMsg=새 소식x{.}
+ui.chat.commoning=공공채팅 중
+interact_chat=일대일 채팅
+ui.chat.shopTitle =음성 선물세트
+ui.chat.server.friend.online=F FFFFFF 당신의 친구 [{.}] 이미 접속이 되었습니다.
+ui.chat.moreMax=내용이 너무 길어서 [{.} 이후의 문자는 생략되었습니다
+ui.chat.history1= 플레이어  한 명 선택하여 개인 채팅을 진행하세요
+ui.chat.history2=0.0
+gui_lang_refuse_friend=상대방이 당신의 친구 신청을 거절했다.
+ui.chat.agreeinfo={.}의 친구 신청에 동의하기
+ui.chat.refuseinfo={.}의 친구 신청을 거부하기
+ui.chat.deleteinfo=친구{.} 삭제되었습니다
+ui.chat.friend.request=친구 신청
+ui.chat.player_delFriend=▢FF000000친구 관계를 해소하기
+gui_lang_kick_out=내몰기
+ui.chat.server.private.chat.need.same.server=FFFFFFFF 당신의 친구 FF3A9CBF[{.}]FFFFFFF는 이미 접속이 되었으며,  친구를 연락하려면 쌍방이 같은 서버에 있어야 합니다
+ui.chat.server.vip.online=F FFFFFF 소중한 FFFFAE934vip [{.}]님 FFFFFFFF이 접속되었습니다
+ui.chat.hasVoice=x{.}
+ui.chat.cannotsend=발언이 너무 잦으니 잠시 후에 발언해 주십시오
+ui.chat.ignore.tip=차단 성공
+ui.chat.disignore.tip=차단 해제 성공
+ui.chat.send.voice=떼고 음성을 보내다
+ui.chat.cancel.send.voice=떼고 음성 전송 취소
+ui.chat.can.not.send=현재 채널이 냉각 중입니다.%s초 후에 다시 조작하십시오!
+ui.chat.can.not.send.emoji=발송 냉각  중,%s초 후에 다시 시도하십시오.
+ui.chat.number=▢FF484261{.}/{.}
+ui.chat.playerInfo.name=▢FF00FFFF{.}
+ui.chat.playerInfo.id=▢FFFFFFFFID:{.}
+ui.chat.friend.name=▢FF00FFFF{.}
+
+ui.chat.send.wait=보내는 메시지 간격이 너무 짧습니다
+
+language_end:platform_chat_lang
+
+
+
+
+
+
+language_end:chat

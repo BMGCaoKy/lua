@@ -1,0 +1,14 @@
+{
+  "uiOpen": {
+    "myRank": true,
+    "modeSelect": true,
+    "modeMatch": true
+  },
+  "uiClose": {
+    "myRank": true,
+    "modeSelect": true,
+    "modeMatch": true
+  },
+  "useGameFpsReport": true,
+  "debug": true
+}

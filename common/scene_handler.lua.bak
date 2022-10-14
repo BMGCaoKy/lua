@@ -1,0 +1,248 @@
+﻿---@type Instance
+local Instance = Instance
+local sceneHandles = T(SceneHandler, "sceneHandles", {})
+local lastHandleId = T(SceneHandler, "lastHandleId", 0)
+
+local moveNodes = {}
+
+local function getHandleId()
+	lastHandleId = lastHandleId + 1
+	SceneHandler.lastHandleId = lastHandleId
+	return lastHandleId
+end
+
+local function saveMeshPartCollisionInfo(meshPartResPath)
+	local temp = meshPartResPath:gsub("/", "_")
+	local dirPath = Root.Instance():getGamePath() .. "meshpart_collision"
+	local path = "meshpart_collision/" .. temp .. ".json"
+	local table = {}
+
+	if not Lib.fileExists(dirPath) then
+		lfs.mkdir(dirPath)
+	end
+
+	if Lib.fileExists(Root.Instance():getGamePath() .. path) then
+		return
+	end
+
+	MeshPartManager.Instance():getCollisionInfoAsTable(table, meshPartResPath)
+	Lib.saveGameJson(path, table)
+end
+
+local function deleteMeshPartCollisionInfo(meshPartResPath)
+	local temp = meshPartResPath:gsub("/", "_")
+	local filePath = Root.Instance():getGamePath() .. "meshpart_collision/" .. temp .. ".json"
+	if not Lib.fileExists(filePath) then
+		return
+	end
+	os.remove(filePath)
+end
+
+local meshMgr = {
+	mesh_load = saveMeshPartCollisionInfo,
+	mesh_remove = deleteMeshPartCollisionInfo,
+}
+
+function scene_event(instance, signalKey, argsTable)
+	-- print("scene_event!", instance, signalKey, table.unpack(argsTable))
+	if not instance or not instance:isValid() then
+		return
+	end
+	signalKey = signalKey:lower()
+	if meshMgr[signalKey] then
+		meshMgr[signalKey](table.unpack(argsTable))
+		return
+	end
+
+	local moveNodeFunc = moveNodeEventHandle[signalKey]
+	if moveNodeFunc then
+		moveNodeFunc(instance, argsTable)
+		return
+	end
+
+	--todo 临时写法
+	if signalKey == "instance_enter_scene" or signalKey == "instance_leave_scene" then
+		instance.Map:EmitEvent(signalKey, table.unpack(argsTable))
+	else
+		instance:EmitEvent(signalKey, table.unpack(argsTable))
+	end
+
+	if signalKey == "on_destroy" then
+		instance:onDestroy()
+	end
+end
+
+local OnlyLuaEvent = "OnlyLuaEvent"
+local Lua2Cpp = {
+	---Instance
+	OnAttributeChanged = "property_changed",
+	OnChildAdded = "add_child",
+	OnChildRemoved = "remove_child",
+	OnDestroy = "on_destroy",
+	OnEnterScene = "enter_scene",
+	OnExistScene = "on_exit_scene",
+	OnReady = "ready",
+	OnNameChanged = "name",
+	OnSizeChanged = "size",
+	OnPositionChanged = "position",
+	OnRotationChanged = "rotation",
+	OnVolumeChanged = "volume_changed",
+	OnMasterPivotPosChanged = "master_pivot_pos",
+	OnSlavePivotPosChanged = "slave_pivot_pos",
+	OnMaterialUpdated = "update_material",
+	OnDecalUpdated = "update_decal",
+	OnLightActived = "light_actived",
+	OnDelayRemoved = "delay_remove",
+	OnMeshLoaded = "mesh_load",
+	OnMeshRemoved = "mesh_remove",
+	---Part
+	OnClick = OnlyLuaEvent,
+	OnCollisionBegin = { "part_touch_part_begin", --[["part_touch_entity_begin"--]] },
+	OnCollisionEnd = { "part_touch_part_end", --[["part_touch_entity_end"--]] },
+	part_touch_entity_begin = "part_touch_entity_begin",
+	part_touch_entity_end = "part_touch_entity_end",
+	---
+	OnOriginSize = "originSize",
+	OnBindFuncKey = "bind_func_key",
+	OnUnbindFuncKey = "unbind_func_key",
+	OnMoveNodeJump = "move_node_jump",
+	OnVacdReady = "on_vacd_ready",
+	OnUpdateInstance = "update_instance",
+	OnUpdateSceneUI = "update_scene_ui",
+	OnMovableNodeMove = "movableNode_move",
+
+	--workSpace
+	OnInstanceEnter = "instance_enter_scene",
+	OnInstanceLeave = "instance_leave_scene"
+}
+
+local Cpp2Lua = {}
+
+function Instance.IsCppEvent(Event)
+	if Event == OnlyLuaEvent then
+		return false
+	end
+	return Cpp2Lua[Event] and true or false
+end
+function Instance.IsLuaEvent(Event)
+	return Lua2Cpp[Event] and true or false
+end
+function Instance.IsOnlyLuaEvent(Event)
+	return Lua2Cpp[Event] == OnlyLuaEvent and true or false
+end
+function Instance.ToCppEvent(Event)
+	if Instance.IsCppEvent(Event) then
+		return Event
+	end
+	local ret = Lua2Cpp[Event]
+	if ret == OnlyLuaEvent then
+		return
+	end
+	return ret
+end
+function Instance.ToLuaEvent(Event)
+	if Instance.IsLuaEvent(Event) then
+		return Event
+	end
+	return Cpp2Lua[Event]
+end
+
+local function InitEventMap()
+	local Event = Event
+	local InstanceSpace = Define.EVENT_SPACE.INSTANCE
+	local MapSpace = Define.EVENT_SPACE.MAP
+	for luaEvent, cppEvent in pairs(Lua2Cpp) do
+		if type(cppEvent) == "string" then
+			Cpp2Lua[cppEvent] = luaEvent
+		elseif type(cppEvent) == "table" then
+			for _,_cppEvent in pairs(cppEvent) do
+				Cpp2Lua[_cppEvent] = luaEvent
+			end
+		end
+
+		--注册事件
+		Event:RegisterEvent(luaEvent, InstanceSpace)
+		--todo 临时写法
+		if luaEvent == "OnInstanceEnter" or luaEvent == "OnInstanceLeave" then
+			Event:RegisterEvent(luaEvent, MapSpace)
+		end
+	end
+end
+
+InitEventMap()
+
+--Instance类注册事件系统接口
+Event:InterfaceForTable(Instance, Define.EVENT_SPACE.INSTANCE, Define.EVENT_POOL.INSTANCE)
+
+local function connect(instance, signalKey, handle)
+	signalKey = signalKey:lower()
+
+	local bindableEvent = instance:GetConnectEvent(signalKey)
+	local bindHandler = bindableEvent:Bind(handle)
+
+	return function()
+		bindHandler:Destroy()
+	end
+end
+
+--signalKey, handle
+function Instance:listenPropertyChange(signalKey, handle)
+	return connect(self, signalKey, handle)
+end
+
+--signalKey, handle
+function Instance:connect(signalKey, handle)
+	return connect(self, signalKey, handle)
+end
+
+function Instance.runAllMoveNodeTick()
+	for _, moveMode in pairs(moveNodes) do
+		moveMode:func(moveMode.ins)
+	end
+end
+
+-- 为了兼容2047，2049，2050使用的节点系统API写的临时兼容性代码
+-- 兼容代码开始
+local old_Instance_connect = Instance.connect
+function Instance:connect(signal, target, method, ...)
+	if type(target) == "function" then
+		return old_Instance_connect(self, signal, target, method, ...)
+	end
+	local disconnector = old_Instance_connect(self, signal, function(source, ...)
+		target[method](target, ...)
+	end, ...)
+	if target.destroyCallback then
+		table.insert(target.destroyCallback, disconnector)
+	end
+	return disconnector
+end
+
+rawset(_G, "defineNode", function(name, nodeName)
+	local nodeClass = {}
+	rawset(_G, name, nodeClass)
+
+	function nodeClass.Create(...)
+		local node = Instance.Create(nodeName or "EmptyNode") --Spatial
+		for k, v in pairs(nodeClass) do
+			if k ~= "Create" then
+				node[k] = v
+			end
+		end
+
+		node.destroyCallback = {}
+		local real_destroy = node.destroy
+		function node:destroy()
+			for _, v in pairs(self.destroyCallback) do
+				v()
+			end
+			real_destroy(self)
+		end
+
+		if node.init then
+			node:init(...)
+		end
+
+		return node
+	end
+end)
+-- 兼容代码结束

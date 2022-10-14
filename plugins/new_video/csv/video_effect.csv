@@ -1,0 +1,16 @@
+n_tabId	n_sortIndex	s_icon	s_titleLang	s_eventType	s_param
+所属菜单		icon图集	多语言描述	事件类型	参数
+1	1	set:new_video.json image:list_filter_old	gui.new_video.handle.type101	FilterLut	lut_old.png
+1	2	set:new_video.json image:list_filter_gray	gui.new_video.handle.type102	FilterLut	lut_gray.png
+1	3	set:new_video.json image:list_filter_contrast	gui.new_video.handle.type103	FilterLut	lut_highcontrast.png
+1	4	set:new_video.json image:list_filter_syber	gui.new_video.handle.type104	FilterLut	lut_cyberpunk.png
+1	5	set:new_video.json image:list_filter_brightness	gui.new_video.handle.type105	FilterLightBlur
+2	1	set:new_video.json image:list_weather_sunny	gui.new_video.handle.type201	Weather	sunny
+2	4	set:new_video.json image:list_weather_star	gui.new_video.handle.type204	Weather	star
+2	5	set:new_video.json image:list_weather_sunset	gui.new_video.handle.type205	Weather	sunset
+3	1	set:new_video.json image:list_eff_movie	gui.new_video.handle.type301	EffectMovie
+3	2	set:new_video.json image:list_eff_flashlight	gui.new_video.handle.type302	EffectTorch
+3	3	set:new_video.json image:list_eff_speed	gui.new_video.handle.type303	EffectSpeed
+3	4	set:new_video.json image:list_eff_star	gui.new_video.handle.type304	UiEffect	camera_effect_white_star.effect
+3	5	set:new_video.json image:list_eff_butterfly	gui.new_video.handle.type305	UiEffect	camera_effect_white_butterfly.effect
+3	6	set:new_video.json image:list_eff_colordots	gui.new_video.handle.type306	UiEffect	camera_effect_warm_dots.effect

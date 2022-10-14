@@ -1,0 +1,40 @@
+
+
+language_start:video_lang
+
+
+
+gui.new_video.record_success=Đã quay xong, video sẽ được lưu trong album ảnh
+gui.new_video.record_memory=Bộ nhớ thiết bị không đủ, đã dừng quay
+gui.new_video.record_fail=Tham số chưa hỗ trợ, quay thất bại
+
+gui.new_video.tab1=Bộ lọc
+gui.new_video.tab2=Thời tiết
+gui.new_video.tab3=HIệu ứng hình ảnh
+gui.new_video.handle.tab1=HIệu ứng
+gui.new_video.handle.tab2=Ẩn UI
+gui.new_video.handle.tab3=Cài đặt UI
+gui.new_video.handle.type101=Cổ điển
+gui.new_video.handle.type102=Trắng đen
+gui.new_video.handle.type103=Tương phản cao
+gui.new_video.handle.type104=Cyberpunk
+gui.new_video.handle.type105=Sáng chói
+gui.new_video.handle.type106=Sáng mùa thu
+gui.new_video.handle.type107=Đêm trăng tròn
+gui.new_video.handle.type108=Trời trong xanh
+gui.new_video.handle.type201=Trời nắng
+gui.new_video.handle.type202=Trời mưa
+gui.new_video.handle.type203=Tuyết rơi
+gui.new_video.handle.type204=Nhiều sao
+gui.new_video.handle.type205=Ánh hoàng hôn
+gui.new_video.handle.type301=Phim điện ảnh
+gui.new_video.handle.type302=Đèn pin
+gui.new_video.handle.type303=Đường tốc độ
+gui.new_video.handle.type304=Chữ thập
+gui.new_video.handle.type305=Bướm
+gui.new_video.handle.type306=Điểm tròn
+gui.new_video.hide.setting.data1=Ẩn tên
+gui.new_video.hide.setting.data2=Ẩn người khác
+gui.new_video.hide.setting.data3=Ẩn bản thân
+
+language_end:video_lang

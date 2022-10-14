@@ -1,0 +1,176 @@
+
+
+language_start:chat
+
+泰语
+new
+
+zh=ชาวจีน
+en=ภาษาอังกฤษ
+es=สเปน
+it=อิตาลี
+de=เยอรมัน
+fr=ฝรั่งเศส
+ko=เกาหลี
+pt=โปรตุเกส
+ru=รัสเซีย
+ja=ญี่ปุ่น
+th=ไทย
+vi=เวียดนาม
+pl=ขัด
+in=ชาวอินโดนีเซีย
+tr=ตุรกี
+ms=ชาวมาเลเซีย
+km=กัมพูชา
+ar=ภาษาอาหรับ
+
+
+language_start:platform_chat_lang
+
+
+
+ui.chat.profile.title=ประวัติของฉัน
+ui.chat.profile.others_title=ข้อมูลส่วนตัว
+ui.chat.profile.birth=วันเกิด
+ui.chat.profile.constellation=ราศี
+ui.chat.profile.tribal=แคลน
+ui.chat.profile.tag=แท็ก
+ui.chat.profile.confirm=ยืนยัน
+ui.chat.profile.addTag=เลือกแท็ก
+ui.chat.profile.tagSelectNum=เลือก: {.} {.}:
+ui.chat.profile.playTime={.}ชั่วโมง
+
+ui.chat.profile.tagTypeName1=เกม:
+ui.chat.profile.tagTypeName2=งานอดิเรก:
+ui.chat.profile.tagTypeName3=บุคลิกภาพ:
+ui.chat.profile.tagTypeName4=ตัวละคร:
+
+ui.chat.profile.none_details=ผู้เล่นคนนี้ลึกลับมากและไม่ได้เขียนอะไรเลย
+
+ui.chat.profile.constellationName1=ราศีกุมภ์
+ui.chat.profile.constellationName2=ราศีมีน
+ui.chat.profile.constellationName3=ราศีเมษ
+ui.chat.profile.constellationName4=ราศีพฤษภ
+ui.chat.profile.constellationName5=ราศีเมถุน
+ui.chat.profile.constellationName6=โรคมะเร็ง
+ui.chat.profile.constellationName7=สิงห์
+ui.chat.profile.constellationName8=ราศีกันย์
+ui.chat.profile.constellationName9=ราศีตุลย์
+ui.chat.profile.constellationName10=ราศีพิจิก
+ui.chat.profile.constellationName11=ราศีธนู
+ui.chat.profile.constellationName12=ราศีมังกร
+
+ui.chat.team=ร่วมทีม
+ui.chat.pk =การต่อสู้
+ui.chat.gift=ส่งของขวัญ
+ui.chat.apprentice=ที่ปรึกษา
+ui.chat.invite=▢FF000000เล่นด้วยกัน
+ui.chat.information=รายละเอียด
+ui.chat.master =เด็กฝึกงาน
+
+ui.chat.chating=แชทในช่องแผนที่
+ui.chat.chatMsgType1=โลก
+ui.chat.chatMsgType2=ครอบครัว
+ui.chat.chatMsgType3=แชทส่วนตัว
+ui.chat.chatMsgType4=ปัจจุบัน
+ui.chat.chatMsgType5=ระบบ
+ui.chat.chatMsgType6=ทีม
+ui.chat.chatMsgType7=วิชาชีพ
+ui.chat.chatMsgType8=เพื่อน
+
+ui.chat.emoji.face=อิโมจิ
+ui.chat.emoji.goods=สิ่งของ
+ui.chat.emoji.pet=สัตว์เลี้ยง
+ui.chat.emoji.short=วลีสั้น ๆ
+
+ui.chat.friend.apply=▢FF00FFFFขอเป็นเพื่อน
+ui.chat.friend.agreeAll=▢FF000000ยอมรับทั้งหมด
+ui.chat.friend.refusedAll=▢FF000000ปฏิเสธทั้งหมด
+ui.chat.friend.list=▢FF00FFFFรายชื่อเพื่อน
+ui.chat.friend.myProfile=ประวัติของฉัน
+ui.chat.friend.addFriend=เพิ่มเพื่อน
+
+ui.chat.friend.tips_apply=คุณมีคำขอเป็นเพื่อน
+ui.chat.friend.applyFriend=▢FF484261เพื่อนใหม่
+
+ui.chat.friend.gameFriend=▢FF484261เพื่อนในเกมเดียวกัน
+
+ui.chat.friend.platformFriend=▢FF484261เพื่อนบีจี
+ui.chat.friend.offline=▢FFFF0000ออฟไลน์
+ui.chat.friend.online=▢FF00EC00ออนไลน์
+ui.chat.friend.send_add=ส่งคำขอเป็นเพื่อนแล้ว
+
+ui.chat.friend.recent_contact=▢FF00FFFFแชทล่าสุด
+ui.chat.tips.unable_display=ไม่สามารถแสดงประเภทข้อความได้
+
+ui.chat.team.hall=ไปที่ Team up Hall
+ui.chat.system.input=▢FFFFFFFFไม่สามารถส่งข้อความในช่องระบบ
+ui.chat.click.chat=คลิกเพื่อพิมพ์
+ui.chat.autoplay=▢FFFFFFFFเล่นข้อความเสียงอัตโนมัติ
+ui.chat.lock=ล็อกหน้าจอ
+ui.chat.player_private=▢FF000000แชทส่วนตัว
+ui.chat.ignore=บล็อกข้อความ
+ui.chat.disignore=เลิกบล็อกข้อความ
+ui.chat.player_addFriend=▢FF000000เพิ่มเพื่อน
+ui.chat.applyed=ส่งคำร้อง
+ui.chat.isfriend=คุณเคยเป็นเพื่อนกันมาแล้ว
+ui.chat.addinfo=ส่งคำขอเป็นเพื่อนไปที่ {.}
+ui.chat.cancel.sound=ยกเลิก
+ui.chat.press.sound=กดค้างเพื่อพูด
+ui.chat.welcome= {.} ยินดีต้อนรับสู่ Alignment
+ui.chat.strangr=คนแปลกหน้า
+ui.chat.friend=เพื่อน
+ui.chat.system=ระบบ
+ui.chat.offline=ผู้เล่นออกจากเซิร์ฟเวอร์แล้วไม่สามารถรับข้อความได้ในขณะนี้
+ui.chat.voicefail=ไม่สามารถส่งข้อความเสียงได้โปรดลองอีกครั้ง
+ui.chat.voiceless=โทรโข่งไม่เพียงพอไม่สามารถส่งข้อความเสียงได้
+ui.chat.buyNum={.} โทรโข่ง
+ui.chat.voiceBuySucc=ซื้อสำเร็จ
+ui.chat.voiceBuyFail=การซื้อล้มเหลว
+ui.chat.moonCard=บัตรเสียงไม่ จำกัด เดือน
+ui.chat.moonTime={.} วัน
+ui.chat.moonLess=เหลือน้อยกว่า 1 วัน
+ui.chat.privating=ในการแชทส่วนตัวกับ {.}
+ui.chat.familing=แชทในช่องฝ่าย
+ui.chat.sureBuy=ซื้อจีคิวบ์ {.} ไหม
+ui.chat.pickPlayerPlease=เลือกผู้เล่นก่อน
+ui.chat.newMsg=ข้อความใหม่ x {.}
+ui.chat.commoning=ในการแชทสาธารณะ
+interact_chat=แชทส่วนตัว
+ui.chat.shopTitle =แพ็คเกจเสียง
+ui.chat.server.friend.online=เพื่อนของคุณ [{.}] ออนไลน์อยู่
+ui.chat.moreMax=ข้อความยาวเกินไปเนื้อหาหลังจาก [{.}] ถูกซ่อนไว้
+ui.chat.history1=เลือกผู้เล่นสำหรับการแชทส่วนตัว
+ui.chat.history2=0.0
+gui_lang_refuse_friend=คำขอ freind ของคุณถูกปฏิเสธ
+ui.chat.agreeinfo=ยอมรับคำขอเป็นเพื่อนจาก {.}
+ui.chat.refuseinfo=ปฏิเสธคำขอเป็นเพื่อนจาก {.}
+ui.chat.deleteinfo=คุณได้ลบเพื่อนของคุณ {.}
+ui.chat.friend.request=ขอเป็นเพื่อน
+ui.chat.player_delFriend=▢FF000000เลิกเป็นเพื่อน
+gui_lang_kick_out=ขับไล่
+ui.chat.server.private.chat.need.same.server=▢FFFFFFFFเพื่อนของคุณ FF3A9CBF [{.}] ▢FFFFFFFFเป็นแบบออนไลน์ ต้องอยู่ในเซิร์ฟเวอร์เดียวกันสำหรับการแชทส่วนตัว
+ui.chat.server.vip.online=▢FFFFFFFFผู้เล่นHonorable▢FFFAE934VIP [{.}] ▢FFFFFFFFออนไลน์
+ui.chat.hasVoice=x{.}
+ui.chat.cannotsend=ข้อความไม่ตรงไปตรงมาเกินไปโปรดลองอีกครั้งในภายหลัง
+ui.chat.ignore.tip=ปิดกั้นเรียบร้อยแล้ว
+ui.chat.disignore.tip=เลิกบล็อกเรียบร้อยแล้ว
+ui.chat.send.voice=ปล่อยเพื่อส่งข้อความเสียง
+ui.chat.cancel.send.voice=ปล่อยเพื่อเรียกคืนข้อความเสียง
+ui.chat.can.not.send=ช่องนี้อยู่ในโหมดปิดการทำงานโปรดลองอีกครั้งหลังจาก%s วินาที
+ui.chat.can.not.send.emoji=คุณลักษณะการส่งอยู่ในโหมดเย็นลงโปรดลองอีกครั้งหลังจาก%s วินาที
+ui.chat.number=▢FF484261{.}/{.}
+ui.chat.playerInfo.name=▢FF00FFFF{.}
+ui.chat.playerInfo.id=▢FFFFFFFFID:{.}
+ui.chat.friend.name=▢FF00FFFF{.}
+
+ui.chat.send.wait=ช่วงเวลาส่งข้อความสั้นเกินไป
+
+language_end:platform_chat_lang
+
+
+
+
+
+
+language_end:chat

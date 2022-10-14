@@ -1,0 +1,20 @@
+
+if World.isClient then
+    Event.EVENT_SOUND_MOON_CHANGE  = Event.register("EVENT_SOUND_MOON_CHANGE")
+    Event.EVENT_SOUND_TIME_CHANGE  = Event.register("EVENT_SOUND_TIME_CHANGE")
+    Event.EVENT_CHAT_CARD_TIME  = Event.register("EVENT_CHAT_CARD_TIME")
+
+    Event.EVENT_FAMILY_ICON_CHANGE  = Event.register("EVENT_FAMILY_ICON_CHANGE")
+    
+    Event.EVENT_FREE_SOUND_TIME_CHANGE = Event.register("EVENT_FREE_SOUND_TIME_CHANGE")
+    Event.EVENT_CHAT_POINT_CHANGE = Event.register("EVENT_CHAT_POINT_CHANGE")
+
+    Event.EVENT_OPEN_PRIVATE_CHAT = Event.register("EVENT_OPEN_PRIVATE_CHAT")
+    Event.EVENT_SET_IGNORE = Event.register("EVENT_SET_IGNORE")
+    Event.EVENT_SET_CHAT_ALIGNMENT = Event.register("EVENT_SET_CHAT_ALIGNMENT")
+    Event.EVENT_SET_CHAT_BAR_POS = Event.register("EVENT_SET_CHAT_BAR_POS")
+    Event.EVENT_CHECK_IGNORE = Event.register("EVENT_CHECK_IGNORE")
+    Event.EVENT_CHAT_VIEW_STATUS = Event.register("EVENT_CHAT_VIEW_STATUS")
+else
+
+end

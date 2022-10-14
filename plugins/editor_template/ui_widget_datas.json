@@ -1,0 +1,2515 @@
+[
+    {
+        "index": 200,
+        "title": "editor.ui.isLimit"
+    },
+    {
+        "index": 2080,
+        "title": "editor.ui.addScore",
+        "rangeCount": 3,
+        "enableHubble": true,
+        "range": [
+            [
+                0,
+                10
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                100,
+                999
+            ]
+        ],
+        "scale": [
+            1,
+            10,
+            100
+        ]
+    },
+    {
+        "index": 2081,
+        "title": "editor.ui.addHp",
+        "rangeCount": 4,
+        "enableHubble": true,
+        "range": [
+            [
+                0,
+                10
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                100,
+                999
+            ],
+            [
+                1000,
+                9999
+            ]
+        ],
+        "scale": [
+            1,
+            10,
+            100,
+            1000
+        ]
+    },
+    {
+        "index": 2082,
+        "title": "editor.ui.damage",
+        "rangeCount": 3,
+        "enableHubble": true,
+        "range": [
+            [
+                0,
+                10
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                100,
+                999
+            ]
+        ],
+        "scale": [
+            1,
+            10,
+            100
+        ]
+    },
+    {
+        "index": 201,
+        "title": "editor.ui.buyTimes",
+        "rangeCount": 3,
+        "enableHubble": true,
+        "range": [
+            [
+                1,
+                10
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                100,
+                999
+            ]
+        ],
+        "scale": [
+            1,
+            10,
+            100
+        ]
+    },
+    {
+        "index": 202,
+        "title": "editor.ui.groupCount",
+        "rangeCount": 2,
+        "enableHubble": true,
+        "range": [
+            [
+                1,
+                10
+            ],
+            [
+                10,
+                100
+            ]
+        ],
+        "scale": [
+            1,
+            10
+        ]
+    },
+    {
+        "index": 203,
+        "title": "editor.ui.price",
+        "rangeCount": 4,
+        "enableHubble": true,
+        "range": [
+            [
+                1,
+                10
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                100,
+                999
+            ],
+            [
+                1000,
+                9999
+            ]
+        ],
+        "scale": [
+            1,
+            10,
+            100,
+            1000
+        ]
+    },
+    {
+        "index": 18,
+        "title": "player_attributes_doublejump",
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "tailText": null,
+        "helpContent": "player_attributes_doublejump_help"
+    },
+    {
+        "index": 19,
+        "title": "player_attributes_canattack",
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "index": 20,
+        "title": "player_attributes_bag",
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "index": 21,
+        "title": "team_attack_each_other",
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "index": 22,
+        "title": "team_add_bed_egg",
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "modle": "test",
+        "index": 1,
+        "rangeCount": 1,
+        "range": [
+            [
+                1,
+                64
+            ]
+        ],
+        "scale": [
+            1
+        ],
+        "infinity": true,
+        "title": "editor.ui.count",
+        "enableHubble": true,
+        "helpContent": null
+    },
+    {
+        "index": 3,
+        "rangeCount": 4,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "1000"
+            ],
+            [
+                "1000",
+                "9999"
+            ]
+        ],
+        "enableHubble": true,
+        "scale": [
+            "1",
+            "10",
+            "100",
+            "1000"
+        ],
+        "title": "gamestart_waittime",
+        "tailText": "gamestart_waittime_unit",
+        "helpContent": null
+    },
+    {
+        "index": 4,
+        "rangeCount": 4,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "1000"
+            ],
+            [
+                "1000",
+                "9999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100",
+            "1000"
+        ],
+        "title": "gamestart_time",
+        "tailText": "gamestart_time",
+        "infinity": true,
+        "enableHubble": true,
+        "helpContent": null
+    },
+    {
+        "index": 5,
+        "rangeCount": 1,
+        "enableHubble": true,
+        "range": [
+            [
+                "1",
+                "20"
+            ]
+        ],
+        "scale": [
+            "1"
+        ],
+        "title": "gamestart_min",
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "index": 6,
+        "rangeCount": 1,
+        "enableHubble": true,
+        "range": [
+            [
+                "1",
+                "20"
+            ]
+        ],
+        "scale": [
+            "1"
+        ],
+        "title": "noteam_maxplayer",
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "index": 7,
+        "rangeCount": 3,
+        "enableHubble": true,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "title": "win_kill_player",
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "index": 8,
+        "rangeCount": 4,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "1000"
+            ],
+            [
+                "1000",
+                "9999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100",
+            "1000"
+        ],
+        "title": "win_score",
+        "tailText": null,
+        "enableHubble": true,
+        "helpContent": null
+    },
+    {
+        "index": 9,
+        "rangeCount": 4,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "1000"
+            ],
+            [
+                "1000",
+                "9999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100",
+            "1000"
+        ],
+        "title": null,
+        "tailText": null,
+        "enableHubble": true,
+        "helpContent": null
+    },
+    {
+        "index": 10,
+        "rangeCount": 1,
+        "range": [
+            [
+                "1",
+                "4"
+            ]
+        ],
+        "scale": [
+            "1"
+        ],
+        "title": "team_num",
+        "tailText": null,
+        "enableHubble": true,
+        "helpContent": null
+    },
+    {
+        "index": 11,
+        "rangeCount": 1,
+        "range": [
+            [
+                "1",
+                "20"
+            ]
+        ],
+        "scale": [
+            "1"
+        ],
+        "enableHubble": true,
+        "title": "team_maxplayer",
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "index": 12,
+        "rangeCount": 4,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "1000"
+            ],
+            [
+                "1000",
+                "9999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100",
+            "1000"
+        ],
+        "title": "player_attributes_hp",
+        "tailText": null,
+        "enableHubble": true,
+        "helpContent": null
+    },
+    {
+        "index": 13,
+        "rangeCount": 2,
+        "range": [
+            [
+                "0.05",
+                "0.1"
+            ],
+            [
+                "0.1",
+                "1"
+            ]
+        ],
+        "scale": [
+            "0.01",
+            "0.1"
+        ],
+        "isFloat": true,
+        "title": "player_attributes_speed",
+        "tailText": null,
+        "enableHubble": true,
+        "helpContent": null
+    },
+    {
+        "index": 14,
+        "rangeCount": 2,
+        "range": [
+            [
+                "0.1",
+                "1"
+            ],
+            [
+                "1",
+                "3"
+            ]
+        ],
+        "scale": [
+            "0.1",
+            "1"
+        ],
+        "isFloat": true,
+        "title": "player_attributes_jump",
+        "enableHubble": true,
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "index": 15,
+        "rangeCount": 3,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "title": "player_attributes_attack",
+        "tailText": null,
+        "enableHubble": true,
+        "helpContent": null
+    },
+    {
+        "index": 16,
+        "rangeCount": 3,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "title": "player_attributes_rebirth",
+        "tailText": null,
+        "infinity": true,
+        "enableHubble": true,
+        "helpContent": null
+    },
+    {
+        "index": 17,
+        "rangeCount": 3,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "enableHubble": true,
+        "title": "player_attributes_rebirth_time",
+        "tailText": "player_attributes_rebirth_time_unit",
+        "helpContent": null
+    },
+    {
+        "modle": "test",
+        "index": 100,
+        "rangeCount": 4,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "1000"
+            ],
+            [
+                "1000",
+                "9999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100",
+            "1000"
+        ],
+        "enableHubble": true,
+        "title": "game_after_time",
+        "tailText": "game_after_time_unit",
+        "helpContent": "game_after_time_help"
+    },
+    {
+        "modle": "test",
+        "index": 1000,
+        "rangeCount": 4,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "1000"
+            ],
+            [
+                "1000",
+                "9999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100",
+            "1000"
+        ],
+        "enableHubble": true,
+        "title": "props_max_hp",
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "modle": "test",
+        "index": 1001,
+        "rangeCount": 2,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "99"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10"
+        ],
+        "enableHubble": true,
+        "isFloat": false,
+        "title": "props_accelerate_bonus",
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "modle": "test",
+        "index": 1002,
+        "rangeCount": 2,
+        "range": [
+            [
+                "0",
+                "1"
+            ],
+            [
+                "1",
+                "3"
+            ]
+        ],
+        "scale": [
+            "0.1",
+            "1"
+        ],
+        "enableHubble": true,
+        "isFloat": true,
+        "title": "props_jump",
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "modle": "test",
+        "index": 1003,
+        "rangeCount": 3,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "title": "props_attack",
+        "tailText": null,
+        "enableHubble": true,
+        "helpContent": null
+    },
+    {
+        "modle": "test",
+        "index": 1004,
+        "rangeCount": 3,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "title": "props_defense_bonus",
+        "tailText": null,
+        "enableHubble": true,
+        "helpContent": null
+    },
+    {
+        "modle": "test",
+        "index": 1005,
+        "rangeCount": 1,
+        "isFloat": true,
+        "range": [
+            [
+                "0",
+                "2"
+            ]
+        ],
+        "scale": [
+            "0.1"
+        ],
+        "title": "props_repel_bonus",
+        "tailText": null,
+        "enableHubble": true,
+        "helpContent": "rops_repel_bonus_help"
+    },
+    {
+        "modle": "test",
+        "index": 1006,
+        "rangeCount": 4,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "1000"
+            ],
+            [
+                "1000",
+                "9999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100",
+            "1000"
+        ],
+        "title": "props_shield_bonus",
+        "tailText": null,
+        "enableHubble": true,
+        "helpContent": "rops_shield_bonus_help"
+    },
+    {
+        "modle": "test",
+        "index": 1007,
+        "rangeCount": 1,
+        "isFloat": true,
+        "range": [
+            [
+                "0.1",
+                "1"
+            ]
+        ],
+        "scale": [
+            "0.1"
+        ],
+        "title": "props_effectiveness",
+        "tailText": null,
+        "enableHubble": true,
+        "helpContent": "props_effectiveness_help"
+    },
+    {
+        "modle": "test",
+        "index": 2,
+        "rangeCount": 4,
+        "enableHubble": true,
+        "range": [
+            [
+                1,
+                10
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                100,
+                1000
+            ],
+            [
+                1000,
+                10000
+            ]
+        ],
+        "scale": [
+            1,
+            10,
+            100,
+            1000
+        ]
+    },
+    {
+        "modle": "test",
+        "index": 2000,
+        "title": "editor.ui.autoUpgrade"
+    },
+    {
+        "modle": "test",
+        "index": 2001,
+        "rangeCount": 4,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "1000"
+            ],
+            [
+                "1000",
+                "9999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100",
+            "1000"
+        ],
+        "enableHubble": true,
+        "title": "editor.ui.upgradeCountDown",
+        "tailText": "editor.ui.second",
+        "helpContent": null
+    },
+    {
+        "modle": "test",
+        "index": 2002,
+        "rangeCount": 3,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "enableHubble": true,
+        "title": "produce_speed",
+        "tailText": "produce_speed_unit",
+        "helpContent": "output_speed_help"
+    },
+    {
+        "modle": "test",
+        "index": 2003,
+        "title": "editor.ui.bindTeam"
+    },
+    {
+        "modle": "test",
+        "index": 2004,
+        "rangeCount": 3,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "title": "monster_attack",
+        "helpContent": null,
+        "enableHubble": true,
+        "tailText": null
+    },
+    {
+        "modle": "test",
+        "index": 2005,
+        "rangeCount": 4,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "1000"
+            ],
+            [
+                "1000",
+                "9999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100",
+            "1000"
+        ],
+        "title": "monster_hp",
+        "helpContent": null,
+        "enableHubble": true,
+        "tailText": null
+    },
+    {
+        "modle": "test",
+        "index": 2006,
+        "title": "show_hp",
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "tailText": null,
+        "helpContent": "show_hp_help"
+    },
+    {
+        "modle": "test",
+        "index": 2007,
+        "title": "monster_rebirth",
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "tailText": null,
+        "helpContent": "monster_rebirth_help"
+    },
+    {
+        "modle": "test",
+        "index": 2008,
+        "rangeCount": 4,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "1000"
+            ],
+            [
+                "1000",
+                "9999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100",
+            "1000"
+        ],
+        "title": "monster_rebirth_time",
+        "tailText": "monster_rebirth_time_unit",
+        "enableHubble": true,
+        "helpContent": "monster_rebirth_time_help"
+    },
+    {
+        "modle": "test",
+        "index": 2009,
+        "rangeCount": 3,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "title": "monster_score",
+        "helpContent": "monster_score_help",
+        "enableHubble": true,
+        "tailText": null
+    },
+    {
+        "modle": "test",
+        "index": 2010,
+        "title": "momster_collision_damage",
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "tailText": null,
+        "helpContent": "momster_collision_damage_help"
+    },
+    {
+        "modle": "test",
+        "index": 2011,
+        "rangeCount": 3,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "title": "flame_bomb_continuous_damage",
+        "helpContent": "flame_bomb_continuous_damage_help",
+        "enableHubble": true,
+        "tailText": "flame_bomb_continuous_damage_unit"
+    },
+    {
+        "modle": "test",
+        "index": 2012,
+        "rangeCount": 3,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "title": "flame_bomb_continuous_time",
+        "helpContent": "flame_bomb_continuous_time_help",
+        "enableHubble": true,
+        "tailText": "flame_bomb_continuous_time_unit"
+    },
+    {
+        "modle": "test",
+        "index": 2013,
+        "rangeCount": 3,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "title": "flame_bomb_explosion_damage",
+        "helpContent": null,
+        "enableHubble": true,
+        "tailText": null
+    },
+    {
+        "modle": "test",
+        "index": 2014,
+        "rangeCount": 4,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "1000"
+            ],
+            [
+                "1000",
+                "9999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100",
+            "1000"
+        ],
+        "enableHubble": true,
+        "title": "use_cd",
+        "helpContent": null,
+        "tailText": "use_cd_unit"
+    },
+    {
+        "modle": "test",
+        "index": 2015,
+        "rangeCount": 3,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "title": "tnt_continuous_damage",
+        "helpContent": "tnt_continuous_damage_help",
+        "enableHubble": true,
+        "tailText": "tnt_continuous_damage_unit"
+    },
+    {
+        "modle": "test",
+        "index": 2016,
+        "rangeCount": 3,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "title": "tnt_continuous_time",
+        "enableHubble": true,
+        "helpContent": "tnt_continuous_time_help",
+        "tailText": "tnt_continuous_time_unit"
+    },
+    {
+        "modle": "test",
+        "index": 2017,
+        "rangeCount": 2,
+        "range": [
+            [
+                "0",
+                "1"
+            ],
+            [
+                "1",
+                "3"
+            ]
+        ],
+        "scale": [
+            "0.1",
+            "1"
+        ],
+        "isFloat": true,
+        "enableHubble": true,
+        "title": "jump_bonus",
+        "helpContent": null,
+        "tailText": null
+    },
+    {
+        "modle": "test",
+        "index": 2018,
+        "rangeCount": 3,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "title": "jump_bonus_duration",
+        "helpContent": null,
+        "enableHubble": true,
+        "tailText": "jump_bonus_duration_unit"
+    },
+    {
+        "modle": "test",
+        "index": 2019,
+        "rangeCount": 3,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "enableHubble": true,
+        "title": "stealth_duration",
+        "helpContent": null,
+        "tailText": "stealth_duration_unit"
+    },
+    {
+        "modle": "test",
+        "index": 2020,
+        "rangeCount": 2,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "99"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10"
+        ],
+        "isFloat": false,
+        "title": "accelerate_bonus",
+        "helpContent": null,
+        "enableHubble": true,
+        "tailText": null
+    },
+    {
+        "modle": "test",
+        "index": 2021,
+        "rangeCount": 4,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "1000"
+            ],
+            [
+                "1000",
+                "9999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100",
+            "1000"
+        ],
+        "enableHubble": true,
+        "title": "golden_apple_hardness",
+        "helpContent": null,
+        "tailText": null
+    },
+    {
+        "modle": "test",
+        "index": 2022,
+        "rangeCount": 4,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "1000"
+            ],
+            [
+                "1000",
+                "9999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100",
+            "1000"
+        ],
+        "enableHubble": true,
+        "title": "golden_apple_extra_hp",
+        "helpContent": "golden_apple_extra_hp_help",
+        "tailText": null
+    },
+    {
+        "modle": "test",
+        "index": 2023,
+        "rangeCount": 4,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "1000"
+            ],
+            [
+                "1000",
+                "9999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100",
+            "1000"
+        ],
+        "enableHubble": true,
+        "title": "restore_hp",
+        "helpContent": null,
+        "tailText": null
+    },
+    {
+        "modle": "test",
+        "index": 2024,
+        "rangeCount": 1,
+        "title": "team",
+        "range": [
+            [
+                0,
+                10
+            ]
+        ],
+        "enableHubble": true,
+        "scale": [
+            1
+        ],
+        "helpContent": null
+    },
+    {
+        "modle": "test",
+        "index": 2025,
+        "rangeCount": 4,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "1000"
+            ],
+            [
+                "1000",
+                "9999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100",
+            "1000"
+        ],
+        "enableHubble": true,
+        "title": "max_hp_bonus",
+        "helpContent": null,
+        "tailText": null
+    },
+    {
+        "modle": "test",
+        "index": 2026,
+        "rangeCount": 3,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "enableHubble": true,
+        "title": "produce_bonus",
+        "tailText": "produce_bonus_unit",
+        "helpContent": "produce_bonus_help"
+    },
+    {
+        "modle": "test",
+        "index": 2027,
+        "rangeCount": 3,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "enableHubble": true,
+        "title": "flame_buff_duration",
+        "tailText": "flame_buff_duration_unit",
+        "helpContent": null
+    },
+    {
+        "modle": "test",
+        "index": 3002,
+        "rangeCount": 3,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "enableHubble": true,
+        "title": "flame_buff_continuous_damage",
+        "tailText": "flame_buff_continuous_damage_unit",
+        "helpContent": "flame_buff_continuous_damage_help"
+    },
+    {
+        "modle": "test",
+        "index": 2028,
+        "rangeCount": 3,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "enableHubble": true,
+        "title": "rebirth_bonus",
+        "tailText": "rebirth_bonus_unit",
+        "helpContent": "rebirth_bonus_help"
+    },
+    {
+        "modle": "test",
+        "index": 2029,
+        "rangeCount": 3,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "enableHubble": true,
+        "title": "defense_bonus",
+        "helpContent": "defense_bonus_help",
+        "tailText": null
+    },
+    {
+        "modle": "test",
+        "index": 2030,
+        "rangeCount": 3,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "enableHubble": true,
+        "title": "buff_spa",
+        "helpContent": "buff_spa_help",
+        "tailText": "buff_spa_unit"
+    },
+    {
+        "modle": "test",
+        "index": 2031,
+        "rangeCount": 1,
+        "range": [
+            [
+                "0.1",
+                "0.5"
+            ]
+        ],
+        "scale": [
+            "0.1"
+        ],
+        "enableHubble": true,
+        "isFloat": true,
+        "title": "buff_accelerate",
+        "helpContent": null,
+        "tailText": null
+    },
+    {
+        "modle": "test",
+        "index": 2032,
+        "rangeCount": 2,
+        "range": [
+            [
+                "0.1",
+                "1"
+            ],
+            [
+                "1",
+                "3"
+            ]
+        ],
+        "scale": [
+            "0.1",
+            "1"
+        ],
+        "enableHubble": true,
+        "isFloat": true,
+        "title": "buff_jump",
+        "helpContent": null,
+        "tailText": null
+    },
+    {
+        "modle": "test",
+        "index": 2033,
+        "rangeCount": 3,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "enableHubble": true,
+        "title": "buff_attack",
+        "helpContent": null,
+        "tailText": null
+    },
+    {
+        "modle": "test",
+        "index": 2034,
+        "rangeCount": 3,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "enableHubble": true,
+        "title": "buff_sharp",
+        "helpContent": "buff_sharp_help",
+        "tailText": null
+    },
+    {
+        "modle": "test",
+        "index": 2035,
+        "rangeCount": 4,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "1000"
+            ],
+            [
+                "1000",
+                "9999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100",
+            "1000"
+        ],
+        "enableHubble": true,
+        "title": "recover_vp",
+        "helpContent": null,
+        "tailText": null
+    },
+    {
+        "modle": "test",
+        "index": 2036,
+        "rangeCount": 4,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "1000"
+            ],
+            [
+                "1000",
+                "9999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100",
+            "1000"
+        ],
+        "enableHubble": true,
+        "title": "max_vp_bonus",
+        "helpContent": null,
+        "tailText": null
+    },
+    {
+        "index": 23,
+        "rangeCount": 3,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "title": "gain_score_kill_player",
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "index": 28,
+        "title": "gain_score_team_treasure",
+        "btnTitle": "block.die.drop.setting"
+    },
+    {
+        "index": 29,
+        "title": "gain_reward_team_treasure",
+        "btnTitle": "block.die.drop.setting"
+    },
+    {
+        "index": 24,
+        "rangeCount": 3,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "title": "gain_reward_kill_player",
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "index": 25,
+        "rangeCount": 3,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "enableHubble": true,
+        "title": "player_attributes_maxvp",
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "index": 26,
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "title": "player_attributes_ignorevpconsume",
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "index": 27,
+        "rangeCount": 3,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "convert": 20,
+        "hex": 20,
+        "enableHubble": true,
+        "title": "player_attributes_damageProtectTime",
+        "tailText": "editor.ui.second",
+        "helpContent": null
+    },
+    {
+        "modle": "test",
+        "index": 3000,
+        "rangeCount": 3,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "enableHubble": true,
+        "title": "tnt_explosion_damage",
+        "helpContent": null,
+        "tailText": null
+    },
+    {
+        "modle": "test",
+        "index": 3001,
+        "rangeCount": 3,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "enableHubble": true,
+        "title": "accelerate_duration",
+        "helpContent": null,
+        "tailText": "accelerate_duration_unit"
+    },
+    {
+        "modle": "test",
+        "index": 3003,
+        "rangeCount": 3,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "enableHubble": true,
+        "title": "attack_deArmour",
+        "helpContent": null
+    },
+    {
+        "modle": "test",
+        "index": 3004,
+        "rangeCount": 3,
+        "range": [
+            [
+                "1",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "enableHubble": true,
+        "title": "attach_deDamage",
+        "helpContent": null,
+        "tailText": "attach_deDamage"
+    },
+    {
+        "modle": "test",
+        "index": 3005,
+        "rangeCount": 1,
+        "range": [
+            [
+                1,
+                99
+            ]
+        ],
+        "scale": [
+            1
+        ],
+        "enableHubble": true,
+        "title": "editor.ui.level",
+        "helpContent": null
+    },
+    {
+        "index": 10000,
+        "title": "player_openComposite",
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "index": 10001,
+        "title": "global.compositeSetting",
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "index": 5000,
+        "title": "player_attributes_allow_fly",
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "index": 5001,
+        "title": "player_attributes_drop_damage",
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "index": 5002,
+        "title": "rule.setting.block.broken",
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "index": 5003,
+        "title": "rule.setting.join.minway",
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "tailText": null,
+        "helpContent": null
+    },
+    {
+        "index": 5004,
+        "title": "rule.setting.no.monster.dayTime"
+    },
+    {
+        "modle": "test",
+        "index": 5005,
+        "rangeCount": 1,
+        "range": [
+            [
+                "600",
+                "1200"
+            ]
+        ],
+        "scale": [
+            "100"
+        ],
+        "enableHubble": true,
+        "title": "rule.setting.oneDay",
+        "tailText": "rule.setting.day.time"
+    },
+    {
+        "index": 5006,
+        "title": "die_drop_all"
+    },
+    {
+        "index": 5007,
+        "title": "die_drop_none"
+    },
+    {
+        "index": 5008,
+        "title": "die_drop_other"
+    },
+    {
+        "index": 5009,
+        "title": "block.die.drop.title",
+        "btnTitle": "block.die.drop.setting"
+    },
+    {
+        "index": 5010,
+        "title": "player_attributes_undamageable"
+    },
+    {
+        "index": 5011,
+        "title": "player_attributes_damageProtectSwitch"
+    },
+    {
+        "index": 5012,
+        "title": "rule.setting.random.monster"
+    },
+    {
+        "modle": "test",
+        "index": 5013,
+        "rangeCount": 2,
+        "range": [
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "500"
+            ]
+        ],
+        "scale": [
+            "5",
+            "50"
+        ],
+        "enableHubble": true,
+        "title": "rule.setting.refresh.interval",
+        "tailText": ""
+    },
+    {
+        "modle": "test",
+        "index": 5020,
+        "rangeCount": 4,
+        "range": [
+            [
+                "1",
+                "9"
+            ],
+            [
+                "10",
+                "99"
+            ],
+            [
+                "100",
+                "999"
+            ],
+            [
+                "1000",
+                "9999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100",
+            "1000"
+        ],
+        "enableHubble": true,
+        "title": "lava.damage.var"
+    },
+    {
+        "modle": "test",
+        "index": 5021,
+        "rangeCount": 4,
+        "range": [
+            [
+                "1",
+                "9"
+            ],
+            [
+                "10",
+                "99"
+            ],
+            [
+                "100",
+                "999"
+            ],
+            [
+                "1000",
+                "9999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100",
+            "1000"
+        ],
+        "enableHubble": true,
+        "title": "lava.damage.time"
+    },
+    {
+        "index": 5022,
+        "title": "win.map.global.setting.player.tab.quality.open.sprint",
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "tailText": null
+    },
+    {
+        "index": 5023,
+        "title": "win.map.global.setting.player.tab.quality.open.squat",
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "tailText": null
+    },
+    {
+        "modle": "test",
+        "index": 5024,
+        "title": "gunCapacity",
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "tailText": null,
+        "helpContent": ""
+    },
+    {
+        "modle": "test",
+        "index": 5025,
+        "rangeCount": 3,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "title": "maxCapacity",
+        "tailText": null,
+        "enableHubble": true,
+        "helpContent": null
+    },
+    {
+        "modle": "test",
+        "index": 5026,
+        "rangeCount": 3,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "title": "initCapacity",
+        "tailText": null,
+        "enableHubble": true,
+        "helpContent": null
+    },
+    {
+        "index": 5027,
+        "title": "win.setting.showDrop",
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "tailText": null
+    },
+    {
+        "index": 5028,
+        "title": "win.map.global.setting.player.slideScreen",
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "tailText": null
+    },
+    {
+        "modle": "test",
+        "index": 5029,
+        "rangeCount": 1,
+        "range": [
+            [
+                "0",
+                "32"
+            ]
+        ],
+        "scale": [
+            "1"
+        ],
+        "title": "win.map.global.setting.player.cameraHeight",
+        "tailText": null,
+        "enableHubble": true,
+        "helpContent": null
+    },
+    {
+        "modle": "test",
+        "index": 5030,
+        "rangeCount": 1,
+        "range": [
+            [
+                "0",
+                "90"
+            ]
+        ],
+        "scale": [
+            "1"
+        ],
+        "title": "win.map.global.setting.player.cameraTopView",
+        "tailText": null,
+        "enableHubble": true,
+        "helpContent": null
+    },
+    {
+        "modle": "test",
+        "index": 5031,
+        "rangeCount": 3,
+        "range": [
+            [
+                "0",
+                "10"
+            ],
+            [
+                "10",
+                "100"
+            ],
+            [
+                "100",
+                "999"
+            ]
+        ],
+        "scale": [
+            "1",
+            "10",
+            "100"
+        ],
+        "title": "win.global.vectorRule.keepTime",
+        "tailText": "editor.ui.second",
+        "enableHubble": true,
+        "helpContent": null
+    },
+    {
+        "modle": "test",
+        "index": 5032,
+        "title": "produce_number_max",
+        "rangeCount": null,
+        "scale": [
+            "None"
+        ],
+        "tailText": null,
+        "helpContent": ""
+    },
+    {
+        "modle": "test",
+        "index": 5033,
+        "rangeCount": 1,
+        "range": [
+            [
+                "0",
+                "100"
+            ]
+        ],
+        "scale": [
+            "1"
+        ],
+        "title": "",
+        "tailText": "",
+        "enableHubble": true,
+        "helpContent": null
+    }
+]

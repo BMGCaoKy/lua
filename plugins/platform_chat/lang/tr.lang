@@ -1,0 +1,176 @@
+
+
+language_start:chat
+
+土耳其语
+new
+
+zh=Çince
+en=ingilizce
+es=İspanyol
+it=İtalyan
+de=Almanca
+fr=Fransızca
+ko=Koreli
+pt=Portekizce
+ru=Rusça
+ja=Japonca
+th=Tay dili
+vi=Vietnam
+pl=Lehçe
+in=Endonezya dili
+tr=Türk
+ms=Malezya
+km=Kamboçyaca
+ar=Arapça
+
+
+language_start:platform_chat_lang
+
+
+
+ui.chat.profile.title=Benim profilim
+ui.chat.profile.others_title=Profil
+ui.chat.profile.birth=Doğum günü
+ui.chat.profile.constellation=Zodyak
+ui.chat.profile.tribal=Klan
+ui.chat.profile.tag=Etiket
+ui.chat.profile.confirm=Onaylamak
+ui.chat.profile.addTag=Etiket Seçin
+ui.chat.profile.tagSelectNum=Seçildi: {.} {.}:
+ui.chat.profile.playTime={.}saat
+
+ui.chat.profile.tagTypeName1=Oyun:
+ui.chat.profile.tagTypeName2=Hobi:
+ui.chat.profile.tagTypeName3=Kişilik:
+ui.chat.profile.tagTypeName4=Karakter:
+
+ui.chat.profile.none_details=Bu oyuncu çok gizemli ve hiçbir şey yazmadı
+
+ui.chat.profile.constellationName1=Kova
+ui.chat.profile.constellationName2=balık Burcu
+ui.chat.profile.constellationName3=Koç
+ui.chat.profile.constellationName4=Boğa Burcu
+ui.chat.profile.constellationName5=ikizler burcu
+ui.chat.profile.constellationName6=Kanser
+ui.chat.profile.constellationName7=Aslan
+ui.chat.profile.constellationName8=Başak
+ui.chat.profile.constellationName9=Terazi burcu
+ui.chat.profile.constellationName10=Akrep
+ui.chat.profile.constellationName11=yay Burcu
+ui.chat.profile.constellationName12=Oğlak burcu
+
+ui.chat.team=Takım oluşturmak
+ui.chat.pk =Savaş
+ui.chat.gift=Hediye gönder
+ui.chat.apprentice=Mentor
+ui.chat.invite=▢FF000000Birlikte oynamak
+ui.chat.information=Detay
+ui.chat.master =Çırak
+
+ui.chat.chating=Harita kanalında sohbet edin
+ui.chat.chatMsgType1=Dünya
+ui.chat.chatMsgType2=Aile
+ui.chat.chatMsgType3=Özel sohbet
+ui.chat.chatMsgType4=Akım
+ui.chat.chatMsgType5=Sistemi
+ui.chat.chatMsgType6=Takım
+ui.chat.chatMsgType7=Meslek
+ui.chat.chatMsgType8=Arkadaş
+
+ui.chat.emoji.face=Emoji
+ui.chat.emoji.goods=Öğe
+ui.chat.emoji.pet=Evcil Hayvan
+ui.chat.emoji.short=Kısa İfade
+
+ui.chat.friend.apply=▢FF00FFFFArkadaşlık isteği
+ui.chat.friend.agreeAll=▢FF000000Hepsini kabul et
+ui.chat.friend.refusedAll=▢FF000000Hepsini reddet
+ui.chat.friend.list=▢FF00FFFFArkadaş listesi
+ui.chat.friend.myProfile=Benim profilim
+ui.chat.friend.addFriend=Arkadaş Ekle
+
+ui.chat.friend.tips_apply=Arkadaşlık isteğin var
+ui.chat.friend.applyFriend=▢FF484261Yeni arkadaşlar
+
+ui.chat.friend.gameFriend=▢FF484261Aynı oyundaki arkadaşlar
+
+ui.chat.friend.platformFriend=▢FF484261arkadaşlar
+ui.chat.friend.offline=▢FFFF0000Çevrimdışı
+ui.chat.friend.online=▢FF00EC00İnternet üzerinden
+ui.chat.friend.send_add=Arkadaşlık isteği gönderildi
+
+ui.chat.friend.recent_contact=▢FF00FFFFSon sohbet
+ui.chat.tips.unable_display=Mesaj türü görüntülenemiyor
+
+ui.chat.team.hall=Team up Hall'a git
+ui.chat.system.input=▢FFFFFFFFSistem kanalında mesaj gönderilemiyor
+ui.chat.click.chat=Yazmak için tıklayın
+ui.chat.autoplay=▢FFFFFFFFSesli mesajları otomatik oynat
+ui.chat.lock=Ekranı kilitle
+ui.chat.player_private=▢FF000000Özel sohbet
+ui.chat.ignore=Mesajları engelle
+ui.chat.disignore=Mesajların engellemesini kaldır
+ui.chat.player_addFriend=▢FF000000Arkadaş Ekle
+ui.chat.applyed=İstek gönderildi
+ui.chat.isfriend=Sen zaten arkadaştın
+ui.chat.addinfo={.} Adresine arkadaşlık isteği gönderildi
+ui.chat.cancel.sound=İptal etmek
+ui.chat.press.sound=Konuşmak için uzun basın
+ui.chat.welcome= {.}, Hizalamaya hoş geldiniz
+ui.chat.strangr=Yabancı insanlar
+ui.chat.friend=Arkadaşlar
+ui.chat.system=Sistemi
+ui.chat.offline=Oyuncu sunucudan ayrıldı, şimdi mesaj alamıyor
+ui.chat.voicefail=Sesli mesaj gönderilemiyor, lütfen tekrar deneyin
+ui.chat.voiceless=Yetersiz megafon, sesli mesaj gönderilemez
+ui.chat.buyNum={.} megafon
+ui.chat.voiceBuySucc=Satın alma başarılı
+ui.chat.voiceBuyFail=Satın alma başarısız oldu
+ui.chat.moonCard=Sınırsız sesli ay kartı
+ui.chat.moonTime={.} gün
+ui.chat.moonLess=1 günden az kalın
+ui.chat.privating={.} İle özel sohbette
+ui.chat.familing=Grup kanalında sohbet edin
+ui.chat.sureBuy=Satın almak için {.} G-küpleri tüketin mi?
+ui.chat.pickPlayerPlease=Önce bir oyuncu seçin
+ui.chat.newMsg=Yeni mesaj x {.}
+ui.chat.commoning=Genel sohbette
+interact_chat=Özel sohbet
+ui.chat.shopTitle =Ses paketi
+ui.chat.server.friend.online=▢FFFFFFFF Arkadaşınız [{.}] Çevrimiçi
+ui.chat.moreMax=Metin çok uzun, [{.}] Gizlendikten sonraki içerik
+ui.chat.history1=Özel sohbet için bir oyuncu seçin
+ui.chat.history2=0.0
+gui_lang_refuse_friend=Arkadaşlık talebiniz reddedildi
+ui.chat.agreeinfo={.} Tarafından gönderilen arkadaşlık isteğini kabul et
+ui.chat.refuseinfo={.} Tarafından gönderilen arkadaşlık isteğini reddedin
+ui.chat.deleteinfo=Arkadaşınızı {.} Sildiniz
+ui.chat.friend.request=Arkadaşlık isteği
+ui.chat.player_delFriend=▢FF000000Arkadaşlıktan Çıkar
+gui_lang_kick_out=Kovmak
+ui.chat.server.private.chat.need.same.server=▢FFFFFFFF Arkadaşınız▢FF3A9CBF [{.}] ▢FFFFFFFF çevrimiçi. Özel sohbet için aynı sunucuda olması gerekir
+ui.chat.server.vip.online=▢FFFFFFFF Saygıdeğer▢FFFAE934VIP oynatıcı [{.}] ▢FFFFFFFF çevrimiçi
+ui.chat.hasVoice=x{.}
+ui.chat.cannotsend=Çok sık mesaj gönderin, lütfen daha sonra tekrar deneyin
+ui.chat.ignore.tip=Başarıyla engellendi
+ui.chat.disignore.tip=Başarıyla engellenmedi
+ui.chat.send.voice=Sesli mesaj göndermek için bırakın
+ui.chat.cancel.send.voice=Sesli mesajı geri çağırmak için bırakın
+ui.chat.can.not.send=Bu kanal aşağı modda, lütfen%s saniye sonra tekrar deneyin
+ui.chat.can.not.send.emoji=Gönderme özelliği soğuyor, lütfen%s saniye sonra tekrar deneyin
+ui.chat.number=▢FF484261{.}/{.}
+ui.chat.playerInfo.name=▢FF00FFFF{.}
+ui.chat.playerInfo.id=▢FFFFFFFFID:{.}
+ui.chat.friend.name=▢FF00FFFF{.}
+
+ui.chat.send.wait=Mesaj gönderme aralığı çok kısa
+
+language_end:platform_chat_lang
+
+
+
+
+
+
+language_end:chat
